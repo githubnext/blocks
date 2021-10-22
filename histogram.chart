@@ -1,75 +1,172 @@
 {
   "path": "data.csv",
   "padding": 5,
-  "scales": [
+  "signals": [
     {
-      "name": "x",
-      "type": "linear",
-      "round": true,
-      "nice": true,
-      "zero": true,
-      "domain": {
-        "data": "data",
-        "field": "height"
-      },
-      "range": "height"
+      "name": "binOffset",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": -0.1,
+        "max": 0.1
+      }
     },
     {
-      "name": "y",
+      "name": "binStep",
+      "value": 0.1,
+      "bind": {
+        "input": "range",
+        "min": 0.001,
+        "max": 0.4,
+        "step": 0.001
+      }
+    }
+  ],
+  "data": [
+    {
+      "name": "data"
+    },
+    {
+      "name": "binned",
+      "source": "data",
+      "transform": [
+        {
+          "type": "bin",
+          "field": "height",
+          "extent": [
+            0,
+            100
+          ],
+          "anchor": {
+            "signal": "binOffset"
+          },
+          "step": {
+            "signal": "binStep"
+          },
+          "nice": false
+        },
+        {
+          "type": "aggregate",
+          "key": "bin0",
+          "groupby": [
+            "bin0",
+            "bin1"
+          ],
+          "fields": [
+            "bin0"
+          ],
+          "ops": [
+            "count"
+          ],
+          "as": [
+            "count"
+          ]
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "xscale",
       "type": "linear",
+      "range": "width",
+      "domain": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "yscale",
+      "type": "linear",
+      "range": "height",
       "round": true,
-      "nice": true,
-      "zero": true,
       "domain": {
-        "data": "data",
-        "field": "id"
+        "data": "binned",
+        "field": "count"
       },
-      "range": "width"
+      "zero": true,
+      "nice": true
     }
   ],
   "axes": [
     {
-      "scale": "x",
-      "grid": true,
-      "domain": false,
       "orient": "bottom",
-      "tickCount": 5,
-      "title": "height"
+      "scale": "xscale",
+      "zindex": 1
     },
     {
-      "scale": "y",
-      "grid": true,
-      "domain": false,
       "orient": "left",
-      "titlePadding": 5,
-      "title": "id"
+      "scale": "yscale",
+      "tickCount": 5,
+      "zindex": 1
     }
   ],
   "marks": [
     {
-      "name": "marks",
-      "type": "symbol",
+      "type": "rect",
       "from": {
-        "data": "data"
+        "data": "binned"
       },
       "encode": {
         "update": {
           "x": {
-            "scale": "x",
-            "field": "height"
+            "scale": "xscale",
+            "field": "bin0"
+          },
+          "x2": {
+            "scale": "xscale",
+            "field": "bin1",
+            "offset": {
+              "signal": "binStep > 0.02 ? -0.5 : 0"
+            }
           },
           "y": {
-            "scale": "y",
-            "field": "id"
+            "scale": "yscale",
+            "field": "count"
           },
-          "shape": {
-            "value": "circle"
-          },
-          "strokeWidth": {
-            "value": 2
+          "y2": {
+            "scale": "yscale",
+            "value": 0
           },
           "fill": {
-            "value": "#45aeb1"
+            "value": "steelblue"
+          }
+        },
+        "hover": {
+          "fill": {
+            "value": "firebrick"
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {
+        "data": "data"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "xscale",
+            "field": "u"
+          },
+          "width": {
+            "value": 1
+          },
+          "y": {
+            "value": 25,
+            "offset": {
+              "signal": "height"
+            }
+          },
+          "height": {
+            "value": 5
+          },
+          "fill": {
+            "value": "steelblue"
+          },
+          "fillOpacity": {
+            "value": 0.4
           }
         }
       }

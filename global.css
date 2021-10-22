@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  margin: 0;
+  line-height: 1.6em;
+  color: var(--text);
+
+  --accent-1: #1a73e8;
+  --gray-lightest: #f9f9f9;
+  --gray-lighter: #ebebeb;
+  --gray-light: #e0e0e0;
+  --gray: #c9c9c9;
+  --gray-dark: #757575;
+  --gray-darker: #616161;
+  --gray-darkest: #282828;
+  --text: var(--gray-darkest);
+
+  --font-serif: "Libre Baskerville";
+  --font-sans-serif: "Roboto";
+
+  font-family: var(--font-sans-serif), sans-serif;
+
+  --font-size-l: 1.5rem;
+  --font-size-m: 1rem;
+  --font-size-s: 0.8rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif), serif;
+  margin: 0 0 0.5em 0;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 6em;
+  line-height: 1.03em;
+}
+
+h2 {
+  font-size: 6em;
+  line-height: 1.3em;
+}
+
+h3 {
+  font-size: 1.6em;
+  line-height: 1.3em;
+}
+h4 {
+  font-size: 1.6em;
+  font-weight: 800;
+  line-height: 1.3em;
+}
+h5 {
+  font-size: 1.3em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+
+h6 {
+  margin-bottom: 0.8em;
+  font-size: 0.86em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--gray-dark);
+  letter-spacing: 0.16em;
+  font-family: var(--font-sans-serif), sans-serif;
+}
+
+p {
+  font-family: var(--font-sans-serif), sans-serif;
+  margin: 0.3em 0 1em;
+}

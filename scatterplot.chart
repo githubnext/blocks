@@ -1,1 +1,78 @@
-
+{
+  "path": "data.csv",
+  "padding": 5,
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "round": true,
+      "nice": true,
+      "zero": true,
+      "domain": {
+        "data": "data",
+        "field": "height"
+      },
+      "range": "height"
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "round": true,
+      "nice": true,
+      "zero": true,
+      "domain": {
+        "data": "data",
+        "field": "id"
+      },
+      "range": "width"
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "grid": true,
+      "domain": false,
+      "orient": "bottom",
+      "tickCount": 5,
+      "title": "height"
+    },
+    {
+      "scale": "y",
+      "grid": true,
+      "domain": false,
+      "orient": "left",
+      "titlePadding": 5,
+      "title": "id"
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "symbol",
+      "from": {
+        "data": "data"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "scale": "x",
+            "field": "height"
+          },
+          "y": {
+            "scale": "y",
+            "field": "id"
+          },
+          "shape": {
+            "value": "circle"
+          },
+          "strokeWidth": {
+            "value": 2
+          },
+          "fill": {
+            "value": "#45aeb1"
+          }
+        }
+      }
+    }
+  ]
+}

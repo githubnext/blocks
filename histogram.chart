@@ -131,7 +131,7 @@
             "value": 0
           },
           "fill": {
-            "value": "steelblue"
+            "value": "green"
           }
         },
         "hover": {
@@ -165,7 +165,7 @@
             "value": 5
           },
           "fill": {
-            "value": "steelblue"
+            "value": "green"
           },
           "fillOpacity": {
             "value": 0.4

@@ -3,7 +3,7 @@ export const Button = (props) => {
   
   return (
     <button style={{
-      padding: "1em",
+      padding: "4em",
       background: color
     }}>
       {children}

@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "rectangle",
-      "version": 83,
-      "versionNonce": 1119631972,
+      "version": 138,
+      "versionNonce": 599959747,
       "isDeleted": false,
       "id": "Bac5x0VPce3R5AerRiU7w",
       "fillStyle": "hachure",
@@ -15,8 +15,8 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 378.1868896484375,
-      "y": 54.36224365234375,
+      "x": 761.7318115234375,
+      "y": 225.69525146484375,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
       "width": 115.02001953125,

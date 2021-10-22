@@ -1,3 +1,5 @@
+import React from 'react'
+
 export const Button = (props) => {
   const {color, children} = props
   
@@ -10,3 +12,5 @@ export const Button = (props) => {
     </button>
   )
 }
+
+export default Button

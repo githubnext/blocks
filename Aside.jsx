@@ -1,4 +1,6 @@
-const Aside = ({ children, className, ...props }) => (
+import React from 'react'
+
+export const Aside = ({ children, className, ...props }) => (
   <div style={{
     padding: "3em",
     background: "papayawhip",
@@ -33,3 +35,5 @@ const Aside = ({ children, className, ...props }) => (
     </aside>
   </div>
 )
+
+export default Aside

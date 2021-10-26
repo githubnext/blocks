@@ -8,7 +8,7 @@ For a full demo, check out the [githubocto/repo-visualizer-demo](https://github.
 
 ### Issues
 
-<div>Latest 2 of {issues.length}</div>
+<div>Latest 2 of {(issues || []).length}</div>
 
 <Issues num="2" />
 

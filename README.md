@@ -6,8 +6,8 @@ A GitHub Action that creates an SVG diagram of your repo. Read more [in the writ
 
 For a full demo, check out the [githubocto/repo-visualizer-demo](https://github.com/githubocto/repo-visualizer-demo) repository.
 
-<Releases />
-<myCustomTag></myCustomTag>
+### Issues
+<Issues num="2" />
 
 ## Inputs
 

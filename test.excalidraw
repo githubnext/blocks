@@ -54,8 +54,8 @@
     },
     {
       "type": "diamond",
-      "version": 54,
-      "versionNonce": 688458792,
+      "version": 74,
+      "versionNonce": 1458268838,
       "isDeleted": false,
       "id": "IBXqoBrbCxm2xqtPA20qV",
       "fillStyle": "hachure",
@@ -64,8 +64,8 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 312.35321044921875,
-      "y": 161.6949462890625,
+      "x": 172.7412567138672,
+      "y": 57.481781005859375,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
       "width": 141.83111572265625,
@@ -80,8 +80,8 @@
     },
     {
       "type": "arrow",
-      "version": 112,
-      "versionNonce": 1868908328,
+      "version": 152,
+      "versionNonce": 145958374,
       "isDeleted": false,
       "id": "SvB312Cbu-FzKtdovta7n",
       "fillStyle": "hachure",
@@ -90,12 +90,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 760.9375,
-      "y": 196.57050113704474,
+      "x": 761.6391035778076,
+      "y": 182.36218874565688,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 309.5820617027428,
-      "height": 49.78542918104969,
+      "width": 440.0090008481459,
+      "height": 24.863964829153844,
       "seed": 851149350,
       "groupIds": [],
       "strokeSharpness": "round",
@@ -119,15 +119,15 @@
           0
         ],
         [
-          -309.5820617027428,
-          49.78542918104969
+          -440.0090008481459,
+          -24.863964829153844
         ]
       ]
     },
     {
       "type": "arrow",
-      "version": 103,
-      "versionNonce": 880943656,
+      "version": 143,
+      "versionNonce": 2019653926,
       "isDeleted": false,
       "id": "MTaMtLzsMP09PiGcIlwyq",
       "fillStyle": "hachure",
@@ -136,12 +136,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 413.9349994279115,
-      "y": 348.54637587734265,
+      "x": 270.52643933697635,
+      "y": 250.2299319799177,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 358.1456668107064,
-      "height": 75.44090712734265,
+      "width": 485.58549913958615,
+      "height": 4.717456369057345,
       "seed": 1908390,
       "groupIds": [],
       "strokeSharpness": "round",
@@ -165,8 +165,8 @@
           0
         ],
         [
-          358.1456668107064,
-          -75.44090712734265
+          485.58549913958615,
+          -4.717456369057345
         ]
       ]
     },

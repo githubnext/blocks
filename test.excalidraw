@@ -54,8 +54,8 @@
     },
     {
       "type": "diamond",
-      "version": 74,
-      "versionNonce": 1458268838,
+      "version": 87,
+      "versionNonce": 565666249,
       "isDeleted": false,
       "id": "IBXqoBrbCxm2xqtPA20qV",
       "fillStyle": "hachure",
@@ -64,7 +64,7 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 172.7412567138672,
+      "x": 182.02919006347656,
       "y": 57.481781005859375,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
@@ -80,8 +80,8 @@
     },
     {
       "type": "arrow",
-      "version": 152,
-      "versionNonce": 145958374,
+      "version": 178,
+      "versionNonce": 567951529,
       "isDeleted": false,
       "id": "SvB312Cbu-FzKtdovta7n",
       "fillStyle": "hachure",
@@ -90,12 +90,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 761.6391035778076,
-      "y": 182.36218874565688,
+      "x": 761.8158727924391,
+      "y": 182.0295388513774,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 440.0090008481459,
-      "height": 24.863964829153844,
+      "width": 430.87917822334924,
+      "height": 24.50233539218911,
       "seed": 851149350,
       "groupIds": [],
       "strokeSharpness": "round",
@@ -119,15 +119,15 @@
           0
         ],
         [
-          -440.0090008481459,
-          -24.863964829153844
+          -430.87917822334924,
+          -24.50233539218911
         ]
       ]
     },
     {
       "type": "arrow",
-      "version": 143,
-      "versionNonce": 2019653926,
+      "version": 169,
+      "versionNonce": 469648265,
       "isDeleted": false,
       "id": "MTaMtLzsMP09PiGcIlwyq",
       "fillStyle": "hachure",
@@ -136,12 +136,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 270.52643933697635,
-      "y": 250.2299319799177,
+      "x": 279.8243958576778,
+      "y": 250.21436443306226,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 485.58549913958615,
-      "height": 4.717456369057345,
+      "width": 476.2875426188847,
+      "height": 4.683615869519542,
       "seed": 1908390,
       "groupIds": [],
       "strokeSharpness": "round",
@@ -165,8 +165,8 @@
           0
         ],
         [
-          485.58549913958615,
-          -4.717456369057345
+          476.2875426188847,
+          -4.683615869519542
         ]
       ]
     },

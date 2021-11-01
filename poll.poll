@@ -1,17 +1,16 @@
- {
-    poll: "What's your favorite tool?",
-    options: [
-      {
-        text: "Next",
-        votes: 0
-      },
-      {
-        text: "Firebase",
-        votes: 0
-      },
-      {
-        text: "Azure",
-        votes: 0
-      }
-    ]
-  }
+{
+	"poll": "What's your favorite tool?",
+	"options": [{
+			"text": "Next",
+			"votes": 0
+		},
+		{
+			"text": "Firebase",
+			"votes": 0
+		},
+		{
+			"text": "Azure",
+			"votes": 0
+		}
+	]
+}

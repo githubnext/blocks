@@ -1,1 +1,16 @@
-[object Object]
+{
+	"poll": "What's your favorite tool?",
+	"options": [{
+			"text": "Next",
+			"votes": 12
+		},
+		{
+			"text": "Firebase",
+			"votes": 10
+		},
+		{
+			"text": "Azure",
+			"votes": 2
+		}
+	]
+}

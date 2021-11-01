@@ -1,4 +1,4 @@
-# Repo Visualizer
+# Repo Visualizer Test
 
 A GitHub Action that creates an SVG diagram of your repo. Read more [in the writeup](https://octo.github.com/projects/repo-visualization).
 

@@ -3,11 +3,11 @@
 `_.chunk`
 
 <CodeSandbox language="js" dependencies={["lodash"]}>
-import _ from "lodash"
+{`import _ from "lodash"
 
 _.chunk(['a', 'b', 'c', 'd'], 2);
 // => [['a', 'b'], ['c', 'd']]
  
 _.chunk(['a', 'b', 'c', 'd'], 3);
-// => [['a', 'b', 'c'], ['d']]
+// => [['a', 'b', 'c'], ['d']]`}
 </CodeSandbox>

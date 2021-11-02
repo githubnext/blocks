@@ -7,11 +7,13 @@
 ```js
 import _ from "lodash"
 
-_.chunk(['a', 'b', 'c', 'd'], 2);
-// => [['a', 'b'], ['c', 'd']]
+document.body.insertAdjacentHTML("beforeend", `<div>${
+    _.chunk(['a', 'b', 'c', 'd'], 2)
+}</div>`)
  
-_.chunk(['a', 'b', 'c', 'd'], 3);
-// => [['a', 'b', 'c'], ['d']]
+document.body.insertAdjacentHTML("beforeend", `<div>${
+    _.chunk(['a', 'b', 'c', 'd'], 3)
+}</div>`)
 ```
 
 </CodeSandbox>

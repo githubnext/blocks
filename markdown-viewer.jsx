@@ -1,6 +1,6 @@
 import ReactMarkdown from 'react-markdown' 
 
-export default function MarkdownViewer (props) {
+function Viewer (props) {
   const { repo, owner, content } = props;
   
   console.log('logging from userland viewer', props);

@@ -8,8 +8,7 @@ interface ViewerProps {
 }
 
 function Viewer (props: ViewerProps) {
-  console.log('received', props);
-  const { meta, code } = props;
+  const { meta, code, doesntExist } = props;
   const { name, path, sha, size } = meta;
   
   const markdown = `# Hello World ${name} ${path} ${sha} ${size}`;

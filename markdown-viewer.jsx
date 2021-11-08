@@ -1,6 +1,7 @@
 import ReactMarkdown from 'react-markdown' 
 
 function Viewer (props) {
+  console.log('received', props);
   const { meta, code } = props;
   const { name, path, sha, size } = meta;
   

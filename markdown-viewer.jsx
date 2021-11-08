@@ -5,9 +5,6 @@ export default function MarkdownViewer (props) {
   console.log(props);
 
   return (
-    <ReactMarkdown>
-      # Hello World
-      {repo} x {owner}
-    </ReactMarkdown>
+    <ReactMarkdown># Hello World</ReactMarkdown>
   );
 }

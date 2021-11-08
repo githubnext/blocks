@@ -1,6 +1,6 @@
 import ReactMarkdown from 'react-markdown' 
 
-const dependencies = [{'react-markdown': 'latest'}];
+const dependencies = {'react-markdown': 'latest'};
 
 function Viewer (props) {
   console.log('received', props);

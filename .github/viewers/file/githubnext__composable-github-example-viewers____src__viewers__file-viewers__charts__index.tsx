@@ -1,1 +1,1 @@
-{"data.csv":{"configs":["id, color, area"]}}
+{"data.csv":{"configs":["id, height, area"]}}

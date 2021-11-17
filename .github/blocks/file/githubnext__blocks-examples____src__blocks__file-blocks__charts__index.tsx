@@ -1,1 +1,1 @@
-{"data.csv":{"configs":["id, height, area","height, last_name, pie","height, height, scatter"]}}
+{"data.csv":{"configs":["id, height, area","height, last_name, pie"]}}

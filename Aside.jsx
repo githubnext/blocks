@@ -7,7 +7,8 @@ const Aside = (props) => {
       padding: "3em",
       width: "100%",
       background: "papayawhip",
-      position: "relative",
+      position: "relative",  
+      box-sizing: "border-box",
     }}>
       <svg width="100%" height="100%" style={{
         position: "absolute",

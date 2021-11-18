@@ -8,12 +8,26 @@ Configuration files for viewers can be stored in the `.github/viewers` folder.
 
 ## Testing
 
-## Latest Issues
+## Latest issues
 
 <Issues />
 
-
-## Latest Commits
+## Latest commits
 
 <Commits />
 
+
+## Live documentation sandbox
+
+`_.compact`
+
+<CodeSandbox language="js" dependencies={["lodash"]}>
+
+```js
+import _ from "lodash"
+
+const compact = _.compact([0, 1, false, 2, '', 3]);
+console.log(compact)
+```
+
+</CodeSandbox>

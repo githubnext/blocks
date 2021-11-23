@@ -1,6 +1,6 @@
 # Blocks Tutorial
 
-GitHub Blocks is a prototype exploring what an extensable GitHub would look like. How could we use the powerful primitives already avilable on github.com and build on top of those?
+GitHub Blocks is a prototype exploring what an extensable GitHub would look like. We wondered how could we use the powerful primitives already avilable on github.com and build on top of those to make the platform more customizable and powerful.
 
 ## What is a Block?
 

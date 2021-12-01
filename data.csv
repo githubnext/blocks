@@ -1,601 +1,601 @@
-id,name,favorite animal,height,score,count,date
-1,Dee dee,"Nutcracker, clark's",67,63,70,2015-07-05
-2,Nanice,Pronghorn,64,71,92,2015-07-06
-3,Lisette,Canada goose,61,77,2,2015-07-07
-4,Ring,White-faced tree rat,30,99,73,2015-07-08
-5,Gay,"Hyena, brown",67,87,56,2015-07-09
-6,Wash,"Bettong, brush-tailed",42,14,47,2015-07-10
-7,Tyler,Bald eagle,91,66,25,2015-07-11
-8,Luelle,Tree porcupine,68,21,51,2015-07-12
-9,Drucy,"Cow, scottish highland",36,82,5,2015-07-13
-10,Gustavo,"Cat, ringtail",46,40,20,2015-07-14
-11,Elenore,Hawk-headed parrot,40,79,48,2015-07-15
-12,Viv,"Deer, spotted",45,44,53,2015-07-16
-13,Erick,Red-necked phalarope,46,7,29,2015-07-17
-14,Carmelina,"Monkey, black spider",85,41,6,2015-07-18
-15,Masha,"Gonolek, burchell's",56,25,28,2015-07-19
-16,Mathilda,Blue catfish,23,13,22,2015-07-20
-17,Meryl,"Gull, southern black-backed",62,90,83,2015-07-21
-18,Sheridan,"Flicker, field",77,45,72,2015-07-22
-19,Morena,"Raven, white-necked",39,1,72,2015-07-23
-20,Courtenay,Crested screamer,62,33,87,2015-07-24
-21,Jarrid,Crimson-breasted shrike,65,90,90,2015-07-25
-22,Jolie,Great cormorant,58,53,21,2015-07-26
-23,Belia,Goliath heron,94,37,47,2015-07-27
-24,Reinwald,Southern elephant seal,27,12,49,2015-07-28
-25,Gabbi,Hoffman's sloth,68,96,42,2015-07-29
-26,Virge,Hoffman's sloth,86,33,17,2015-07-30
-27,Jackquelin,American badger,49,99,32,2015-07-31
-28,Ethelin,"Ferret, black-footed",72,39,26,2015-08-01
-29,Roanna,"Parakeet, rose-ringed",13,40,71,2015-08-02
-30,Derry,Red-tailed hawk,35,50,88,2015-08-03
-31,Gaelan,"Shrew, mandras tree",95,77,61,2015-08-04
-32,Cortney,"Squirrel, pine",39,28,49,2015-08-05
-33,Toinette,"Penguin, fairy",12,16,20,2015-08-06
-34,Dotti,"Otter, cape clawless",7,92,22,2015-08-07
-35,Avigdor,Bennett's wallaby,49,33,97,2015-08-08
-36,Lombard,Greater adjutant stork,9,51,3,2015-08-09
-37,Winifred,"Waxbill, blue",4,73,13,2015-08-10
-38,Roxana,African clawless otter,62,20,12,2015-08-11
-39,Maure,"Turtle, eastern box",44,85,1,2015-08-12
-40,Clarissa,"Kangaroo, western grey",95,5,18,2015-08-13
-41,Tabitha,"Kite, black",26,4,37,2015-08-14
-42,Sayer,"Rhinoceros, white",46,15,6,2015-08-15
-43,Myrle,"Skunk, western spotted",20,34,60,2015-08-16
-44,Ernst,"Bustard, stanley",84,40,69,2015-08-17
-45,Anatole,Two-banded monitor,45,51,94,2015-08-18
-46,Pierce,Southern boubou,65,44,88,2015-08-19
-47,Shalna,Swainson's francolin,87,65,47,2015-08-20
-48,Flinn,"Dove, little brown",27,6,61,2015-08-21
-49,Marney,"Dove, little brown",24,21,34,2015-08-22
-50,Townie,"Gecko, barking",41,22,70,2015-08-23
-51,Hoebart,Carmine bee-eater,37,89,60,2015-08-24
-52,Bobbye,Dabchick,95,43,4,2015-08-25
-53,Lynelle,Spur-winged goose,1,73,22,2015-08-26
-54,Martino,"Flamingo, chilean",19,40,29,2015-08-27
-55,Lishe,Indian giant squirrel,4,38,55,2015-08-28
-56,Carlota,"Bear, sloth",78,22,62,2015-08-29
-57,Langsdon,Roe deer,30,57,28,2015-08-30
-58,Jannelle,Brown brocket,20,76,40,2015-08-31
-59,Netty,African buffalo,97,72,8,2015-09-01
-60,Erda,"Boa, mexican",78,11,9,2015-09-02
-61,Joellyn,Snowy sheathbill,45,36,79,2015-09-03
-62,Sonny,Pocket gopher (unidentified),18,81,76,2015-09-04
-63,Orren,"Quoll, spotted-tailed",86,17,14,2015-09-05
-64,Ralina,Mule deer,64,9,49,2015-09-06
-65,Leonora,"Sheep, stone",38,9,23,2015-09-07
-66,Gerome,Southern tamandua,89,28,52,2015-09-08
-67,Malinda,"Macaw, scarlet",63,74,8,2015-09-09
-68,Rici,"Armadillo, common long-nosed",35,76,34,2015-09-10
-69,Dot,Greylag goose,69,87,87,2015-09-11
-70,Alf,Rufous tree pie,49,84,16,2015-09-12
-71,Felix,Savannah deer,81,21,52,2015-09-13
-72,Elle,"Bandicoot, short-nosed",100,48,56,2015-09-14
-73,Wyatt,Paddy heron (unidentified),25,34,37,2015-09-15
-74,Joey,European red squirrel,5,27,21,2015-09-16
-75,Chiarra,"Whale, southern right",79,26,29,2015-09-17
-76,Franchot,Snow goose,58,56,84,2015-09-18
-77,Tybi,"Pigeon, wood",82,65,1,2015-09-19
-78,Kippar,Bare-faced go away bird,44,3,9,2015-09-20
-79,Nedda,Plains zebra,18,85,29,2015-09-21
-80,Emmett,Jungle kangaroo,34,26,49,2015-09-22
-81,Celeste,"Rhea, greater",36,11,14,2015-09-23
-82,Tremaine,Green vine snake,58,2,95,2015-09-24
-83,Cully,"Wolf, mexican",72,26,80,2015-09-25
-84,Norbert,Guanaco,79,42,24,2015-09-26
-85,Rowney,"Wolf, common",6,7,37,2015-09-27
-86,Danya,Sarus crane,52,51,12,2015-09-28
-87,Sandor,European stork,54,26,48,2015-09-29
-88,John,"Fox, crab-eating",94,55,24,2015-09-30
-89,Ariana,"Pelican, brown",63,86,67,2015-10-01
-90,Aindrea,Steller sea lion,26,32,22,2015-10-02
-91,Leslie,Red-headed woodpecker,64,11,20,2015-10-03
-92,Faye,Cape cobra,1,99,41,2015-10-04
-93,Jacquette,"Mongoose, small indian",58,2,20,2015-10-05
-94,Veriee,"Moccasin, water",21,64,56,2015-10-06
-95,Angelica,"Deer, red",36,12,39,2015-10-07
-96,Nan,"Jackal, indian",81,6,74,2015-10-08
-97,Lannie,"Owl, australian masked",66,39,11,2015-10-09
-98,Bernie,"Bear, grizzly",50,64,22,2015-10-10
-99,Meta,"Goose, canada",89,53,68,2015-10-11
-100,Lanni,Kongoni,64,43,8,2015-10-12
-101,Hugues,"Pintail, white-cheeked",64,88,71,2015-10-13
-102,Arly,"Viper, egyptian",97,9,76,2015-10-14
-103,Ines,Giraffe,39,10,13,2015-10-15
-104,Jess,Desert kangaroo rat,81,77,40,2015-10-16
-105,Nicol,Cottonmouth,53,17,58,2015-10-17
-106,Ki,Thirteen-lined squirrel,57,10,42,2015-10-18
-107,Tessy,"Rattlesnake, dusky",47,53,18,2015-10-19
-108,Eddi,Nine-banded armadillo,18,97,67,2015-10-20
-109,Chet,Javan gold-spotted mongoose,9,22,2,2015-10-21
-110,Daryn,Bushpig,95,13,14,2015-10-22
-111,Venus,Snake (unidentified),5,2,48,2015-10-23
-112,Bartram,White-winged black tern,97,86,82,2015-10-24
-113,Ripley,Roseate cockatoo,32,53,68,2015-10-25
-114,Kelly,Bateleur eagle,30,45,71,2015-10-26
-115,Michal,"Kudu, greater",64,34,49,2015-10-27
-116,Theodora,South American puma,5,22,7,2015-10-28
-117,Malynda,Gerenuk,21,50,70,2015-10-29
-118,Bevvy,"Sandpiper, spotted wood",56,29,71,2015-10-30
-119,Merlina,"Elephant, asian",47,68,73,2015-10-31
-120,Neal,Western spotted skunk,26,34,51,2015-11-01
-121,Joann,"Civet, common palm",36,30,80,2015-11-02
-122,Tedmund,"Dragon, asian water",87,81,56,2015-11-03
-123,Tobie,"Polecat, african",96,47,55,2015-11-04
-124,Revkah,"Gull, swallow-tail",62,88,69,2015-11-05
-125,Valencia,Nelson ground squirrel,88,6,19,2015-11-06
-126,Petronille,"Bee-eater, white-fronted",31,57,42,2015-11-07
-127,Fanchon,Arctic lemming,57,21,78,2015-11-08
-128,Stu,"Buffalo, asian water",39,43,73,2015-11-09
-129,Herbie,"Lion, asian",39,83,69,2015-11-10
-130,Mirabelle,Antelope ground squirrel,18,38,13,2015-11-11
-131,Farica,Striped dolphin,14,41,74,2015-11-12
-132,Brear,Toddy cat,37,61,52,2015-11-13
-133,Stevie,"Dragonfly, russian",57,14,13,2015-11-14
-134,Jeremie,"Possum, pygmy",72,2,81,2015-11-15
-135,Foss,Urial,52,84,45,2015-11-16
-136,Thomasine,Red lava crab,47,76,52,2015-11-17
-137,Garth,"Lynx, african",75,76,8,2015-11-18
-138,Aurie,Red-winged blackbird,95,12,19,2015-11-19
-139,Emelia,Puku,35,98,29,2015-11-20
-140,Seamus,Western bearded dragon,81,2,77,2015-11-21
-141,Victoir,Asiatic wild ass,10,17,77,2015-11-22
-142,Maryl,Thirteen-lined squirrel,75,34,21,2015-11-23
-143,Patrizia,Wood pigeon,56,1,35,2015-11-24
-144,Verile,Common shelduck,23,24,30,2015-11-25
-145,Corri,"Oystercatcher, blackish",71,44,2,2015-11-26
-146,Krysta,Red sheep,87,85,58,2015-11-27
-147,Megen,"Swan, trumpeter",38,62,9,2015-11-28
-148,Kimberlyn,Woodchuck,72,3,45,2015-11-29
-149,Janek,Red-necked phalarope,31,78,10,2015-11-30
-150,Ancell,"Wolf, mexican",82,95,58,2015-12-01
-151,Lucy,Vervet monkey,69,66,74,2015-12-02
-152,Juliann,"Heron, grey",94,87,36,2015-12-03
-153,Clair,American bison,66,35,72,2015-12-04
-154,Damon,"Meerkat, red",19,84,32,2015-12-05
-155,Darius,Snake-necked turtle,13,50,51,2015-12-06
-156,Pacorro,Black kite,49,31,53,2015-12-07
-157,Laure,"Heron, boat-billed",38,32,69,2015-12-08
-158,Crawford,"White-eye, pale",4,13,83,2015-12-09
-159,Lawry,"Coot, red-knobbed",67,10,73,2015-12-10
-160,Celeste,"Owl, snowy",38,80,64,2015-12-11
-161,Shaun,Brown pelican,73,22,10,2015-12-12
-162,Jaime,"Gazelle, grant's",87,60,54,2015-12-13
-163,Bennie,Small-spotted genet,95,23,22,2015-12-14
-164,Krispin,"Snake, green vine",93,98,90,2015-12-15
-165,Fidelio,"Wombat, southern hairy-nosed",4,57,64,2015-12-16
-166,Colin,"Bird, red-billed tropic",9,63,88,2015-12-17
-167,Corrianne,Mara,29,67,70,2015-12-18
-168,Angeline,Giant anteater,47,5,86,2015-12-19
-169,Devan,Blacksmith plover,40,77,73,2015-12-20
-170,Catharine,Weeper capuchin,11,1,56,2015-12-21
-171,Thoma,African polecat,66,100,13,2015-12-22
-172,Leupold,"Dove, rock",77,15,4,2015-12-23
-173,Martino,Tasmanian devil,79,94,62,2015-12-24
-174,Judith,"Crow, pied",99,74,10,2015-12-25
-175,Dalenna,African buffalo,71,59,78,2015-12-26
-176,Allianora,Golden-mantled ground squirrel,91,62,70,2015-12-27
-177,Pippy,"Macaque, rhesus",23,28,28,2015-12-28
-178,Emlen,"Crane, wattled",3,94,54,2015-12-29
-179,Shanon,"Grebe, little",69,16,59,2015-12-30
-180,Marnie,"Ferret, black-footed",59,51,1,2015-12-31
-181,Gerianne,Southern screamer,11,92,73,2016-01-01
-182,Muffin,Woodrat (unidentified),44,23,46,2016-01-02
-183,Dasya,Pale white-eye,34,80,60,2016-01-03
-184,Jim,Greylag goose,23,36,87,2016-01-04
-185,Sisely,Rhesus monkey,53,81,69,2016-01-05
-186,Deena,Yellow-bellied marmot,37,7,88,2016-01-06
-187,Shela,Striped hyena,19,2,62,2016-01-07
-188,Stanislaus,"Sandpiper, spotted wood",40,72,96,2016-01-08
-189,Porter,"Bee-eater, carmine",78,32,93,2016-01-09
-190,Selma,Dromedary camel,29,17,62,2016-01-10
-191,Emelita,Red-tailed wambenger,14,33,36,2016-01-11
-192,Stanly,Agile wallaby,27,66,90,2016-01-12
-193,Tandy,Cape white-eye,61,14,81,2016-01-13
-194,Wendie,"Seal, harbor",94,78,57,2016-01-14
-195,Joellyn,Grey phalarope,61,85,72,2016-01-15
-196,Dur,Masked booby,7,96,80,2016-01-16
-197,Annaliese,Gila monster,7,31,70,2016-01-17
-198,Nilson,Eastern boa constrictor,85,45,55,2016-01-18
-199,Osborn,Indian mynah,21,17,99,2016-01-19
-200,Orbadiah,Slender-billed cockatoo,23,56,3,2016-01-20
-201,Mehetabel,"Stork, saddle-billed",90,24,36,2016-01-21
-202,Elbertine,Native cat,33,72,42,2016-01-22
-203,Pru,Blue catfish,82,30,50,2016-01-23
-204,Hanan,Pallas's fish eagle,3,79,41,2016-01-24
-205,Antonio,Comb duck,43,10,40,2016-01-25
-206,Krysta,"Glider, feathertail",15,55,28,2016-01-26
-207,Alano,Hyrax,79,83,73,2016-01-27
-208,Felicia,Greater blue-eared starling,22,72,33,2016-01-28
-209,Jarad,Roe deer,53,5,48,2016-01-29
-210,Justus,"Heron, goliath",58,30,96,2016-01-30
-211,Baird,"Camel, dromedary",4,71,35,2016-01-31
-212,Major,Blue-tongued skink,12,42,72,2016-02-01
-213,Lynnea,Sea birds (unidentified),2,93,68,2016-02-02
-214,Susie,"Bear, grizzly",81,1,30,2016-02-03
-215,Tiebout,"Whale, long-finned pilot",1,93,69,2016-02-04
-216,Reece,"Snake, racer",96,42,47,2016-02-05
-217,Fanechka,"Bustard, kori",68,19,91,2016-02-06
-218,Selinda,"Racer, blue",19,9,44,2016-02-07
-219,Annabela,American alligator,99,23,14,2016-02-08
-220,Lia,"Squirrel, malabar",8,93,48,2016-02-09
-221,Emerson,Black and white colobus,42,53,82,2016-02-10
-222,Barclay,Ground legaan,85,90,94,2016-02-11
-223,Shara,"Squirrel, golden-mantled ground",25,38,69,2016-02-12
-224,Val,Small-spotted genet,33,16,54,2016-02-13
-225,Borden,"Beaver, north american",55,69,73,2016-02-14
-226,Cayla,Agama lizard (unidentified),67,51,31,2016-02-15
-227,Arlee,Black-cheeked waxbill,45,98,100,2016-02-16
-228,Whitby,"Godwit, hudsonian",86,46,65,2016-02-17
-229,Trueman,"Gull, southern black-backed",15,22,45,2016-02-18
-230,Deonne,"Pie, indian tree",21,91,92,2016-02-19
-231,Reinhold,"Pie, rufous tree",82,87,28,2016-02-20
-232,Janey,"Flicker, campo",44,48,55,2016-02-21
-233,Alexio,"Heron, giant",10,65,61,2016-02-22
-234,Marika,Hawk-headed parrot,1,66,32,2016-02-23
-235,Timotheus,Cape starling,80,100,12,2016-02-24
-236,Arnaldo,Red meerkat,34,75,65,2016-02-25
-237,Sheilah,"Devil, tasmanian",48,4,63,2016-02-26
-238,Baxter,"Deer, roe",80,78,22,2016-02-27
-239,Mac,Dark-winged trumpeter,65,86,60,2016-02-28
-240,Fulton,Puma,25,40,61,2016-02-29
-241,Jon,Cape Barren goose,28,8,72,2016-03-01
-242,Mersey,"Fox, silver-backed",95,40,59,2016-03-02
-243,Berti,"Macaw, scarlet",70,12,31,2016-03-03
-244,Alanah,"Drongo, fork-tailed",62,63,15,2016-03-04
-245,Adrea,"Genet, common",17,32,18,2016-03-05
-246,Mersey,Chuckwalla,27,95,38,2016-03-06
-247,Lottie,"Ox, musk",5,93,13,2016-03-07
-248,Alyssa,Red brocket,10,55,97,2016-03-08
-249,Hanna,"Bunting, crested",92,93,3,2016-03-09
-250,Della,"Tortoise, burmese black mountain",44,68,83,2016-03-10
-251,Brina,"Zebra, plains",7,79,66,2016-03-11
-252,Filmer,"Woodcock, american",54,35,73,2016-03-12
-253,Alfie,Mexican boa,39,68,65,2016-03-13
-254,Britt,White-mantled colobus,54,39,77,2016-03-14
-255,Erna,"Booby, blue-faced",13,27,56,2016-03-15
-256,Ringo,Great kiskadee,30,33,16,2016-03-16
-257,Ciel,Honey badger,29,59,15,2016-03-17
-258,Odetta,"Flamingo, lesser",54,56,52,2016-03-18
-259,Georgy,"Sheep, stone",26,48,24,2016-03-19
-260,Desiree,"Bustard, stanley",70,84,76,2016-03-20
-261,Svend,Indian peacock,45,6,6,2016-03-21
-262,Herminia,Madagascar fruit bat,90,62,15,2016-03-22
-263,Mendel,"Hawk, red-tailed",88,89,11,2016-03-23
-264,Licha,"Moccasin, water",3,75,84,2016-03-24
-265,Patin,Gambel's quail,58,50,23,2016-03-25
-266,Esma,Canadian tiger swallowtail butterfly,2,88,58,2016-03-26
-267,Reinaldos,Woodrat (unidentified),70,74,87,2016-03-27
-268,Conant,"Trumpeter, green-winged",53,28,24,2016-03-28
-269,Kath,"Siskin, yellow-rumped",24,57,85,2016-03-29
-270,Madella,"Possum, western pygmy",89,37,97,2016-03-30
-271,Neddie,"Antelope, roan",22,81,59,2016-03-31
-272,Mavra,"Kangaroo, brush-tailed rat",16,88,70,2016-04-01
-273,Bendix,"Shrew, mandras tree",67,80,96,2016-04-02
-274,Rollins,Butterfly (unidentified),85,4,4,2016-04-03
-275,Verile,Marabou stork,80,72,81,2016-04-04
-276,Ermina,Burrowing owl,66,40,81,2016-04-05
-277,Carina,"Crane, black-crowned",26,92,98,2016-04-06
-278,Caresa,"Roller, lilac-breasted",73,23,16,2016-04-07
-279,Heinrick,Rufous tree pie,38,43,50,2016-04-08
-280,Mariquilla,Stone sheep,85,23,30,2016-04-09
-281,Kellyann,Spotted wood sandpiper,60,30,29,2016-04-10
-282,Selie,"Cat, tiger",26,33,90,2016-04-11
-283,Francois,Bonnet macaque,4,55,53,2016-04-12
-284,Kora,White-rumped vulture,48,4,78,2016-04-13
-285,Catie,"Cockatoo, roseate",96,75,2,2016-04-14
-286,Bastian,"Deer, swamp",72,89,98,2016-04-15
-287,Herby,"Zebra, plains",15,54,15,2016-04-16
-288,Georgina,Sulfur-crested cockatoo,82,79,46,2016-04-17
-289,Fiona,"Stork, openbill",82,55,14,2016-04-18
-290,Nani,Roe deer,29,67,40,2016-04-19
-291,Rosemaria,White-bellied sea eagle,24,39,41,2016-04-20
-292,Pauly,Northern phalarope,85,61,90,2016-04-21
-293,Tobias,"Fox, cape",98,60,85,2016-04-22
-294,Margaux,Spotted deer,28,54,93,2016-04-23
-295,Wilmar,"Crab, red lava",22,8,28,2016-04-24
-296,Britte,Mexican beaded lizard,54,40,83,2016-04-25
-297,Kipper,Swallow (unidentified),39,71,82,2016-04-26
-298,Ramsey,"Badger, american",11,31,60,2016-04-27
-299,Craggy,"Sheep, american bighorn",75,70,90,2016-04-28
-300,Dacey,"Rhea, common",70,41,63,2016-04-29
-301,Peyter,Yellow-headed caracara,53,3,99,2016-04-30
-302,Elke,"Lion, south american sea",96,59,16,2016-05-01
-303,Natassia,Common genet,45,41,41,2016-05-02
-304,Marji,Brown capuchin,8,83,8,2016-05-03
-305,Adelaide,"Iguana, marine",37,5,24,2016-05-04
-306,Steward,European badger,27,30,68,2016-05-05
-307,Hedda,"Dog, bush",5,83,81,2016-05-06
-308,Fawn,"Baboon, chacma",3,18,91,2016-05-07
-309,Ric,"Oryx, fringe-eared",94,40,94,2016-05-08
-310,Eryn,Common grenadier,6,54,50,2016-05-09
-311,Aldon,"Pelican, australian",51,67,7,2016-05-10
-312,Fawne,Black vulture,44,57,82,2016-05-11
-313,Roberto,"Woodpecker, red-headed",33,28,41,2016-05-12
-314,Hilton,"Hornbill, leadbeateri's ground",76,90,3,2016-05-13
-315,Vladimir,"Capuchin, black-capped",54,58,18,2016-05-14
-316,Wenonah,Tailless tenrec,70,21,16,2016-05-15
-317,Avrom,"Cat, cape wild",62,96,94,2016-05-16
-318,Carlin,"Lynx, african",49,43,86,2016-05-17
-319,Yehudit,"Shelduck, common",96,42,4,2016-05-18
-320,Corina,Greater rhea,90,32,58,2016-05-19
-321,Claudell,"Jaeger, long-tailed",5,92,19,2016-05-20
-322,Kendal,Sea birds (unidentified),59,63,28,2016-05-21
-323,Alfonse,Eastern white pelican,55,71,23,2016-05-22
-324,Gav,"Stork, white-necked",84,15,70,2016-05-23
-325,Elfie,"Stork, openbill",19,14,76,2016-05-24
-326,Clemmie,"Glider, sugar",31,70,57,2016-05-25
-327,Eulalie,Small-spotted genet,28,14,42,2016-05-26
-328,Sadie,Red deer,31,82,60,2016-05-27
-329,Tiffy,Potoroo,61,35,20,2016-05-28
-330,Avie,"Teal, hottentot",7,33,54,2016-05-29
-331,Lela,"Weaver, lesser masked",46,90,32,2016-05-30
-332,Georgie,Pygmy possum,1,82,5,2016-05-31
-333,Paco,Clark's nutcracker,61,79,96,2016-06-01
-334,Julian,Bottle-nose dolphin,20,59,93,2016-06-02
-335,Oralla,Kori bustard,61,74,69,2016-06-03
-336,Georgie,"Trumpeter, green-winged",1,48,55,2016-06-04
-337,Vikky,Black-tailed prairie dog,67,100,16,2016-06-05
-338,Dario,Brown hyena,9,16,14,2016-06-06
-339,Margery,Common goldeneye,73,49,76,2016-06-07
-340,Lorene,"Stork, painted",77,67,30,2016-06-08
-341,Carmon,Crested screamer,23,63,20,2016-06-09
-342,Shannon,Steenbuck,34,50,44,2016-06-10
-343,Noelyn,Jabiru stork,38,85,48,2016-06-11
-344,Livia,Cheetah,45,70,36,2016-06-12
-345,Catherin,Blue shark,35,8,47,2016-06-13
-346,Herve,Jungle cat,20,20,90,2016-06-14
-347,Maryl,"Dog, bush",40,84,86,2016-06-15
-348,Tara,Jungle cat,17,85,70,2016-06-16
-349,Gayle,Herring gull,26,51,24,2016-06-17
-350,Ezri,Glossy ibis,16,49,78,2016-06-18
-351,Novelia,"Dik, kirk's dik",78,66,37,2016-06-19
-352,Brnaba,"Pelican, brown",42,24,83,2016-06-20
-353,Modesty,"Lizard, frilled",15,14,24,2016-06-21
-354,Diena,"Wolf, common",67,91,30,2016-06-22
-355,Ebony,"Macaque, rhesus",42,43,34,2016-06-23
-356,Marten,Flightless cormorant,90,1,32,2016-06-24
-357,Sim,Coyote,81,75,54,2016-06-25
-358,Alissa,"Iguana, common green",12,6,66,2016-06-26
-359,Blake,Blue-footed booby,80,5,91,2016-06-27
-360,Angie,"Quail, gambel's",39,88,62,2016-06-28
-361,Beverlee,Crested screamer,5,76,94,2016-06-29
-362,Garrick,Southern elephant seal,59,97,77,2016-06-30
-363,Lavina,Red brocket,16,90,12,2016-07-01
-364,Joanne,Springbok,41,26,2,2016-07-02
-365,Olympe,Southern elephant seal,95,86,76,2016-07-03
-366,Dene,"Cockatoo, slender-billed",18,9,34,2016-07-04
-367,Roberta,"Crane, blue",71,22,63,2016-07-05
-368,Rosalinde,"Dragon, komodo",64,11,54,2016-07-06
-369,Gabi,Yellow-billed stork,64,30,66,2016-07-07
-370,Tomasine,Adouri (unidentified),29,4,70,2016-07-08
-371,Leandra,Sea birds (unidentified),88,87,2,2016-07-09
-372,Marnia,Southern black-backed gull,83,49,100,2016-07-10
-373,Robina,Emerald-spotted wood dove,11,23,1,2016-07-11
-374,Barnie,White-throated robin,86,35,88,2016-07-12
-375,Kelsey,"Bird, magnificent frigate",89,11,21,2016-07-13
-376,Jimmie,Guerza,77,82,48,2016-07-14
-377,Nehemiah,Brown lemur,78,37,36,2016-07-15
-378,Moishe,"Beaver, european",51,37,68,2016-07-16
-379,Teddi,Red meerkat,39,90,89,2016-07-17
-380,Veronike,"Siskin, yellow-rumped",1,91,15,2016-07-18
-381,Sigfrid,Red-capped cardinal,38,84,24,2016-07-19
-382,Guillemette,Sage hen,11,83,15,2016-07-20
-383,Mala,"Antelope, four-horned",41,26,40,2016-07-21
-384,Sisile,Koala,73,22,52,2016-07-22
-385,Suzette,"Goose, cereopsis",6,63,96,2016-07-23
-386,Tessi,Gaur,47,70,5,2016-07-24
-387,Dory,"Armadillo, giant",13,85,75,2016-07-25
-388,Beau,Paddy heron (unidentified),22,38,93,2016-07-26
-389,Lesly,Grey fox,44,49,50,2016-07-27
-390,Edward,Seven-banded armadillo,16,76,5,2016-07-28
-391,Barnabe,Striped dolphin,52,67,4,2016-07-29
-392,Jessalin,Collared lemming,42,72,78,2016-07-30
-393,Belle,European wild cat,19,23,28,2016-07-31
-394,Quintana,"Rhinoceros, square-lipped",3,19,11,2016-08-01
-395,Mellie,"Duck, mountain",90,29,63,2016-08-02
-396,Francklyn,Prairie falcon,34,10,27,2016-08-03
-397,Niven,North American river otter,43,95,68,2016-08-04
-398,Bastien,"Gnu, brindled",72,74,79,2016-08-05
-399,Putnam,Yak,100,31,19,2016-08-06
-400,Janeta,Caribou,97,64,37,2016-08-07
-401,Ermina,Gray duiker,21,2,1,2016-08-08
-402,Osmond,"Otter, african clawless",61,97,86,2016-08-09
-403,Ebonee,"Rat, arboral spiny",57,21,5,2016-08-10
-404,Lorenzo,"Butterfly, tropical buckeye",39,97,14,2016-08-11
-405,Vite,Ferruginous hawk,47,85,30,2016-08-12
-406,Casie,"Otter, cape clawless",82,85,82,2016-08-13
-407,Ronny,"Pademelon, red-legged",63,20,57,2016-08-14
-408,Eveline,"Rat, desert kangaroo",37,13,85,2016-08-15
-409,Papagena,Two-toed sloth,22,36,36,2016-08-16
-410,Gwenneth,Curve-billed thrasher,94,32,28,2016-08-17
-411,Elvira,Flightless cormorant,67,20,69,2016-08-18
-412,Ebonee,Black-tailed deer,87,43,70,2016-08-19
-413,Marius,Tsessebe,42,13,85,2016-08-20
-414,Nesta,"Squirrel, malabar",11,56,74,2016-08-21
-415,Adan,White-fronted capuchin,79,59,98,2016-08-22
-416,Amargo,"Siskin, yellow-rumped",55,70,90,2016-08-23
-417,Berky,"Echidna, short-beaked",85,50,5,2016-08-24
-418,Franklin,"Gull, dusky",27,49,93,2016-08-25
-419,Ealasaid,Azara's zorro,8,93,70,2016-08-26
-420,Romonda,Koala,88,29,31,2016-08-27
-421,Lanae,Great kiskadee,11,62,64,2016-08-28
-422,Ker,Polar bear,29,41,94,2016-08-29
-423,Adi,African red-eyed bulbul,40,41,86,2016-08-30
-424,Bud,Sociable weaver,7,30,37,2016-08-31
-425,Beulah,Small-spotted genet,28,88,31,2016-09-01
-426,Olivette,"Albatross, galapagos",62,36,46,2016-09-02
-427,Elinore,"Cat, european wild",78,65,100,2016-09-03
-428,Hew,"Mynah, indian",83,1,33,2016-09-04
-429,Alane,"Kiskadee, great",17,43,14,2016-09-05
-430,Cort,Black-eyed bulbul,46,11,77,2016-09-06
-431,Ailey,"Colobus, black and white",97,79,49,2016-09-07
-432,Yoshi,"Tern, arctic",77,92,11,2016-09-08
-433,Roxine,Capybara,69,22,38,2016-09-09
-434,Madelyn,Red hartebeest,6,7,100,2016-09-10
-435,Catina,Common wallaroo,41,43,79,2016-09-11
-436,Marjie,Violet-eared waxbill,32,50,78,2016-09-12
-437,Dulcea,Eleven-banded armadillo (unidentified),71,76,55,2016-09-13
-438,Carmela,"Stork, saddle-billed",2,20,81,2016-09-14
-439,Doroteya,"Sheep, stone",72,54,74,2016-09-15
-440,Mariellen,Sambar,4,10,33,2016-09-16
-441,Philbert,"Phascogale, red-tailed",8,4,17,2016-09-17
-442,Corissa,"Monkey, bleeding heart",81,50,3,2016-09-18
-443,Odella,"Dragon, western bearded",4,63,24,2016-09-19
-444,Monroe,Small Indian mongoose,13,93,37,2016-09-20
-445,Ninnetta,Small Indian mongoose,29,50,10,2016-09-21
-446,Louella,"Badger, honey",85,4,10,2016-09-22
-447,Simone,Turtle (unidentified),72,73,55,2016-09-23
-448,Birk,"Badger, eurasian",78,79,45,2016-09-24
-449,Arnoldo,Common eland,40,70,14,2016-09-25
-450,Lolita,"Tortoise, radiated",92,58,100,2016-09-26
-451,Emilia,Blue catfish,46,43,44,2016-09-27
-452,Caitrin,"Tern, white-winged",9,35,52,2016-09-28
-453,Trevor,Griffon vulture,39,12,33,2016-09-29
-454,Marcelo,Wild boar,79,94,76,2016-09-30
-455,Kelly,Sage grouse,17,92,42,2016-10-01
-456,Randee,Brazilian otter,78,55,26,2016-10-02
-457,Gilbert,Old world fruit bat (unidentified),84,92,95,2016-10-03
-458,Alene,White-necked stork,51,61,52,2016-10-04
-459,Ashly,Black-tailed deer,16,12,67,2016-10-05
-460,Loren,Capybara,25,43,8,2016-10-06
-461,Hardy,Pine snake (unidentified),92,78,46,2016-10-07
-462,Thorpe,"Stork, white",37,35,25,2016-10-08
-463,Faye,"Goose, knob-nosed",65,38,19,2016-10-09
-464,Tootsie,"Lizard, collared",70,75,46,2016-10-10
-465,Jennifer,Galapagos dove,11,13,39,2016-10-11
-466,Livvyy,Cape fox,14,30,7,2016-10-12
-467,Doe,"Goose, snow",58,9,82,2016-10-13
-468,Ciel,Red lava crab,88,42,72,2016-10-14
-469,Jacqueline,"Boa, malagasy ground",68,6,77,2016-10-15
-470,Milly,Southern boubou,15,5,33,2016-10-16
-471,Ashby,"Langur, hanuman",65,79,66,2016-10-17
-472,Christalle,"Pintail, bahama",80,9,51,2016-10-18
-473,Sandor,Blue duck,44,79,42,2016-10-19
-474,Denni,"Squirrel, nelson ground",31,70,35,2016-10-20
-475,Jarret,"Peacock, indian",61,22,87,2016-10-21
-476,Chevy,Arctic fox,74,4,81,2016-10-22
-477,Ram,Silver-backed fox,43,6,61,2016-10-23
-478,Ange,"Owl, australian masked",80,85,41,2016-10-24
-479,Dorotea,Magnificent frigate bird,62,17,4,2016-10-25
-480,Clarette,"Goose, spur-winged",73,46,30,2016-10-26
-481,Noah,Wood pigeon,43,64,81,2016-10-27
-482,Cletus,Common long-nosed armadillo,14,24,27,2016-10-28
-483,King,"Cat, jungle",82,76,97,2016-10-29
-484,Bridget,"Cockatoo, sulfur-crested",11,48,66,2016-10-30
-485,Janek,"Snake, carpet",30,17,31,2016-10-31
-486,Ford,"Wambenger, red-tailed",31,57,46,2016-11-01
-487,Mel,"Darter, african",46,84,90,2016-11-02
-488,Ilene,"Lion, asian",15,56,35,2016-11-03
-489,Hana,"Meerkat, red",60,77,67,2016-11-04
-490,Clary,"White-eye, cape",97,82,9,2016-11-05
-491,Cristiano,Red-billed toucan,25,92,53,2016-11-06
-492,Aubine,"Whale, killer",54,63,12,2016-11-07
-493,Sammy,American crow,50,20,43,2016-11-08
-494,Terrence,"Antelope, sable",12,28,90,2016-11-09
-495,Ailsun,Cape fox,78,96,73,2016-11-10
-496,Horace,Australian spiny anteater,62,52,76,2016-11-11
-497,Katusha,Marine iguana,82,83,50,2016-11-12
-498,Izzy,Hanuman langur,20,51,11,2016-11-13
-499,Maudie,"Squirrel, uinta ground",52,20,40,2016-11-14
-500,Guss,"Coot, red-knobbed",83,8,66,2016-11-15
-501,Aurlie,"Gull, dusky",11,43,25,2016-11-16
-502,Clea,Sacred ibis,74,30,57,2016-11-17
-503,Gabriella,"Trumpeter, dark-winged",65,100,83,2016-11-18
-504,Raye,"Bandicoot, southern brown",62,94,75,2016-11-19
-505,Sibel,Northern elephant seal,10,36,23,2016-11-20
-506,Abra,"Barbet, crested",46,56,39,2016-11-21
-507,Elyssa,Huron,30,2,2,2016-11-22
-508,Michail,Red-tailed cockatoo,50,87,51,2016-11-23
-509,Valli,Great cormorant,62,8,58,2016-11-24
-510,Samara,"Iguana, common green",41,77,29,2016-11-25
-511,Abram,"Crane, stanley",75,98,33,2016-11-26
-512,Nerissa,Crown of thorns starfish,46,72,99,2016-11-27
-513,Shelby,Bat-eared fox,98,91,94,2016-11-28
-514,Gonzales,Long-tailed spotted cat,26,3,98,2016-11-29
-515,Bernelle,"Lemur, brown",21,59,30,2016-11-30
-516,Emelina,Emerald green tree boa,61,16,31,2016-12-01
-517,Yelena,Bare-faced go away bird,28,76,94,2016-12-02
-518,Alley,Southern screamer,27,63,10,2016-12-03
-519,Milicent,Tailless tenrec,99,43,56,2016-12-04
-520,Orton,"Grenadier, common",32,25,96,2016-12-05
-521,Mort,Malleefowl,11,62,80,2016-12-06
-522,Shalna,Eastern indigo snake,37,33,53,2016-12-07
-523,Thornie,Black and white colobus,59,54,61,2016-12-08
-524,Elston,Barking gecko,70,71,95,2016-12-09
-525,Felike,"Heron, black-crowned night",96,41,71,2016-12-10
-526,Barthel,"Hartebeest, red",36,45,83,2016-12-11
-527,Ursola,Bleeding heart monkey,50,31,50,2016-12-12
-528,Brenn,North American river otter,77,60,8,2016-12-13
-529,Tessi,Uinta ground squirrel,56,40,46,2016-12-14
-530,Lorette,"Gazer, sun",92,28,91,2016-12-15
-531,Jed,Asian water buffalo,52,17,12,2016-12-16
-532,Augie,Red-billed toucan,52,58,58,2016-12-17
-533,Marna,Gecko (unidentified),60,47,57,2016-12-18
-534,Nikki,"Waxbill, violet-eared",70,70,51,2016-12-19
-535,Rhetta,"Kiskadee, great",88,76,55,2016-12-20
-536,Christos,"Dragon, komodo",92,87,87,2016-12-21
-537,Ellwood,"Pigeon, feral rock",96,9,30,2016-12-22
-538,Cyrill,"Vulture, lappet-faced",11,2,9,2016-12-23
-539,Sammie,Magellanic penguin,69,4,98,2016-12-24
-540,Tommie,"Antelope, four-horned",86,30,55,2016-12-25
-541,Allen,"Squirrel, antelope ground",68,73,50,2016-12-26
-542,Sella,"Tenrec, tailless",60,77,27,2016-12-27
-543,Trudey,Red-tailed phascogale,46,52,87,2016-12-28
-544,Klarrisa,"Monkey, bleeding heart",69,95,82,2016-12-29
-545,Jacky,"Dragon, ornate rock",71,37,48,2016-12-30
-546,Gerty,"Bustard, stanley",93,86,44,2016-12-31
-547,Jaquenette,Southern black-backed gull,38,62,94,2017-01-01
-548,Veriee,"Brocket, brown",78,79,38,2017-01-02
-549,Dani,Lapwing (unidentified),71,24,40,2017-01-03
-550,Kalinda,Red-billed hornbill,96,77,13,2017-01-04
-551,Valry,"Egret, cattle",61,37,100,2017-01-05
-552,Sylvan,Gaur,58,39,11,2017-01-06
-553,Deirdre,"Barbet, black-collared",35,7,84,2017-01-07
-554,Carolee,"Heron, boat-billed",41,5,18,2017-01-08
-555,Vin,"Pheasant, common",35,72,92,2017-01-09
-556,Fannie,Eastern grey kangaroo,6,9,22,2017-01-10
-557,Clarinda,"Cat, ringtail",78,79,100,2017-01-11
-558,Aubree,African porcupine,49,41,82,2017-01-12
-559,Meris,"Racer, american",39,66,95,2017-01-13
-560,Starla,"Duck, white-faced whistling",35,64,57,2017-01-14
-561,Reta,Cook's tree boa,85,39,49,2017-01-15
-562,Chloette,White-headed vulture,17,91,78,2017-01-16
-563,Tabbie,"White-eye, cape",32,95,94,2017-01-17
-564,Retha,Hummingbird (unidentified),19,90,48,2017-01-18
-565,Bendite,"Kingfisher, white-throated",61,21,38,2017-01-19
-566,Orlan,Springhare,90,3,16,2017-01-20
-567,Dinny,Helmeted guinea fowl,99,86,42,2017-01-21
-568,Shadow,White-fronted capuchin,90,61,32,2017-01-22
-569,Jillian,"Gull, silver",70,70,41,2017-01-23
-570,Arnold,Four-striped grass mouse,14,16,29,2017-01-24
-571,Marget,"Insect, stick",7,76,91,2017-01-25
-572,Mallory,African buffalo,19,31,73,2017-01-26
-573,Farrell,American woodcock,94,6,60,2017-01-27
-574,Marena,"Boa, malagasy ground",64,96,27,2017-01-28
-575,Lesley,Canadian tiger swallowtail butterfly,84,61,33,2017-01-29
-576,Sherry,"Albatross, waved",42,80,56,2017-01-30
-577,Timi,Dusky gull,74,95,92,2017-01-31
-578,Ari,"Glider, feathertail",64,96,75,2017-02-01
-579,Moises,"Porcupine, indian",98,27,72,2017-02-02
-580,Indira,"Lion, galapagos sea",63,83,91,2017-02-03
-581,Coraline,"Kite, black",16,46,92,2017-02-04
-582,Peyter,Long-tailed jaeger,63,82,40,2017-02-05
-583,Melany,California sea lion,79,62,13,2017-02-06
-584,Eugenie,Puku,35,17,83,2017-02-07
-585,Edyth,"Hen, sage",27,47,70,2017-02-08
-586,Terra,Hyrax,89,82,48,2017-02-09
-587,Dud,"Tortoise, galapagos",5,13,78,2017-02-10
-588,Consalve,"Oryx, beisa",55,64,78,2017-02-11
-589,Lucretia,"Coot, red-knobbed",60,59,65,2017-02-12
-590,Filip,"Fox, crab-eating",79,9,1,2017-02-13
-591,Matteo,Greater blue-eared starling,45,51,83,2017-02-14
-592,Britt,White-necked raven,22,50,79,2017-02-15
-593,Susanetta,African polecat,92,65,100,2017-02-16
-594,Joelly,White-rumped vulture,72,90,90,2017-02-17
-595,Jamie,"Python, carpet",63,90,3,2017-02-18
-596,Barron,Pampa gray fox,58,69,11,2017-02-19
-597,Jillene,Snow goose,12,19,68,2017-02-20
-598,Wittie,Water monitor,2,48,84,2017-02-21
-599,Quinton,"Dove, little brown",26,4,35,2017-02-22
-600,Brand,"Colobus, white-mantled",36,24,52,2017-02-23
+id,name,pet,favorite animal,height,score,count,date
+1,Carmel,dog,Genoveva,50,7,56,2015-07-05
+2,Libbi,hedgehog,Bee-eater (unidentified),87,38,68,2015-07-06
+3,Brad,monkey,"Crane, sandhill",14,88,42,2015-07-07
+4,Eloise,hedgehog,Brush-tailed phascogale,35,18,71,2015-07-08
+5,Nettie,chicken,"Swan, trumpeter",56,60,74,2015-07-09
+6,Berky,piranha,Javanese cormorant,82,44,82,2015-07-10
+7,Arielle,piranha,Brown capuchin,27,73,75,2015-07-11
+8,Trixie,piranha,"Butterfly, canadian tiger swallowtail",88,44,37,2015-07-12
+9,Gerard,piranha,"Dog, raccoon",30,88,42,2015-07-13
+10,Rafaellle,hedgehog,Cougar,22,8,19,2015-07-14
+11,Kippie,dog,Meerkat,49,34,43,2015-07-15
+12,Louisa,cat,American marten,86,32,50,2015-07-16
+13,Adele,cat,"Parrot, hawk-headed",50,18,87,2015-07-17
+14,Eimile,dog,Spotted-tailed quoll,55,34,20,2015-07-18
+15,Raynell,chicken,Southern hairy-nosed wombat,13,76,57,2015-07-19
+16,Dorice,chicken,"Elephant, african",25,41,3,2015-07-20
+17,Myrwyn,cat,Bontebok,77,90,64,2015-07-21
+18,Krysta,hedgehog,"Phascogale, red-tailed",62,85,4,2015-07-22
+19,Clary,cat,Yellow-throated sandgrouse,28,70,30,2015-07-23
+20,Viviyan,hedgehog,Cereopsis goose,98,1,10,2015-07-24
+21,Case,chicken,Brown capuchin,97,41,59,2015-07-25
+22,Kathlin,dog,Common eland,37,82,57,2015-07-26
+23,Huberto,chicken,"Hare, arctic",50,72,42,2015-07-27
+24,Jard,chicken,"Lemur, lesser mouse",49,28,6,2015-07-28
+25,Melonie,dog,Bahama pintail,37,43,53,2015-07-29
+26,Harper,cat,Eagle owl (unidentified),35,33,25,2015-07-30
+27,Selene,dog,Red-billed hornbill,4,92,48,2015-07-31
+28,Coralie,chicken,Australian magpie,64,50,8,2015-08-01
+29,Constance,piranha,"Flamingo, greater",15,86,32,2015-08-02
+30,Katha,monkey,"Crab, sally lightfoot",70,93,52,2015-08-03
+31,Onfroi,chicken,Violet-crested turaco,86,29,60,2015-08-04
+32,Nowell,monkey,"Sunbird, lesser double-collared",33,35,97,2015-08-05
+33,Kirbie,dog,"Wallaby, whip-tailed",18,81,86,2015-08-06
+34,Grier,monkey,Barking gecko,97,35,3,2015-08-07
+35,Robyn,dog,Musk ox,53,45,42,2015-08-08
+36,Hill,chicken,"Tern, royal",76,79,34,2015-08-09
+37,Max,hedgehog,Glossy ibis,54,51,100,2015-08-10
+38,Delcina,monkey,"Siskin, pine",61,13,90,2015-08-11
+39,Augusto,cat,"Jackal, indian",68,8,79,2015-08-12
+40,Fredericka,hedgehog,"Peacock, blue",43,38,66,2015-08-13
+41,Peria,chicken,Common dolphin,71,61,59,2015-08-14
+42,May,dog,"Squirrel, richardson's ground",89,19,23,2015-08-15
+43,Lizzy,monkey,"Raven, white-necked",71,73,45,2015-08-16
+44,Lionel,cat,Great kiskadee,98,67,42,2015-08-17
+45,Madalyn,piranha,Long-crested hawk eagle,96,33,54,2015-08-18
+46,Sheeree,chicken,Bengal vulture,48,93,20,2015-08-19
+47,Ferdinand,dog,"Monkey, vervet",26,7,92,2015-08-20
+48,Lidia,dog,"Macaw, red and blue",25,72,25,2015-08-21
+49,Ayn,piranha,"Pintail, white-cheeked",9,79,44,2015-08-22
+50,Olimpia,dog,Cottonmouth,92,22,91,2015-08-23
+51,Lynda,hedgehog,Lapwing (unidentified),61,4,65,2015-08-24
+52,Lyda,piranha,"Lemur, lesser mouse",24,85,61,2015-08-25
+53,Ephrem,hedgehog,"Curlew, black",74,51,56,2015-08-26
+54,Brynna,cat,"Vulture, egyptian",83,8,21,2015-08-27
+55,Lilias,piranha,Collared lemming,72,18,51,2015-08-28
+56,Ted,chicken,"Spider, wolf",77,96,80,2015-08-29
+57,Laurel,cat,"Waterbuck, defassa",50,5,73,2015-08-30
+58,Luigi,monkey,Southern tamandua,92,41,26,2015-08-31
+59,Giselbert,hedgehog,Ringtail cat,41,60,77,2015-09-01
+60,Amerigo,chicken,Common ringtail,76,65,57,2015-09-02
+61,Julianne,hedgehog,Brush-tailed bettong,67,50,83,2015-09-03
+62,Arlyn,hedgehog,Brown hyena,44,44,58,2015-09-04
+63,Zabrina,chicken,"Lizard, collared",94,62,11,2015-09-05
+64,Mattie,cat,White-necked stork,43,65,23,2015-09-06
+65,Curtice,chicken,"Squirrel, smith's bush",83,94,93,2015-09-07
+66,Davon,cat,Mountain duck,53,1,21,2015-09-08
+67,Elysia,monkey,Bare-faced go away bird,5,43,45,2015-09-09
+68,Gordy,hedgehog,Cape fox,22,67,20,2015-09-10
+69,Darb,dog,"Corella, long-billed",78,25,80,2015-09-11
+70,Edgardo,cat,"Coatimundi, white-nosed",54,51,81,2015-09-12
+71,Callie,monkey,"Moorhen, purple",24,28,86,2015-09-13
+72,Aveline,hedgehog,Amazon parrot (unidentified),43,65,28,2015-09-14
+73,Beverlie,dog,Suricate,94,10,5,2015-09-15
+74,Byrom,hedgehog,"Cat, civet",94,100,90,2015-09-16
+75,Angelina,dog,Great white pelican,18,58,29,2015-09-17
+76,Zak,chicken,"Bandicoot, long-nosed",10,15,7,2015-09-18
+77,Cristian,monkey,"Stork, yellow-billed",98,20,1,2015-09-19
+78,Edgardo,chicken,"Cockatoo, red-tailed",18,92,32,2015-09-20
+79,Matthiew,dog,"Lemur, sportive",51,8,79,2015-09-21
+80,Yolane,piranha,Tropical buckeye butterfly,14,1,4,2015-09-22
+81,Gratia,monkey,"Buffalo, african",93,18,69,2015-09-23
+82,Arlene,monkey,"Squirrel, antelope ground",48,33,33,2015-09-24
+83,Mac,cat,Swallow-tail gull,100,2,32,2015-09-25
+84,Christiana,cat,Giant otter,87,53,69,2015-09-26
+85,Roseanne,monkey,African elephant,33,59,74,2015-09-27
+86,Christen,monkey,"Partridge, coqui",92,66,74,2015-09-28
+87,Celinka,dog,"Whale, southern right",19,86,49,2015-09-29
+88,Samuel,monkey,Baleen whale,22,19,12,2015-09-30
+89,Micki,piranha,Yellow-brown sungazer,67,47,63,2015-10-01
+90,Carma,monkey,Superb starling,61,37,74,2015-10-02
+91,Jonathon,cat,Squirrel glider,47,73,51,2015-10-03
+92,Batsheva,chicken,Blackbuck,27,60,75,2015-10-04
+93,Charlena,cat,Steller's sea lion,88,58,34,2015-10-05
+94,Hillary,cat,"Penguin, fairy",67,43,33,2015-10-06
+95,Ianthe,piranha,Civet cat,54,93,68,2015-10-07
+96,Meyer,cat,"Legaan, ground",14,29,37,2015-10-08
+97,Peggy,monkey,"Iguana, land",22,84,100,2015-10-09
+98,Christos,chicken,"Turaco, violet-crested",25,83,65,2015-10-10
+99,Washington,cat,Hawk-headed parrot,86,16,76,2015-10-11
+100,Courtenay,dog,Madagascar hawk owl,27,39,66,2015-10-12
+101,Addy,monkey,"Fox, savanna",83,17,94,2015-10-13
+102,Ulric,piranha,Swainson's francolin,84,28,15,2015-10-14
+103,Alix,hedgehog,Brolga crane,22,35,57,2015-10-15
+104,Gratiana,piranha,Crowned hawk-eagle,9,55,26,2015-10-16
+105,Georgine,hedgehog,"Brocket, brown",49,46,99,2015-10-17
+106,Olive,hedgehog,"Grebe, little",9,51,91,2015-10-18
+107,Aron,piranha,Cape cobra,95,68,95,2015-10-19
+108,Nissie,cat,"Bat, little brown",76,37,73,2015-10-20
+109,Bernadine,cat,"Squirrel, thirteen-lined",86,100,78,2015-10-21
+110,Kevin,piranha,Civet cat,70,83,36,2015-10-22
+111,Karlik,monkey,Blue-faced booby,51,10,85,2015-10-23
+112,Boigie,hedgehog,Indian peacock,60,11,27,2015-10-24
+113,Babbette,hedgehog,Southern screamer,43,20,39,2015-10-25
+114,Corabella,cat,Asian red fox,52,66,37,2015-10-26
+115,Stearne,chicken,Arctic lemming,14,19,13,2015-10-27
+116,Jeramey,hedgehog,"Monitor, water",7,40,53,2015-10-28
+117,Edithe,chicken,Malleefowl,82,30,88,2015-10-29
+118,Rosie,hedgehog,Monitor lizard (unidentified),36,11,26,2015-10-30
+119,Luis,chicken,Canadian river otter,87,78,85,2015-10-31
+120,Thane,dog,"Macaw, red and blue",31,54,51,2015-11-01
+121,Kingsly,chicken,Richardson's ground squirrel,58,56,13,2015-11-02
+122,Babb,monkey,Asian elephant,7,66,98,2015-11-03
+123,Riki,piranha,Rufous tree pie,83,30,5,2015-11-04
+124,Stephana,hedgehog,"Lemming, collared",93,72,33,2015-11-05
+125,Gerti,chicken,"Puma, south american",53,70,54,2015-11-06
+126,Wain,cat,Brown lemur,35,5,34,2015-11-07
+127,Billy,monkey,"Meerkat, red",43,73,56,2015-11-08
+128,Hurleigh,chicken,Javanese cormorant,59,51,55,2015-11-09
+129,Aharon,monkey,"Puma, south american",6,46,1,2015-11-10
+130,Stephie,piranha,"Possum, golden brush-tailed",56,99,26,2015-11-11
+131,Joy,cat,Miner's cat,11,12,72,2015-11-12
+132,Sergent,cat,"Cormorant, large",27,28,57,2015-11-13
+133,Steffane,monkey,"Bee-eater, carmine",98,60,39,2015-11-14
+134,Libbey,piranha,"Squirrel, eurasian red",51,86,53,2015-11-15
+135,Nikolos,hedgehog,Javanese cormorant,43,9,97,2015-11-16
+136,Shawn,piranha,"Squirrel, grey-footed",96,77,62,2015-11-17
+137,Huey,dog,"Lemur, grey mouse",7,2,37,2015-11-18
+138,Pru,chicken,Burrowing owl,42,50,86,2015-11-19
+139,Benita,monkey,Knob-nosed goose,55,33,65,2015-11-20
+140,Lorie,piranha,"Capuchin, white-fronted",65,17,65,2015-11-21
+141,Jacques,hedgehog,Yellow baboon,28,63,21,2015-11-22
+142,Wheeler,hedgehog,Woolly-necked stork,88,46,56,2015-11-23
+143,Cole,chicken,"Beaver, european",25,5,24,2015-11-24
+144,Berti,chicken,"Owl, australian masked",73,42,50,2015-11-25
+145,Arielle,piranha,Feral rock pigeon,14,100,72,2015-11-26
+146,Paige,piranha,Pallas's fish eagle,24,38,25,2015-11-27
+147,Madel,dog,"Penguin, fairy",50,37,36,2015-11-28
+148,Sashenka,dog,"Heron, little",82,51,49,2015-11-29
+149,Borg,hedgehog,Magellanic penguin,83,39,21,2015-11-30
+150,Lorenza,piranha,Columbian rainbow boa,77,42,36,2015-12-01
+151,Celle,chicken,"Beaver, american",5,9,7,2015-12-02
+152,Martyn,dog,Madagascar hawk owl,90,45,14,2015-12-03
+153,Tabbatha,dog,"Wallaby, dama",76,58,55,2015-12-04
+154,Tessy,dog,Mountain goat,3,24,12,2015-12-05
+155,Lodovico,monkey,"Eagle, african fish",85,61,46,2015-12-06
+156,Cassandra,cat,Brown antechinus,80,19,97,2015-12-07
+157,Tracie,hedgehog,"Gazelle, thomson's",87,43,22,2015-12-08
+158,Maurits,chicken,"Bear, sloth",27,92,81,2015-12-09
+159,Abagail,monkey,Cuis,63,86,16,2015-12-10
+160,Georg,piranha,Orca,27,11,22,2015-12-11
+161,Henderson,dog,"Pintail, bahama",8,47,43,2015-12-12
+162,Bondie,cat,Desert kangaroo rat,15,69,40,2015-12-13
+163,Cheri,piranha,White-bellied sea eagle,68,80,79,2015-12-14
+164,Lillis,piranha,Dassie,96,82,85,2015-12-15
+165,Phelia,cat,California sea lion,53,57,23,2015-12-16
+166,Mariya,monkey,"Seal, southern elephant",40,36,19,2015-12-17
+167,Laureen,cat,"Owl, white-browed",36,92,14,2015-12-18
+168,Sanders,cat,"Kangaroo, brush-tailed rat",35,91,99,2015-12-19
+169,Rosamund,dog,"Hawk, red-tailed",90,91,99,2015-12-20
+170,Mitchael,cat,Frog (unidentified),6,59,94,2015-12-21
+171,Nolie,hedgehog,Saddle-billed stork,73,4,24,2015-12-22
+172,Laurie,piranha,Flying fox (unidentified),60,26,57,2015-12-23
+173,Lyndy,dog,Collared lizard,95,73,2,2015-12-24
+174,Daphna,hedgehog,Sarus crane,31,39,83,2015-12-25
+175,Lori,hedgehog,"Goldeneye, barrows",53,82,72,2015-12-26
+176,Lynea,dog,"Lemur, sportive",34,82,72,2015-12-27
+177,Hulda,piranha,"Squirrel, eastern fox",15,73,39,2015-12-28
+178,Tonnie,cat,Prairie falcon,27,5,30,2015-12-29
+179,Robinet,dog,"Vulture, egyptian",22,47,68,2015-12-30
+180,Baryram,dog,Euro wallaby,88,13,41,2015-12-31
+181,Anastasie,hedgehog,White spoonbill,29,3,60,2016-01-01
+182,Beulah,cat,"Spurfowl, yellow-necked",100,89,42,2016-01-02
+183,Ceciley,piranha,"Turkey, australian brush",81,63,72,2016-01-03
+184,Kele,piranha,"Tortoise, radiated",70,59,86,2016-01-04
+185,Trumaine,piranha,American alligator,4,50,46,2016-01-05
+186,Carola,piranha,"Squirrel, indian giant",1,73,80,2016-01-06
+187,Carlynn,monkey,"Lizard, mexican beaded",50,75,34,2016-01-07
+188,Westbrook,piranha,"Vulture, black",41,13,26,2016-01-08
+189,Allys,piranha,"Screamer, crested",89,25,88,2016-01-09
+190,Beatrisa,piranha,Horned puffin,89,92,26,2016-01-10
+191,Paulie,dog,Violet-eared waxbill,78,99,69,2016-01-11
+192,Jamie,cat,White-throated robin,99,100,3,2016-01-12
+193,Allayne,hedgehog,Gelada baboon,24,81,1,2016-01-13
+194,Mattie,cat,Carpet snake,98,81,31,2016-01-14
+195,Darrick,hedgehog,"Genet, small-spotted",71,15,70,2016-01-15
+196,Freddi,piranha,"Cormorant, flightless",20,62,80,2016-01-16
+197,Aguie,monkey,Hoary marmot,60,26,1,2016-01-17
+198,Uta,monkey,Great white pelican,61,20,97,2016-01-18
+199,Roxana,hedgehog,Spotted hyena,28,37,69,2016-01-19
+200,Maddalena,chicken,"Possum, golden brush-tailed",95,69,19,2016-01-20
+201,Florida,cat,Common zebra,20,50,51,2016-01-21
+202,Patton,hedgehog,Pygmy possum,55,83,9,2016-01-22
+203,Zondra,dog,African wild cat,76,3,21,2016-01-23
+204,Berna,piranha,Indian tree pie,15,35,50,2016-01-24
+205,Olivia,hedgehog,"Dove, white-winged",92,41,61,2016-01-25
+206,Penelopa,hedgehog,Common green iguana,63,63,47,2016-01-26
+207,Garner,cat,"Phascogale, brush-tailed",78,57,64,2016-01-27
+208,Josy,piranha,Gelada baboon,51,98,98,2016-01-28
+209,Jerrylee,cat,"Dove, mourning collared",44,34,22,2016-01-29
+210,Elonore,cat,Green-winged macaw,84,18,44,2016-01-30
+211,Sheppard,cat,Scaly-breasted lorikeet,89,75,95,2016-01-31
+212,Vale,hedgehog,"Langur, hanuman",98,86,20,2016-02-01
+213,Basilio,hedgehog,White-necked stork,8,76,10,2016-02-02
+214,Crista,dog,Bennett's wallaby,9,97,3,2016-02-03
+215,Munmro,dog,"Elephant, asian",3,15,17,2016-02-04
+216,Adelle,piranha,"Bat, asian false vampire",25,89,94,2016-02-05
+217,Wakefield,piranha,Ground legaan,37,39,86,2016-02-06
+218,Aurilia,piranha,Red-shouldered glossy starling,72,74,11,2016-02-07
+219,Norry,monkey,"Tortoise, burmese black mountain",15,76,71,2016-02-08
+220,Freddie,piranha,Grey phalarope,79,76,65,2016-02-09
+221,De witt,hedgehog,"Buffalo, asian water",59,35,80,2016-02-10
+222,Aloisia,monkey,White-necked raven,95,93,28,2016-02-11
+223,Christos,dog,"Sandgrouse, yellow-throated",49,60,12,2016-02-12
+224,Adolphe,chicken,"Otter, small-clawed",26,43,33,2016-02-13
+225,Corbin,piranha,Jaguar,18,90,62,2016-02-14
+226,Allan,monkey,"Marshbird, brown and yellow",46,60,4,2016-02-15
+227,Ric,monkey,Jungle cat,27,72,100,2016-02-16
+228,Hodge,cat,"Grouse, sage",60,56,97,2016-02-17
+229,Nicolina,cat,Two-toed tree sloth,46,33,48,2016-02-18
+230,Esme,chicken,Water monitor,79,56,93,2016-02-19
+231,Gillie,dog,Short-nosed bandicoot,15,55,58,2016-02-20
+232,Isahella,hedgehog,Canada goose,29,10,12,2016-02-21
+233,Glynda,piranha,Snake (unidentified),36,40,40,2016-02-22
+234,Shanan,chicken,"Cockatoo, long-billed",72,60,1,2016-02-23
+235,Emmeline,cat,Ibex,27,43,65,2016-02-24
+236,Corny,hedgehog,"Baboon, yellow",5,81,12,2016-02-25
+237,Rora,chicken,Red-headed woodpecker,17,49,70,2016-02-26
+238,Pryce,dog,"Squirrel, richardson's ground",68,86,67,2016-02-27
+239,Petronille,dog,Cottonmouth,55,32,38,2016-02-28
+240,Zebedee,hedgehog,Giraffe,55,99,81,2016-02-29
+241,Buckie,hedgehog,Yellow-crowned night heron,63,52,85,2016-03-01
+242,Shepherd,cat,Black-tailed deer,44,11,63,2016-03-02
+243,Scarlet,piranha,Steller sea lion,49,20,20,2016-03-03
+244,Lorenza,chicken,Currasow (unidentified),50,67,59,2016-03-04
+245,Mignon,chicken,"Gecko, ring-tailed",31,49,97,2016-03-05
+246,Kimberley,hedgehog,Western spotted skunk,35,9,79,2016-03-06
+247,Warden,monkey,"Snake, eastern indigo",86,46,56,2016-03-07
+248,Cheston,piranha,"Bird, magnificent frigate",85,99,45,2016-03-08
+249,Madelin,hedgehog,"Crow, american",39,70,75,2016-03-09
+250,Freddy,hedgehog,"Lion, southern sea",69,44,31,2016-03-10
+251,Obadias,dog,Vervet monkey,17,74,94,2016-03-11
+252,Elinor,monkey,"Squirrel, red",33,50,37,2016-03-12
+253,Noreen,dog,"Beaver, north american",52,94,30,2016-03-13
+254,Miof mela,chicken,"Snake, eastern indigo",11,91,14,2016-03-14
+255,Gwennie,cat,"Wombat, southern hairy-nosed",76,94,9,2016-03-15
+256,Gerti,dog,Black-backed jackal,80,96,82,2016-03-16
+257,Horatius,piranha,Mallard,22,81,40,2016-03-17
+258,Cookie,cat,Magnificent frigate bird,28,22,90,2016-03-18
+259,Gardiner,monkey,"Dragon, komodo",88,32,82,2016-03-19
+260,Joshuah,hedgehog,Jaguar,58,91,9,2016-03-20
+261,Con,hedgehog,Dromedary camel,63,86,44,2016-03-21
+262,Melodee,cat,Savannah deer,48,74,24,2016-03-22
+263,Missie,dog,Vine snake (unidentified),97,24,22,2016-03-23
+264,Cal,chicken,"Skunk, striped",24,28,16,2016-03-24
+265,Jeane,dog,"Nuthatch, red-breasted",82,83,78,2016-03-25
+266,Emanuel,piranha,"Eagle, white-bellied sea",91,86,62,2016-03-26
+267,Carolus,hedgehog,"Coot, red-knobbed",16,22,98,2016-03-27
+268,Maryellen,monkey,Ground legaan,70,17,7,2016-03-28
+269,Gayler,piranha,Genoveva,30,61,14,2016-03-29
+270,Lisabeth,dog,"Dove, emerald-spotted wood",82,21,84,2016-03-30
+271,Velma,cat,"Gecko, barking",34,20,71,2016-03-31
+272,Aldon,monkey,Galapagos dove,4,42,58,2016-04-01
+273,Colman,dog,Cottonmouth,62,59,57,2016-04-02
+274,Bourke,piranha,"Hyena, spotted",34,69,100,2016-04-03
+275,Trent,cat,Springhare,74,3,8,2016-04-04
+276,Benedikta,monkey,"Tortoise, radiated",61,63,63,2016-04-05
+277,Berkeley,dog,"Creeper, black-tailed tree",75,50,31,2016-04-06
+278,Shelly,hedgehog,"Glider, sugar",23,67,7,2016-04-07
+279,Karalee,hedgehog,"Francolin, coqui",32,31,57,2016-04-08
+280,Abby,monkey,Paradoxure,15,52,90,2016-04-09
+281,Lise,monkey,Short-beaked echidna,100,17,34,2016-04-10
+282,Kory,piranha,Campo flicker,1,70,58,2016-04-11
+283,Inglebert,dog,"Finch, common melba",68,6,12,2016-04-12
+284,Wilie,hedgehog,"Squirrel, grey-footed",29,54,38,2016-04-13
+285,Emmott,piranha,Tree porcupine,97,28,93,2016-04-14
+286,Salim,dog,"Cat, tiger",37,28,82,2016-04-15
+287,Kathlin,monkey,Thirteen-lined squirrel,78,18,72,2016-04-16
+288,Rubina,hedgehog,Fringe-eared oryx,72,77,93,2016-04-17
+289,Rayna,dog,Arctic tern,35,68,92,2016-04-18
+290,Bendix,monkey,Bobcat,77,48,61,2016-04-19
+291,Edmon,monkey,Greylag goose,96,26,66,2016-04-20
+292,Kaye,piranha,Black rhinoceros,36,87,10,2016-04-21
+293,Tucker,cat,"Gull, southern black-backed",12,60,96,2016-04-22
+294,Chrissy,chicken,"Viper, egyptian",8,32,98,2016-04-23
+295,Gipsy,cat,Prehensile-tailed porcupine,18,62,47,2016-04-24
+296,Torey,chicken,North American porcupine,70,4,91,2016-04-25
+297,Wendell,monkey,Least chipmunk,36,76,99,2016-04-26
+298,Norrie,chicken,Red-legged pademelon,70,14,93,2016-04-27
+299,Ned,dog,Dark-winged trumpeter,27,78,23,2016-04-28
+300,Chiquia,cat,Ringtail cat,68,69,10,2016-04-29
+301,Thomas,hedgehog,Cape fox,58,52,50,2016-04-30
+302,Tansy,piranha,"Marmot, hoary",66,30,34,2016-05-01
+303,Gleda,piranha,"Skimmer, four-spotted",39,97,80,2016-05-02
+304,Carine,monkey,"Grouse, sage",33,98,38,2016-05-03
+305,Franklin,hedgehog,Osprey,2,55,28,2016-05-04
+306,Wait,piranha,Brown hyena,18,17,78,2016-05-05
+307,Sander,chicken,Little cormorant,65,2,26,2016-05-06
+308,Lenka,dog,Steller sea lion,7,2,43,2016-05-07
+309,Rachelle,dog,Waved albatross,71,63,48,2016-05-08
+310,Agatha,monkey,Green-backed heron,60,22,29,2016-05-09
+311,Wang,piranha,Common ringtail,78,33,1,2016-05-10
+312,Courtney,chicken,Western grey kangaroo,91,69,28,2016-05-11
+313,Bron,dog,Nilgai,7,42,79,2016-05-12
+314,Alica,dog,"Bear, polar",24,58,27,2016-05-13
+315,Danette,hedgehog,"Grebe, little",94,2,54,2016-05-14
+316,Gerome,monkey,"Albatross, waved",11,10,39,2016-05-15
+317,Angelika,monkey,Numbat,65,16,14,2016-05-16
+318,Wilmar,dog,Eastern indigo snake,13,30,30,2016-05-17
+319,Halsy,chicken,"Jackal, silver-backed",80,67,50,2016-05-18
+320,Alana,hedgehog,Sandhill crane,81,39,12,2016-05-19
+321,Prisca,chicken,Australian brush turkey,67,83,21,2016-05-20
+322,Carmel,dog,Little brown dove,25,23,86,2016-05-21
+323,Hugh,cat,Black-backed jackal,42,9,89,2016-05-22
+324,Trixi,cat,Common seal,22,82,10,2016-05-23
+325,Ruggiero,hedgehog,"Egret, snowy",9,30,14,2016-05-24
+326,Hasheem,chicken,Richardson's ground squirrel,7,20,6,2016-05-25
+327,Renado,piranha,Rufous tree pie,17,82,36,2016-05-26
+328,Penny,monkey,Common nighthawk,76,24,44,2016-05-27
+329,Michael,piranha,"Stork, woolly-necked",14,44,35,2016-05-28
+330,Greer,monkey,White-nosed coatimundi,20,37,70,2016-05-29
+331,Weber,cat,Eastern quoll,28,20,35,2016-05-30
+332,Nolan,dog,Eurasian hoopoe,18,57,18,2016-05-31
+333,Marcelia,piranha,"Rat, desert kangaroo",27,46,47,2016-06-01
+334,Guthrie,hedgehog,Black rhinoceros,72,59,92,2016-06-02
+335,Dallas,monkey,Killer whale,58,48,94,2016-06-03
+336,Jeff,monkey,Painted stork,80,67,20,2016-06-04
+337,Carita,hedgehog,Red-capped cardinal,2,45,46,2016-06-05
+338,Bern,hedgehog,Platypus,38,40,8,2016-06-06
+339,Marcelle,piranha,"Waxbill, black-cheeked",63,83,42,2016-06-07
+340,Chrotoem,dog,"Civet, common palm",2,72,49,2016-06-08
+341,Lin,chicken,Oribi,66,85,82,2016-06-09
+342,Mack,chicken,Nile crocodile,96,18,57,2016-06-10
+343,Barrie,hedgehog,Burrowing owl,59,22,85,2016-06-11
+344,Maritsa,dog,"Civet, small-toothed palm",48,48,31,2016-06-12
+345,Vevay,dog,Mocking cliffchat,66,95,51,2016-06-13
+346,Spense,monkey,Rainbow lory,41,76,88,2016-06-14
+347,Antons,chicken,"Baboon, chacma",20,70,81,2016-06-15
+348,Clemmy,chicken,Gaur,25,70,59,2016-06-16
+349,Christophorus,piranha,Arctic hare,58,86,89,2016-06-17
+350,Saw,monkey,Southern right whale,80,15,85,2016-06-18
+351,Karissa,piranha,Red sheep,48,91,93,2016-06-19
+352,Heddie,cat,Western grey kangaroo,63,37,11,2016-06-20
+353,Zack,dog,Common brushtail possum,82,18,7,2016-06-21
+354,Johnathon,dog,"Iguana, land",34,86,7,2016-06-22
+355,Trisha,dog,North American porcupine,35,41,62,2016-06-23
+356,Scotty,cat,"Reedbuck, bohor",95,33,46,2016-06-24
+357,Hyman,piranha,Collared lizard,16,10,3,2016-06-25
+358,Shanon,cat,"Sheathbill, snowy",50,30,46,2016-06-26
+359,Heather,hedgehog,Sun gazer,33,65,16,2016-06-27
+360,Netta,cat,Blesbok,3,13,91,2016-06-28
+361,Harlan,cat,"Tortoise, indian star",10,41,22,2016-06-29
+362,Elicia,hedgehog,Brown antechinus,62,94,29,2016-06-30
+363,Sergei,monkey,"Elephant, african",24,63,90,2016-07-01
+364,Arturo,piranha,Galapagos hawk,29,12,8,2016-07-02
+365,Marion,dog,"Lion, steller's sea",53,13,75,2016-07-03
+366,Camille,dog,Canada goose,44,99,93,2016-07-04
+367,Ab,piranha,"Hornbill, leadbeateri's ground",18,78,88,2016-07-05
+368,Finley,chicken,Raccoon dog,72,14,20,2016-07-06
+369,Perry,chicken,Praying mantis (unidentified),27,70,30,2016-07-07
+370,Seka,chicken,"Whale, killer",46,85,21,2016-07-08
+371,Harrietta,chicken,"Sunbird, lesser double-collared",35,79,91,2016-07-09
+372,Pip,dog,"Bee-eater, white-fronted",50,57,33,2016-07-10
+373,Gladys,monkey,Red-legged pademelon,59,48,21,2016-07-11
+374,Nichole,piranha,Ring-necked pheasant,63,74,73,2016-07-12
+375,Bonny,dog,"Squirrel, antelope ground",17,79,88,2016-07-13
+376,Jane,chicken,"Otter, cape clawless",22,7,48,2016-07-14
+377,Jan,hedgehog,"Snake, western patch-nosed",28,10,40,2016-07-15
+378,Winny,hedgehog,Water moccasin,64,19,47,2016-07-16
+379,Sydelle,monkey,"Crane, sarus",64,80,30,2016-07-17
+380,Elinore,monkey,"White-eye, cape",28,34,11,2016-07-18
+381,Mia,hedgehog,Indian star tortoise,75,3,43,2016-07-19
+382,Vonnie,monkey,"Goose, cape barren",2,4,94,2016-07-20
+383,Trey,dog,"Ibis, sacred",100,61,84,2016-07-21
+384,Tana,dog,Fisher,74,28,9,2016-07-22
+385,Logan,dog,Old world fruit bat (unidentified),16,87,38,2016-07-23
+386,Deanne,chicken,"Cat, native",64,53,16,2016-07-24
+387,Brenda,cat,Goliath heron,15,51,38,2016-07-25
+388,Leigha,dog,Emu,44,60,39,2016-07-26
+389,Hilda,monkey,Prehensile-tailed porcupine,29,20,86,2016-07-27
+390,Nickolai,monkey,Arboral spiny rat,5,63,44,2016-07-28
+391,Salli,monkey,"Ibis, glossy",86,38,21,2016-07-29
+392,Tansy,piranha,"Heron, striated",38,91,86,2016-07-30
+393,Mitchell,piranha,"Whale, killer",50,79,96,2016-07-31
+394,Tremaine,cat,"Flamingo, lesser",29,9,72,2016-08-01
+395,Dick,monkey,Two-toed tree sloth,29,97,79,2016-08-02
+396,Ariella,hedgehog,Common raccoon,10,1,37,2016-08-03
+397,Gusella,piranha,Arctic ground squirrel,76,94,14,2016-08-04
+398,Barnard,piranha,"Possum, common brushtail",38,70,30,2016-08-05
+399,Dalila,dog,"Brocket, red",14,34,83,2016-08-06
+400,Carmen,monkey,Bald eagle,79,23,35,2016-08-07
+401,Sile,chicken,Grey heron,15,97,81,2016-08-08
+402,Dennet,piranha,"Nutcracker, clark's",12,65,97,2016-08-09
+403,Gnni,dog,Horned lark,59,93,95,2016-08-10
+404,Abbye,monkey,"Civet, common palm",58,56,54,2016-08-11
+405,Mag,monkey,"Dove, little brown",28,62,61,2016-08-12
+406,Brian,hedgehog,Yellow-necked spurfowl,89,44,26,2016-08-13
+407,Gabriele,cat,Bontebok,40,40,57,2016-08-14
+408,Adoree,hedgehog,"Cat, toddy",94,6,75,2016-08-15
+409,Arlin,chicken,Caribou,84,41,78,2016-08-16
+410,Walt,chicken,"Cat, native",25,7,58,2016-08-17
+411,Vinson,monkey,Tayra,33,36,54,2016-08-18
+412,Zechariah,chicken,Long-tailed jaeger,25,6,86,2016-08-19
+413,Rip,chicken,Black-footed ferret,57,53,16,2016-08-20
+414,Felipa,monkey,Roseat flamingo,93,23,26,2016-08-21
+415,Dario,piranha,Goanna lizard,97,62,1,2016-08-22
+416,Christean,monkey,"Baboon, savanna",94,23,18,2016-08-23
+417,Zena,piranha,"Jackal, silver-backed",74,98,86,2016-08-24
+418,Kalina,dog,Two-toed tree sloth,39,68,70,2016-08-25
+419,Flory,chicken,Blue-tongued skink,50,24,13,2016-08-26
+420,Lovell,dog,Thomson's gazelle,81,56,5,2016-08-27
+421,Reid,cat,Tammar wallaby,12,47,71,2016-08-28
+422,Trace,chicken,Squirrel glider,45,35,90,2016-08-29
+423,Ruy,cat,Black and white colobus,32,10,56,2016-08-30
+424,Tod,dog,Steenbok,31,69,35,2016-08-31
+425,Celie,cat,Black-backed jackal,91,6,89,2016-09-01
+426,Alford,monkey,Indian peacock,68,2,92,2016-09-02
+427,Eli,piranha,Barking gecko,69,56,84,2016-09-03
+428,Jaclyn,monkey,"Weaver, lesser masked",41,5,78,2016-09-04
+429,Kate,cat,Tyrant flycatcher,5,54,34,2016-09-05
+430,Fairfax,cat,"Ringtail, common",45,51,54,2016-09-06
+431,Deeanne,hedgehog,Cape fox,27,41,80,2016-09-07
+432,Ogden,monkey,"Lizard, mexican beaded",30,19,27,2016-09-08
+433,Antons,chicken,Cottonmouth,56,76,97,2016-09-09
+434,Wrennie,dog,Grey heron,47,84,99,2016-09-10
+435,Ashly,chicken,Rhesus monkey,96,38,19,2016-09-11
+436,Ellyn,piranha,Egyptian vulture,29,71,18,2016-09-12
+437,Andriana,hedgehog,"Crane, sarus",35,58,25,2016-09-13
+438,Isacco,cat,Black-winged stilt,89,4,6,2016-09-14
+439,Grenville,piranha,"Goose, snow",44,89,85,2016-09-15
+440,Lucian,chicken,"Cormorant, flightless",91,11,13,2016-09-16
+441,Margarethe,piranha,"Snake, western patch-nosed",79,40,74,2016-09-17
+442,Honey,piranha,Bald eagle,8,39,28,2016-09-18
+443,Gabby,dog,Blue-tongued skink,76,85,62,2016-09-19
+444,Lorianne,dog,Goanna lizard,77,26,40,2016-09-20
+445,Cassi,monkey,Laughing dove,22,69,3,2016-09-21
+446,Lon,hedgehog,North American beaver,25,76,16,2016-09-22
+447,Lemmie,monkey,Lava gull,42,62,49,2016-09-23
+448,Lura,cat,"Weaver, chestnut",74,87,9,2016-09-24
+449,Warde,piranha,"Whale, killer",82,65,63,2016-09-25
+450,Camel,dog,Coqui francolin,47,18,54,2016-09-26
+451,Jo,dog,Ringtail,100,99,23,2016-09-27
+452,Leigh,dog,Gerbil (unidentified),80,1,43,2016-09-28
+453,Lauree,hedgehog,Black-throated butcher bird,32,51,76,2016-09-29
+454,Constantina,chicken,"Echidna, short-beaked",7,84,64,2016-09-30
+455,Marylee,dog,Mudskipper (unidentified),9,70,35,2016-10-01
+456,Janelle,monkey,Masked booby,25,24,93,2016-10-02
+457,Anselma,piranha,"Mongoose, eastern dwarf",86,18,51,2016-10-03
+458,Ellery,hedgehog,"Tortoise, indian star",100,82,68,2016-10-04
+459,Netty,monkey,Common rhea,41,6,34,2016-10-05
+460,Danella,cat,Sarus crane,20,78,54,2016-10-06
+461,Austen,cat,"Turaco, violet-crested",92,86,2,2016-10-07
+462,Nichols,dog,"Armadillo, common long-nosed",42,22,57,2016-10-08
+463,Tandie,monkey,"Meerkat, red",83,94,37,2016-10-09
+464,Moll,piranha,Carmine bee-eater,27,48,18,2016-10-10
+465,Tana,dog,Sociable weaver,63,32,63,2016-10-11
+466,Freedman,piranha,Arctic hare,99,80,31,2016-10-12
+467,Woodie,cat,"Civet, common palm",79,32,70,2016-10-13
+468,Lorettalorna,monkey,Brazilian tapir,58,25,34,2016-10-14
+469,Orel,piranha,White-faced whistling duck,78,31,10,2016-10-15
+470,Marinna,monkey,Crown of thorns starfish,15,68,53,2016-10-16
+471,Lori,dog,"Cat, long-tailed spotted",70,57,85,2016-10-17
+472,Ichabod,cat,Carmine bee-eater,37,96,46,2016-10-18
+473,Corliss,dog,"Dove, emerald-spotted wood",44,57,29,2016-10-19
+474,Derron,cat,"Crane, sarus",60,72,43,2016-10-20
+475,Allen,chicken,Brown lemur,10,100,62,2016-10-21
+476,Christean,piranha,Turkey vulture,31,55,98,2016-10-22
+477,Aldus,piranha,"Badger, honey",42,93,40,2016-10-23
+478,Nero,cat,Ring-tailed gecko,26,7,99,2016-10-24
+479,Breena,cat,Red-billed toucan,96,34,68,2016-10-25
+480,Shurlocke,cat,"Dragon, frilled",59,32,95,2016-10-26
+481,Hanni,dog,"Squirrel, richardson's ground",12,20,76,2016-10-27
+482,Cassaundra,monkey,Azara's zorro,59,73,22,2016-10-28
+483,Brande,chicken,Sugar glider,42,39,32,2016-10-29
+484,Tod,hedgehog,"Boa, mexican",79,32,90,2016-10-30
+485,Petrina,dog,"Starling, superb",56,6,66,2016-10-31
+486,Mab,piranha,"Phascogale, brush-tailed",96,82,21,2016-11-01
+487,Christa,chicken,Fairy penguin,88,52,37,2016-11-02
+488,Zebulen,hedgehog,Collared lizard,83,68,97,2016-11-03
+489,Ulysses,dog,Tarantula,74,48,75,2016-11-04
+490,Dorolice,monkey,African pied wagtail,6,97,71,2016-11-05
+491,Tracie,monkey,"Goldeneye, barrows",67,24,44,2016-11-06
+492,Shellysheldon,piranha,Secretary bird,35,75,70,2016-11-07
+493,Whitman,hedgehog,"Lourie, grey",98,57,75,2016-11-08
+494,Elberta,monkey,Slender-billed cockatoo,51,49,23,2016-11-09
+495,Henrie,chicken,"Goose, greylag",45,40,13,2016-11-10
+496,Rhody,hedgehog,"Civet, common palm",33,46,99,2016-11-11
+497,Mia,monkey,"Lemur, brown",78,4,97,2016-11-12
+498,Kelcey,hedgehog,Pallas's fish eagle,37,42,35,2016-11-13
+499,Rooney,dog,Common boubou shrike,97,43,32,2016-11-14
+500,Peyter,piranha,Rhesus macaque,9,33,5,2016-11-15
+501,Zebadiah,dog,Spur-winged goose,49,23,27,2016-11-16
+502,Andree,dog,Cape fox,24,18,33,2016-11-17
+503,Clay,dog,Mountain duck,29,5,56,2016-11-18
+504,Rafferty,cat,Black-cheeked waxbill,92,35,47,2016-11-19
+505,Kata,cat,Old world fruit bat (unidentified),58,19,67,2016-11-20
+506,Zsa zsa,dog,"Monitor, two-banded",95,78,38,2016-11-21
+507,Madlin,cat,"Oystercatcher, blackish",85,62,70,2016-11-22
+508,Filide,hedgehog,Indian porcupine,10,41,27,2016-11-23
+509,Letizia,hedgehog,Hoffman's sloth,69,46,40,2016-11-24
+510,Raddie,hedgehog,Argalis,94,41,29,2016-11-25
+511,Myrtice,monkey,Common zebra,87,6,14,2016-11-26
+512,Alard,chicken,White-rumped vulture,56,6,48,2016-11-27
+513,Humberto,piranha,Grey heron,20,32,47,2016-11-28
+514,Nev,dog,"Oystercatcher, blackish",36,90,33,2016-11-29
+515,Lon,hedgehog,"Tortoise, asian foreset",34,21,67,2016-11-30
+516,Janel,chicken,Arctic lemming,11,24,50,2016-12-01
+517,Dorrie,chicken,"Heron, green-backed",61,74,62,2016-12-02
+518,Cara,chicken,Ringtail cat,17,68,94,2016-12-03
+519,Sterne,cat,"White-eye, cape",55,82,25,2016-12-04
+520,Court,dog,Small-toothed palm civet,10,58,37,2016-12-05
+521,Shermie,dog,Onager,95,16,38,2016-12-06
+522,Levon,hedgehog,"Seal, southern elephant",92,64,24,2016-12-07
+523,Beverie,hedgehog,"Screamer, crested",16,71,85,2016-12-08
+524,Gualterio,hedgehog,"Pelican, australian",91,16,58,2016-12-09
+525,Marty,dog,"Turkey, wild",18,71,34,2016-12-10
+526,Margret,hedgehog,"Bee-eater, white-fronted",55,67,10,2016-12-11
+527,Tootsie,chicken,Nelson ground squirrel,38,79,29,2016-12-12
+528,Averell,monkey,Sloth bear,27,68,37,2016-12-13
+529,Nathanil,chicken,Koala,63,68,96,2016-12-14
+530,Angelita,chicken,Common pheasant,65,82,39,2016-12-15
+531,Elise,piranha,Crab-eating raccoon,2,18,47,2016-12-16
+532,Margarete,cat,"Eagle, bateleur",77,78,83,2016-12-17
+533,Elwira,chicken,Common wombat,58,40,99,2016-12-18
+534,Edan,piranha,Jaguar,2,58,48,2016-12-19
+535,Merla,piranha,"Wallaby, agile",79,47,47,2016-12-20
+536,Lorenzo,hedgehog,"Partridge, coqui",67,27,51,2016-12-21
+537,Chantalle,dog,Nine-banded armadillo,40,100,56,2016-12-22
+538,Astrix,monkey,"Egret, snowy",72,30,68,2016-12-23
+539,Carilyn,cat,European stork,4,59,44,2016-12-24
+540,Maurine,monkey,Horned lark,32,93,90,2016-12-25
+541,Adolph,monkey,"Gorilla, western lowland",36,22,10,2016-12-26
+542,Nikolaos,hedgehog,Water legaan,81,40,78,2016-12-27
+543,Corrie,cat,"Snake, western patch-nosed",25,27,60,2016-12-28
+544,Leonie,monkey,"Squirrel, richardson's ground",17,79,90,2016-12-29
+545,Kerk,dog,Giraffe,23,88,54,2016-12-30
+546,Anitra,piranha,Arctic hare,15,60,54,2016-12-31
+547,Miles,hedgehog,Madagascar fruit bat,37,87,90,2017-01-01
+548,Letta,monkey,Verreaux's sifaka,23,64,99,2017-01-02
+549,Lorne,piranha,Crimson-breasted shrike,77,29,47,2017-01-03
+550,Ardath,monkey,"Vulture, egyptian",73,70,91,2017-01-04
+551,Grier,chicken,"Pelican, brown",20,98,74,2017-01-05
+552,Phillis,monkey,"Trumpeter, dark-winged",62,29,12,2017-01-06
+553,Bambie,piranha,Southern screamer,21,63,33,2017-01-07
+554,Johnnie,hedgehog,"Rattlesnake, eastern diamondback",36,83,13,2017-01-08
+555,Amalita,piranha,Brown brocket,91,76,66,2017-01-09
+556,Joli,hedgehog,"Grebe, little",59,26,28,2017-01-10
+557,Rowen,chicken,Brown and yellow marshbird,99,31,43,2017-01-11
+558,Giralda,cat,White-throated robin,79,53,39,2017-01-12
+559,Anderea,monkey,"Coot, red-knobbed",55,52,61,2017-01-13
+560,Ethan,dog,Sidewinder,71,100,96,2017-01-14
+561,Marcile,monkey,Boat-billed heron,86,59,25,2017-01-15
+562,Celinka,monkey,"Waxbill, violet-eared",82,1,96,2017-01-16
+563,Kaja,chicken,"Rhea, gray",87,29,19,2017-01-17
+564,Pebrook,cat,Frilled dragon,61,94,48,2017-01-18
+565,Cammy,monkey,Silver gull,97,36,55,2017-01-19
+566,Darryl,monkey,"Grenadier, common",19,87,84,2017-01-20
+567,Odo,piranha,Tailless tenrec,45,63,39,2017-01-21
+568,Carlen,dog,Painted stork,63,79,12,2017-01-22
+569,Gerri,dog,"Vulture, oriental white-backed",75,45,28,2017-01-23
+570,Delcine,monkey,Ornate rock dragon,25,21,6,2017-01-24
+571,Wolf,dog,Agama lizard (unidentified),46,60,72,2017-01-25
+572,Ciel,chicken,"Starling, superb",64,81,60,2017-01-26
+573,Marin,cat,Black vulture,45,60,32,2017-01-27
+574,Meagan,chicken,Black curlew,34,33,59,2017-01-28
+575,Henka,dog,Grey heron,39,65,58,2017-01-29
+576,Eveline,hedgehog,"Deer, white-tailed",22,61,31,2017-01-30
+577,Lars,piranha,Pacific gull,46,60,59,2017-01-31
+578,Trixy,dog,Gambel's quail,71,97,48,2017-02-01
+579,Hew,piranha,Numbat,41,85,72,2017-02-02
+580,Jolyn,piranha,Brazilian tapir,25,69,99,2017-02-03
+581,Deloris,monkey,"Viper, egyptian",49,59,39,2017-02-04
+582,Valentino,piranha,Tyrant flycatcher,60,68,15,2017-02-05
+583,Melinde,hedgehog,White-headed vulture,33,18,16,2017-02-06
+584,Daphna,hedgehog,Rock dove,13,25,28,2017-02-07
+585,Florri,cat,"Kangaroo, eastern grey",77,24,51,2017-02-08
+586,Cash,monkey,Eastern boa constrictor,36,23,35,2017-02-09
+587,Judy,cat,"Hornbill, red-billed",16,79,73,2017-02-10
+588,Rory,chicken,Lilac-breasted roller,8,36,53,2017-02-11
+589,Cathyleen,monkey,Wattled crane,76,64,46,2017-02-12
+590,Ardelia,piranha,Margay,47,75,45,2017-02-13
+591,Tony,chicken,"Flicker, field",50,57,1,2017-02-14
+592,Margo,cat,"Crake, african black",91,35,11,2017-02-15
+593,Sylvia,dog,"Wallaby, river",42,35,80,2017-02-16
+594,Philly,hedgehog,"Lion, asian",55,87,95,2017-02-17
+595,Clarine,monkey,Pronghorn,18,23,25,2017-02-18
+596,Teodorico,piranha,"Lizard, collared",86,11,23,2017-02-19
+597,Clevey,piranha,"Seal, southern elephant",23,47,37,2017-02-20
+598,Bengt,hedgehog,Black-tailed prairie dog,60,14,1,2017-02-21
+599,Leonardo,chicken,Scottish highland cow,21,13,3,2017-02-22
+600,Odie,monkey,Burrowing owl,44,53,36,2017-02-23

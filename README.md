@@ -1,41 +1,42 @@
 # Blocks Tutorial
 
-GitHub Blocks is a prototype exploring what an extensable GitHub would look like. We wondered how could we use the powerful primitives already avilable on github.com and build on top of those to make the platform more customizable and powerful.
+GitHub Blocks is an exploration of the question:
+
+> What if developers could control how people interact with their code?
+
+Instead of feeling like a storage locker for code, can we bring that content to life? What if a designer could view styles from a CSS file instead of having to wait for a developer to transform it? Or if journalists could visualize data right on GitHub, along with how it's changed over time?
+
+There are so many possibilities! This sounds like a lot of work to build, right? With such an enthusiastic & active community, GitHub could build a flexible API that allows users to take control, and help with building out any use case.
+
+In our exploration, we settled on a flexible API of "Blocks".
 
 ## What is a Block?
 
-We call a block any discrete "app" or "viewer" that can take in as input a file or folder and do something with that data. Blocks come in two types: file blocks and folder blocks.
+Our experiment looks similar to the current github.com ui, but introduces the concept of a Block: a different way to view or interact with a file or folder.
 
-## Experience your first block
+Technically, a Block is React component that receives specific props and renders a view of them. There are two types of blocks:
 
-1. Click on the `data.csv` file
-2. Notice the `Flat block` show up on the dropdown
-3. Enjoy a beautifully rendered csv file! 
+- **File Blocks** receive the contents of a file, and
+- **Folder Blocks** receive the structure of a folder.
 
-## Try other blocks
+If you're reading this on `github-blocks.vercel.app`, you're looking at a Block right now! This is a Markdown Block that is rendering the content of the `README.md` file. You can switch which Block you're using in the dropdown menu in the top left of this window.
 
-### File blocks
+Try switching to the `code` Block and see the underlying code! Then come back to the Markdown Block, for easy reading.
 
-| File name | Block name | Description                  |
-| --------- | ---------- | ---------------------------- |
-| drawing.excalidraw | Drawing       | Play with an interactive drawing        |
-| figma.iframe | Iframe   | View a figma file |
-| global.css | CSS        | View selectors in a css file |
-| poll.json | Poll | Nicely rendered poll data  |
-| Aside.jsx | React component feedback      | Give design feedback on a react component  |
+Since we have complete control over this content, we can render live data: say we want to see the latest Issues in this repo:
 
-### Folder blocks
+<Issues />
 
-| Folder | Block name | Description                               |
-| ---------- | ---------- | ----------------------------------------- |
-| Click on the repo name on the left sidebar    | Minimap    | A visualization of your folders and files |
+---
+
+By default, you can choose one of a set of [example Blocks](https://github.com/githubnext/blocks-examples) that we've created (when they're applicable to the viewed file type). To build on that, we've added a way for anyone to create their own custom Blocks! You can find a template and instructions in the [blocks-template repo](https://github.com/githubnext/blocks-template).
+
+We've populated this repo with different types of content to explore. Feel free to poke around by clicking files and folders in the left sidebar, and see what you find!
+
+For example, check out a visual representation of a CSS stylesheet in `global.css`, visualized data in `data.csv`, or a live Figma file in `figma.iframe`.
+
+Hopefully you can see how a flexible Blocks API allows for completely new ways of interacting with code. We've also created a basic folder Block that visualizes the contents of a folder - check it out by clicking the root folder of this repo, or on your own repos by searching in the top left.
 
 ## Commits and previous file versions
 
-You can use the commit history on the right sidebar to click through previous versions of a file. Each block should render a different view or state of the file throughout it's history.
-
-## Create your own custom blocks
-
-Hop on over to [blocks-template](https://github.com/githubnext/blocks-template) to learn how to create your own custom file and folder blocks.
-
-Also check out our [example blocks](https://github.com/githubnext/blocks-examples), created from the same template file above.
+We've also included the commit history for the file or folder you're viewing in the right sidebar. This is a great way to keep an eye on what's changed recently, plus you can click to surf through past versions of the code. This becomes very powerful, when combined with different visualizations of the code, instead of just the raw content.

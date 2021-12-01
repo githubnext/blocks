@@ -40,3 +40,9 @@ Hopefully you can see how a flexible Blocks API allows for completely new ways o
 ## Commits and previous file versions
 
 We've also included the commit history for the file or folder you're viewing in the right sidebar. This is a great way to keep an eye on what's changed recently, plus you can click to surf through past versions of the code. This becomes very powerful, when combined with different visualizations of the code, instead of just the raw content.
+
+## Block Metadata
+
+Allowing Blocks to store metadata per file/folder opens the concept up to many more use cases. For example, the Chart Block uses this to store an array of saved chart types to easily come back to later.
+
+We've added a `metadata` prop to the Block. This is a freeform prop that can be used to store any information you'd like. To update it, the Block can call the `onUpdateMetadata` prop with new metadata. This creates a commit that stores that data in `.github/blocks/file/` for File Blocks and `.github/blocks/folder/` for Folder Blocks. You can see some example metadata by poking around those folders in the left sidebar.

@@ -23,9 +23,9 @@ If you're reading this on `github-blocks.vercel.app`, you're looking at a Block 
 
 Try switching to the `code` Block and see the underlying code! Then come back to the Markdown Block, for easy reading.
 
-Since we have complete control over this content, we can render live data: say we want to see the latest Issues in this repo:
+Since we have complete control over this content, we can render live data: say we want to see the latest commits in this repo:
 
-<Issues />
+<Commits />
 
 ---
 

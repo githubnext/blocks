@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "rectangle",
-      "version": 246,
-      "versionNonce": 1188670182,
+      "version": 332,
+      "versionNonce": 1507084168,
       "isDeleted": false,
       "id": "Bac5x0VPce3R5AerRiU7w",
       "fillStyle": "hachure",
@@ -15,8 +15,8 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 767.6732177734375,
-      "y": 185.35540771484375,
+      "x": 423.5911865234375,
+      "y": 434.94915771484375,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
       "width": 185.09033203124997,
@@ -80,8 +80,8 @@
     },
     {
       "type": "arrow",
-      "version": 218,
-      "versionNonce": 827894329,
+      "version": 390,
+      "versionNonce": 233969288,
       "isDeleted": false,
       "id": "SvB312Cbu-FzKtdovta7n",
       "fillStyle": "hachure",
@@ -90,12 +90,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 842.2967502557715,
-      "y": 178.61968994140625,
+      "x": 584.5225596709853,
+      "y": 428.21343994140625,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 368.8549558265821,
-      "height": 52.262223275166576,
+      "width": 146.98565776088026,
+      "height": 239.22151900629612,
       "seed": 851149350,
       "groupIds": [],
       "strokeSharpness": "round",
@@ -119,15 +119,15 @@
           0
         ],
         [
-          -368.8549558265821,
-          -52.262223275166576
+          -146.98565776088026,
+          -239.22151900629612
         ]
       ]
     },
     {
       "type": "arrow",
-      "version": 209,
-      "versionNonce": 18414361,
+      "version": 381,
+      "versionNonce": 998114696,
       "isDeleted": false,
       "id": "MTaMtLzsMP09PiGcIlwyq",
       "fillStyle": "hachure",
@@ -136,12 +136,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 416.95033834088997,
-      "y": 214.07287495103697,
+      "x": 370.1314126513646,
+      "y": 220.44294766937742,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 339.16160013567253,
-      "height": 25.820755353532405,
+      "width": 71.35359396204905,
+      "height": 202.94493074859145,
       "seed": 1908390,
       "groupIds": [],
       "strokeSharpness": "round",
@@ -165,8 +165,8 @@
           0
         ],
         [
-          339.16160013567253,
-          25.820755353532405
+          71.35359396204905,
+          202.94493074859145
         ]
       ]
     },

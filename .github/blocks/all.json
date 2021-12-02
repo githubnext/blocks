@@ -11,7 +11,7 @@
   },
   ".github/blocks/all.json": {
     ".github/blocks/all.json": {
-      "default": "githubnext__blocks-examples__simple-poll-block"
+      "default": "githubnext__blocks-examples__code-block"
     }
   },
   ".github/blocks/file/githubnext__blocks-examples__react-feedback-block.json": {

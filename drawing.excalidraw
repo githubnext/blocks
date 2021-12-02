@@ -721,8 +721,8 @@
     },
     {
       "type": "line",
-      "version": 42,
-      "versionNonce": 911098415,
+      "version": 62,
+      "versionNonce": 327063884,
       "isDeleted": false,
       "id": "HbHeDNicb_L2SZbpmN7vA",
       "fillStyle": "hachure",
@@ -731,12 +731,12 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 29.621093750000007,
-      "y": 405.359375,
+      "x": 111.87076699959115,
+      "y": 542.3308685140125,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 83.5390625,
-      "height": 142.3125,
+      "width": 194.88704550040885,
+      "height": 256.70977476401254,
       "seed": 381734593,
       "groupIds": [],
       "strokeSharpness": "round",
@@ -752,8 +752,8 @@
           0
         ],
         [
-          83.5390625,
-          142.3125
+          194.88704550040885,
+          -256.70977476401254
         ]
       ]
     }

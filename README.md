@@ -25,7 +25,7 @@ We've created an app at: [github-blocks.vercel.app](https://github-blocks.vercel
 
 > 💡 If you're reading this on the app, you're looking at a Block right now! This is a Markdown Block that is rendering the content of the `README.md` file. 
 
-### Viewing different file Blocks
+### Viewing file Blocks
 
 You can switch which Block you're using in the dropdown menu in the top left of this window.
 

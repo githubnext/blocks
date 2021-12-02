@@ -33,7 +33,7 @@ We have Blocks for viewing 3D files, prettifying CSV and JSON files, iframe comp
 
 We've populated this repo with different types of content to explore. Feel free to poke around by clicking files and folders in the left sidebar, and see what you find!
 
-[GIF]
+![otherBlocks1](https://user-images.githubusercontent.com/8978670/144443697-ed57d444-8db2-4d34-80ec-ce474fe81c71.gif)
 
 You can find the code for all of these example Blocks in our [example Blocks repo](https://github.com/githubnext/blocks-examples)
 
@@ -55,7 +55,7 @@ We've also included the commit history for the file or folder you're viewing in 
 
 This is a great way to keep an eye on what's changed recently, plus you can click to surf through past versions of the code. This becomes very powerful, when combined with different visualizations of the code, instead of just the raw content.
 
-[GIF]
+![commits](https://user-images.githubusercontent.com/8978670/144443772-36c4f827-d09b-4b03-99cd-e20ecadcf813.gif)
 
 ### Viewing folder Blocks
 

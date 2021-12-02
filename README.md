@@ -19,7 +19,7 @@ Technically, a Block is React component that receives specific props and renders
 - **File Blocks** receive the contents of a file, and
 - **Folder Blocks** receive the structure of a folder.
 
-## How to view Blocks
+## Show me the Blocks demo! 
 
 We've created an app at: [github-blocks.vercel.app](https://github-blocks.vercel.app/) that let's you view your files and repositories with different Blocks. 
 
@@ -37,7 +37,15 @@ We've populated this repo with different types of content to explore. Feel free 
 
 You can find the code for all of these example Blocks in our [example Blocks repo](https://github.com/githubnext/blocks-examples)
 
-### Viewing live data
+### Viewing folder Blocks
+
+Folder blocks can help you visualize the contents of a folder, or work with the entire data of a folder. 
+
+Check out our example folder Block by [clicking the root folder of this repo](https://github-blocks.vercel.app/githubnext/blocks-tutorial), or on your own repos by searching in the top left.
+
+## Block features
+
+### View live data
 
 Since we have complete control over this content, we can render live data: say we want to see the latest commits in this repo:
 
@@ -49,19 +57,13 @@ The nice view of the commits above were generated with a custom component and on
 
 The code for this custom example component can be found [HERE](https://github.com/githubnext/blocks-examples/blob/main/src/blocks/file-blocks/live-markdown/index.tsx#L198). 
 
-### Viewing files changes over time
+### View changes over time
 
 We've also included the commit history for the file or folder you're viewing in the right sidebar. 
 
 This is a great way to keep an eye on what's changed recently, plus you can click to surf through past versions of the code. This becomes very powerful, when combined with different visualizations of the code, instead of just the raw content.
 
 ![commits](https://user-images.githubusercontent.com/8978670/144443772-36c4f827-d09b-4b03-99cd-e20ecadcf813.gif)
-
-### Viewing folder Blocks
-
-Folder blocks can help you visualize the contents of a folder, or work with the entire data of a folder. 
-
-Check out our example folder Block by [clicking the root folder of this repo](https://github-blocks.vercel.app/githubnext/blocks-tutorial), or on your own repos by searching in the top left.
 
 ### Blocks metadata
 

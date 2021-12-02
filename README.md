@@ -47,6 +47,8 @@ The nice view of the commits above were generated with a custom component and on
 
 `<Commits />`
 
+The code for this custom example component can be found [HERE](https://github.com/githubnext/blocks-examples/blob/main/src/blocks/file-blocks/live-markdown/index.tsx#L198). 
+
 ### Viewing files changes over time
 
 We've also included the commit history for the file or folder you're viewing in the right sidebar. 
@@ -74,5 +76,5 @@ Hopefully you can see how a flexible Blocks API allows for completely new ways o
 If you want to create your own custom Blocks then these repositories are setup to get you started:
 
 * [Blocks API](https://github.com/githubnext/blocks): Contains the API for building custom blocks
-* [Blocks template started project](https://github.com/githubnext/blocks-template): a repo that has been setup to be cloned and be used as a template for creating your own custom Blocks.
+* [Blocks template starter project](https://github.com/githubnext/blocks-template): a repo that has been setup to be cloned and be used as a template for creating your own custom Blocks.
 * [Blocks examples](https://github.com/githubnext/blocks-examples): a repo with example blocks we've built to showcase the API.       

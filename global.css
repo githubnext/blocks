@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
-  margin: 0;
+  margin: 50px;
   line-height: 1.6em;
   color: var(--text);
 

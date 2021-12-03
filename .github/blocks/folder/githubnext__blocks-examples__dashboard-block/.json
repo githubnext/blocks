@@ -13,33 +13,17 @@
       "path": ""
     },
     {
-      "path": "data.csv",
+      "path": "README.md",
       "block": {
         "type": "file",
-        "id": "flat-block",
-        "title": "Flat data block",
-        "description": "A block for flat data files",
-        "entry": "/src/blocks/file-blocks/flat.tsx",
+        "id": "markdown-block",
+        "title": "Markdown",
+        "description": "View markdown files. You can also view live repo into, using Issues, Releases, and Commits custom components, as well as live code examples with CodeSandbox.",
+        "entry": "/src/blocks/file-blocks/live-markdown/index.tsx",
         "extensions": [
-          "csv"
+          "md"
         ],
-        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/data.csv",
-        "owner": "githubnext",
-        "repo": "blocks-examples"
-      }
-    },
-    {
-      "path": "data.csv",
-      "block": {
-        "type": "file",
-        "id": "chart-block",
-        "title": "Chart block",
-        "description": "An interactive chart block",
-        "entry": "/src/blocks/file-blocks/charts/index.tsx",
-        "extensions": [
-          "csv"
-        ],
-        "example_path": "https://github.com/the-pudding/data/blob/master/pockets/measurements.csv",
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/README.md",
         "owner": "githubnext",
         "repo": "blocks-examples"
       }

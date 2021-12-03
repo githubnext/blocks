@@ -29,17 +29,17 @@
       }
     },
     {
-      "path": "slides.html",
+      "path": "data.csv",
       "block": {
         "type": "file",
-        "id": "html-block",
-        "title": "HTML block",
-        "description": "View HTML content",
-        "entry": "/src/blocks/file-blocks/html.tsx",
+        "id": "chart-block",
+        "title": "Chart block",
+        "description": "An interactive chart block",
+        "entry": "/src/blocks/file-blocks/charts/index.tsx",
         "extensions": [
-          "html"
+          "csv"
         ],
-        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/photos.html",
+        "example_path": "https://github.com/the-pudding/data/blob/master/pockets/measurements.csv",
         "owner": "githubnext",
         "repo": "blocks-examples"
       }

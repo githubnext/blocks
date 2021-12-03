@@ -27,6 +27,22 @@
         "owner": "githubnext",
         "repo": "blocks-examples"
       }
+    },
+    {
+      "path": "slides.html",
+      "block": {
+        "type": "file",
+        "id": "html-block",
+        "title": "HTML block",
+        "description": "View HTML content",
+        "entry": "/src/blocks/file-blocks/html.tsx",
+        "extensions": [
+          "html"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/photos.html",
+        "owner": "githubnext",
+        "repo": "blocks-examples"
+      }
     }
   ]
 }

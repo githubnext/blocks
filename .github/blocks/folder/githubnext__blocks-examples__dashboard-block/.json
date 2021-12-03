@@ -11,6 +11,22 @@
         "repo": "blocks-examples"
       },
       "path": ""
+    },
+    {
+      "path": "data.csv",
+      "block": {
+        "type": "file",
+        "id": "flat-block",
+        "title": "Flat data block",
+        "description": "A block for flat data files",
+        "entry": "/src/blocks/file-blocks/flat.tsx",
+        "extensions": [
+          "csv"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/data.csv",
+        "owner": "githubnext",
+        "repo": "blocks-examples"
+      }
     }
   ]
 }

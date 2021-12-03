@@ -1,0 +1,16 @@
+{
+  "blocks": [
+    {
+      "block": {
+        "type": "folder",
+        "id": "minimap-block",
+        "title": "Minimap",
+        "description": "A visualization of your folders and files",
+        "entry": "/src/blocks/folder-blocks/minimap/index.tsx",
+        "owner": "githubnext",
+        "repo": "blocks-examples"
+      },
+      "path": ""
+    }
+  ]
+}

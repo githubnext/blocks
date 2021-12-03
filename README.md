@@ -80,3 +80,4 @@ If you want to create your own custom Blocks then these repositories are setup t
 * [Blocks API](https://github.com/githubnext/blocks): Contains the API for building custom blocks
 * [Blocks template starter project](https://github.com/githubnext/blocks-template): a repo that has been setup to be cloned and be used as a template for creating your own custom Blocks.
 * [Blocks examples](https://github.com/githubnext/blocks-examples): a repo with example blocks we've built to showcase the API.       
+* [Blocks utility library](https://github.com/githubnext/utils): a set of helper functions for writing custom blocks

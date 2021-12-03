@@ -1,6 +1,5 @@
 {
   "configs": [
-    "id, date, area",
     "id, count, area"
   ]
 }

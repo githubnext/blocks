@@ -1,6 +1,5 @@
 {
   "configs": [
-    "id, height, area",
     "id, score, area",
     "id, date, area"
   ]

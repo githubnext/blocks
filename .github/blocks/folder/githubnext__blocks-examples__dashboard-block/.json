@@ -32,14 +32,14 @@
       "path": "data.csv",
       "block": {
         "type": "file",
-        "id": "flat-block",
-        "title": "Flat data block",
-        "description": "A block for flat data files",
-        "entry": "/src/blocks/file-blocks/flat.tsx",
+        "id": "chart-block",
+        "title": "Chart block",
+        "description": "An interactive chart block",
+        "entry": "/src/blocks/file-blocks/charts/index.tsx",
         "extensions": [
           "csv"
         ],
-        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/data.csv",
+        "example_path": "https://github.com/the-pudding/data/blob/master/pockets/measurements.csv",
         "owner": "githubnext",
         "repo": "blocks-examples"
       }

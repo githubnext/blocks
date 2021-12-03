@@ -1,5 +1,6 @@
 {
   "configs": [
+    "id, score, area",
     "id, date, area"
   ]
 }

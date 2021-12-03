@@ -27,6 +27,22 @@
         "owner": "githubnext",
         "repo": "blocks-examples"
       }
+    },
+    {
+      "path": "global.css",
+      "block": {
+        "type": "file",
+        "id": "css-block",
+        "title": "CSS block",
+        "description": "View selectors in a css file",
+        "entry": "/src/blocks/file-blocks/css.tsx",
+        "extensions": [
+          "css"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/global.css",
+        "owner": "githubnext",
+        "repo": "blocks-examples"
+      }
     }
   ]
 }

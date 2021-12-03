@@ -23,5 +23,8 @@
     ".github/blocks/file/githubnext__blocks-examples__chart-block.json": {
       "default": "githubnext__blocks-examples__code-block"
     }
+  },
+  "": {
+    "default": "githubnext__blocks-examples__dashboard-block"
   }
 }

@@ -26,5 +26,8 @@
   },
   "": {
     "default": "githubnext__blocks-examples__minimap-block"
+  },
+  "global.css": {
+    "default": "githubnext__blocks-examples__code-block"
   }
 }

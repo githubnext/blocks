@@ -18,6 +18,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Borders",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "x": 90.88098918083463,
+            "y": 14.0625,
+            "width": 0,
+            "height": 0,
+            "type": "POINT"
+          },
+          "data": {
+            "text": "Rounded borders are so 90s",
+            "id": 0.6831403622590657
+          }
+        }
+      ]
     }
   ]
 }

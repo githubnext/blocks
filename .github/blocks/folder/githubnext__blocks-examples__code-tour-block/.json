@@ -1,0 +1,21 @@
+{
+  "tours": [
+    {
+      "name": "Demo",
+      "steps": [
+        {
+          "name": "This is where we set the default text color",
+          "description": "",
+          "path": "global.css",
+          "query": "6"
+        },
+        {
+          "name": "The slide deck takes up the full height",
+          "description": "",
+          "path": "slides.html",
+          "query": "5"
+        }
+      ]
+    }
+  ]
+}

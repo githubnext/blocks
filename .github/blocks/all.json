@@ -29,5 +29,8 @@
   },
   "global.css": {
     "default": "githubnext__blocks-examples__css-block"
+  },
+  "queries.json": {
+    "default": "githubnext__blocks-examples__sentence-encoder"
   }
 }

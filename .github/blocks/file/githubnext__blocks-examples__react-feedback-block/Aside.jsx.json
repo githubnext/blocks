@@ -37,6 +37,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Monday feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "x": 13.942307692307693,
+            "y": 9.5703125,
+            "width": 0,
+            "height": 0,
+            "type": "POINT"
+          },
+          "data": {
+            "text": "Can these be red?",
+            "id": 0.9342715441993286
+          }
+        }
+      ]
     }
   ]
 }

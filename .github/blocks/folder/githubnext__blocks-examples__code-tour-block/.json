@@ -10,6 +10,23 @@
           "query": ""
         }
       ]
+    },
+    {
+      "name": "test",
+      "steps": [
+        {
+          "name": "New step",
+          "description": "",
+          "path": ".github/blocks/all.json",
+          "query": ""
+        },
+        {
+          "name": "Step 2",
+          "description": "",
+          "path": "README.md",
+          "query": "65"
+        }
+      ]
     }
   ]
 }

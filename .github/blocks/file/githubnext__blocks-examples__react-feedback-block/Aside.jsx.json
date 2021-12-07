@@ -1,0 +1,23 @@
+{
+  "saved": [
+    {
+      "title": "Idan's Feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 17.619783616692427,
+            "y": 8.7890625,
+            "width": 19.319938176197834,
+            "height": 17.1875
+          },
+          "data": {
+            "text": "This part is dope!",
+            "id": 0.47004219146841253
+          }
+        }
+      ]
+    }
+  ]
+}

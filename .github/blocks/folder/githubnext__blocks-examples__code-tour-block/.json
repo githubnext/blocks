@@ -1,0 +1,15 @@
+{
+  "tours": [
+    {
+      "name": "new",
+      "steps": [
+        {
+          "name": "New step",
+          "description": "",
+          "path": ".github/blocks/all.json",
+          "query": ""
+        }
+      ]
+    }
+  ]
+}

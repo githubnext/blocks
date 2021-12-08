@@ -56,6 +56,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Irene's color comments",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "x": 37.17105263157895,
+            "y": 3.125,
+            "width": 0,
+            "height": 0,
+            "type": "POINT"
+          },
+          "data": {
+            "text": "I love these colors",
+            "id": 0.11986719138210167
+          }
+        }
+      ]
     }
   ]
 }

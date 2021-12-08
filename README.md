@@ -49,7 +49,7 @@ Check out our example folder Block by [clicking the root folder of this repo](ht
 
 Since we have complete control over this content, we can render live data: say we want to see the latest commits in this repo:
 
-<Commits />
+<Commits num={3} />
 
 The nice view of the commits above were generated with a custom component and one line of text in this markdown file:
 

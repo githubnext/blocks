@@ -75,6 +75,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Idan's changes today",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "x": 66.46241992599371,
+            "y": 8.3984375,
+            "width": 0,
+            "height": 0,
+            "type": "POINT"
+          },
+          "data": {
+            "text": "Make these red?",
+            "id": 0.6559105401206973
+          }
+        }
+      ]
     }
   ]
 }

@@ -94,6 +94,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Friday Feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 39.960629921259844,
+            "y": 16.2109375,
+            "width": 0.19685039370078528,
+            "height": 0
+          },
+          "data": {
+            "text": "I like this component but make it red",
+            "id": 0.5553218497481576
+          }
+        }
+      ]
     }
   ]
 }

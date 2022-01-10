@@ -1,3 +1,6 @@
 {
-  "configs": []
+  "configs": [
+    "date, count, area",
+    "score, height, scatter"
+  ]
 }

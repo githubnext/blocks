@@ -113,6 +113,38 @@
           }
         }
       ]
+    },
+    {
+      "title": "Idan's new feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 11.632453567937437,
+            "y": 7.751937984496124,
+            "width": 11.339198435972628,
+            "height": 12.209302325581394
+          },
+          "data": {
+            "text": "I like this",
+            "id": 0.636887441772918
+          }
+        },
+        {
+          "geometry": {
+            "x": 95.99217986314761,
+            "y": 8.527131782945736,
+            "width": 0,
+            "height": 0,
+            "type": "POINT"
+          },
+          "data": {
+            "text": "Can this be red?",
+            "id": 0.9781573439616258
+          }
+        }
+      ]
     }
   ]
 }

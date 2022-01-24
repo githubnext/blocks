@@ -145,6 +145,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "lostintangent feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 10.07294220729545,
+            "y": 10.465116279069768,
+            "width": 22.0562700056297,
+            "height": 13.17829457364341
+          },
+          "data": {
+            "text": "I like this",
+            "id": 0.951435404075192
+          }
+        }
+      ]
     }
   ]
 }

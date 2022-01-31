@@ -164,6 +164,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Security feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "x": 23.64924648209236,
+            "y": 9.496124031007753,
+            "width": 0,
+            "height": 0,
+            "type": "POINT"
+          },
+          "data": {
+            "text": "I love this thing",
+            "id": 0.11666914387233263
+          }
+        }
+      ]
     }
   ]
 }

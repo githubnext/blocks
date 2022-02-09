@@ -1,0 +1,222 @@
+{
+  "name": "custom-block-template",
+  "version": "0.0.0",
+  "watch": {
+    "build-blocks": {
+      "patterns": ["src"],
+      "extensions": "js,jsx,ts,tsx,css"
+    }
+  },
+  "scripts": {
+    "watch": "npm-watch",
+    "dev": "concurrently --kill-others \"npm run local\" \"npm run watch\"",
+    "local": "vite --port 4000",
+    "build": "tsc && vite build",
+    "build-blocks": "node ./build.ts",
+    "serve": "vite preview"
+  },
+  "blocks": [
+    {
+      "type": "file",
+      "id": "code-block",
+      "title": "Code block",
+      "description": "A basic code block",
+      "entry": "/src/blocks/file-blocks/code/index.tsx",
+      "extensions": ["*"],
+      "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/Aside.jsx"
+    },
+    {
+      "type": "file",
+      "id": "excalidraw-block",
+      "title": "Drawing block",
+      "description": "A whiteboard tool",
+      "entry": "/src/blocks/file-blocks/excalidraw.tsx",
+      "extensions": ["excalidraw"],
+      "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/drawing.excalidraw"
+    },
+    {
+      "type": "file",
+      "id": "html-block",
+      "title": "HTML block",
+      "description": "View HTML content",
+      "entry": "/src/blocks/file-blocks/html.tsx",
+      "extensions": ["html", "svelte"],
+      "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/photos.html"
+    },
+    {
+      "type": "file",
+      "id": "css-block",
+      "title": "CSS block",
+      "description": "View selectors in a css file",
+      "entry": "/src/blocks/file-blocks/css.tsx",
+      "extensions": ["css"],
+      "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/global.css"
+    },
+    {
+      "type": "file",
+      "id": "image-block",
+      "title": "Image block",
+      "description": "View images",
+      "entry": "/src/blocks/file-blocks/image.tsx",
+      "extensions": ["png", "jpg", "jpeg", "gif", "svg"],
+      "example_path": "https://github.com/pmndrs/react-spring/blob/HEAD/assets/projects/aragon.png?raw=true"
+    },
+    {
+      "type": "file",
+      "id": "json-block",
+      "title": "Object explorer",
+      "description": "An interactive view of JSON objects",
+      "entry": "/src/blocks/file-blocks/json.tsx",
+      "extensions": ["json", "webmanifest", "prettierrc", "yaml", "yml"],
+      "example_path": "https://github.com/d3/d3-geo/blob/main/package.json"
+    },
+    {
+      "type": "file",
+      "id": "3d-model-block",
+      "title": "3D block",
+      "description": "A block for 3d files",
+      "entry": "/src/blocks/file-blocks/3d-files.tsx",
+      "extensions": ["gltf", "glb"],
+      "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/avocado.glb"
+    },
+    {
+      "type": "file",
+      "id": "flat-block",
+      "title": "Flat data block",
+      "description": "A block for flat data files",
+      "entry": "/src/blocks/file-blocks/flat.tsx",
+      "extensions": ["csv"],
+      "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/data.csv"
+    },
+    {
+      "type": "file",
+      "id": "simple-poll-block",
+      "title": "Poll block",
+      "description": "View simple polls beautifully",
+      "entry": "/src/blocks/file-blocks/poll.tsx",
+      "extensions": ["json"],
+      "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/poll.json"
+    },
+    {
+      "type": "file",
+      "id": "chart-block",
+      "title": "Chart block",
+      "description": "An interactive chart block",
+      "entry": "/src/blocks/file-blocks/charts/index.tsx",
+      "extensions": ["csv"],
+      "example_path": "https://github.com/the-pudding/data/blob/master/pockets/measurements.csv"
+    },
+    {
+      "type": "file",
+      "id": "markdown-block",
+      "title": "Markdown",
+      "description": "View markdown files. You can also view live repo into, using Issues, Releases, and Commits custom components, as well as live code examples with CodeSandbox.",
+      "entry": "/src/blocks/file-blocks/live-markdown/index.tsx",
+      "extensions": ["md", "mdx"],
+      "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/README.md"
+    },
+    {
+      "type": "file",
+      "id": "react-feedback-block",
+      "title": "React component feedback",
+      "description": "Give feedback on a React component",
+      "entry": "/src/blocks/file-blocks/annotate-react/index.tsx",
+      "extensions": ["jsx", "tsx"],
+      "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/Aside.jsx"
+    },
+    {
+      "type": "folder",
+      "id": "homepage",
+      "title": "Homepage",
+      "description": "The homepage of your repo",
+      "entry": "/src/blocks/folder-blocks/homepage/index.tsx",
+      "example_path": "https://github.com/wattenberger/kumiko"
+    },
+    {
+      "type": "folder",
+      "id": "minimap-block",
+      "title": "Minimap",
+      "description": "A visualization of your folders and files",
+      "entry": "/src/blocks/folder-blocks/minimap/index.tsx",
+      "example_path": "https://github.com/githubnext/blocks-tutorial"
+    },
+    {
+      "type": "folder",
+      "id": "dashboard-block",
+      "title": "Dashboard",
+      "description": "A dashboard of Blocks",
+      "entry": "/src/blocks/folder-blocks/dashboard/index.tsx",
+      "example_path": "https://github.com/githubnext/blocks-tutorial"
+    },
+    {
+      "type": "folder",
+      "id": "code-tour-block",
+      "title": "Code Tour",
+      "description": "Create documented tours of your code",
+      "entry": "/src/blocks/folder-blocks/code-tour/index.tsx",
+      "example_path": "https://github.com/githubnext/blocks-tutorial"
+    }
+  ],
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.10.0",
+    "@fullstackio/cq": "^6.0.9",
+    "@fullstackio/remark-cq": "^6.1.2",
+    "@githubnext/utils": "^0.12.3",
+    "@githubocto/flat-ui": "^0.13.5",
+    "@loadable/component": "^5.15.0",
+    "@mdx-js/runtime": "^1.6.22",
+    "@octokit/rest": "^18.12.0",
+    "@primer/components": "^31.1.0",
+    "@react-three/drei": "^7.20.5",
+    "@react-three/fiber": "^7.0.19",
+    "@types/d3": "^7.1.0",
+    "@types/js-yaml": "^4.0.5",
+    "@types/lz-string": "^1.3.34",
+    "@types/papaparse": "^5.3.1",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "chroma-js": "^2.1.2",
+    "cssjson": "^2.1.3",
+    "d3": "^7.1.1",
+    "dompurify": "^2.3.3",
+    "git-url-parse": "^11.6.0",
+    "js-base64": "^3.7.2",
+    "js-yaml": "^4.1.0",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isobject": "^3.0.2",
+    "lz-string": "^1.4.4",
+    "papaparse": "^5.3.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-error-boundary": "^3.1.4",
+    "react-image-annotation": "^0.9.10",
+    "react-json-editor-ajrm": "^2.5.13",
+    "react-json-view": "^1.21.3",
+    "react-query": "^3.32.1",
+    "react-select": "^5.2.1",
+    "react-syntax-highlighter": "^15.4.4",
+    "react-use": "^17.3.1",
+    "recharts": "^2.1.6",
+    "styled-components": "^5.3.3",
+    "three": "^0.134.0"
+  },
+  "resolutions": {
+    "react": "17.0.0",
+    "react-dom": "17.0.0"
+  },
+  "devDependencies": {
+    "@types/git-url-parse": "^9.0.1",
+    "@types/lodash": "^4.14.176",
+    "@types/parse-github-url": "^1.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-syntax-highlighter": "^13.5.2",
+    "@types/three": "^0.134.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "concurrently": "^6.4.0",
+    "esbuild": "^0.13.14",
+    "npm-watch": "^0.11.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
+  }
+}

@@ -183,6 +183,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "asdasdads",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 19.25777273049089,
+            "y": 10.852713178294573,
+            "width": 26.178534805511052,
+            "height": 12.98449612403101
+          },
+          "data": {
+            "text": "asdasdasd",
+            "id": 0.9631841615693313
+          }
+        }
+      ]
     }
   ]
 }

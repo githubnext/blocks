@@ -16,6 +16,23 @@
           "query": "5"
         }
       ]
+    },
+    {
+      "name": "block tour",
+      "steps": [
+        {
+          "name": "code block",
+          "description": "",
+          "path": ".github/blocks/all.json",
+          "query": "13-16"
+        },
+        {
+          "name": "chart block",
+          "description": "",
+          "path": ".github/blocks/all.json",
+          "query": "23-26"
+        }
+      ]
     }
   ]
 }

@@ -221,6 +221,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Customer feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 4.2355787060190355,
+            "y": 16.875,
+            "width": 20.371116633710592,
+            "height": 38.75
+          },
+          "data": {
+            "text": "sdfasdfasdf",
+            "id": 0.7772675427219693
+          }
+        }
+      ]
     }
   ]
 }

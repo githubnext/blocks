@@ -240,6 +240,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Marketing feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 11.47733899306547,
+            "y": 23.125,
+            "width": 20.011770552011583,
+            "height": 36.25
+          },
+          "data": {
+            "text": "This is dope",
+            "id": 0.0883772843396693
+          }
+        }
+      ]
     }
   ]
 }

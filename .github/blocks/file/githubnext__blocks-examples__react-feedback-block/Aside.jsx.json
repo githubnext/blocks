@@ -259,6 +259,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Naytri",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 8.828722302358052,
+            "y": 21.25,
+            "width": 37.37492441331576,
+            "height": 43.75
+          },
+          "data": {
+            "text": "This iasdoijas;lk asdhjf sdf",
+            "id": 0.14314772578555734
+          }
+        }
+      ]
     }
   ]
 }

@@ -21,7 +21,7 @@ Technically, a Block is React component that receives specific props and renders
 
 ## Show me the Blocks demo!
 
-We've created an app at: [next-devex-blocks.azurewebsites.net/](https://next-devex-blocks.azurewebsites.net/) that lets you view your files and repositories with different Blocks.
+We've created an app at: [next-devex-blocks.azurewebsites.net](https://next-devex-blocks.azurewebsites.net/) that lets you view your files and repositories with different Blocks.
 
 > 💡 If you're reading this on the app, you're looking at a Block right now! This is a Markdown Block that is rendering the content of the `README.md` file.
 

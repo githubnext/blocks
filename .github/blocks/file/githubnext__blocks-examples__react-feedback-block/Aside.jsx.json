@@ -297,6 +297,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "New feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 5.865102639296188,
+            "y": 11.875,
+            "width": 20.625610948191593,
+            "height": 61.875
+          },
+          "data": {
+            "text": "Hey this is dope",
+            "id": 0.42949024821288706
+          }
+        }
+      ]
     }
   ]
 }

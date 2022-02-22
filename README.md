@@ -8,7 +8,7 @@ Instead of feeling like a storage locker for code, can we bring that content to 
 
 This sounds like a lot of work to build, right? With such an enthusiastic & active community, GitHub could build a flexible API that allows users to take control, and help with building out any use case.
 
-In our exploration we've created a first version of this API that let's anyone create their own custom Blocks.
+In our exploration we've created a first version of this API that lets anyone create their own custom Blocks.
 
 ## What is a Block?
 
@@ -21,7 +21,7 @@ Technically, a Block is React component that receives specific props and renders
 
 ## Show me the Blocks demo!
 
-We've created an app at: [github-blocks.vercel.app](https://github-blocks.vercel.app/) that let's you view your files and repositories with different Blocks.
+We've created an app at: [next-devex-blocks.azurewebsites.net/](https://next-devex-blocks.azurewebsites.net/) that lets you view your files and repositories with different Blocks.
 
 > 💡 If you're reading this on the app, you're looking at a Block right now! This is a Markdown Block that is rendering the content of the `README.md` file.
 
@@ -41,7 +41,7 @@ You can find the code for all of these example Blocks in our [example Blocks rep
 
 Folder blocks can help you visualize the contents of a folder, or work with the entire data of a folder.
 
-Check out our example folder Block by [clicking the root folder of this repo](https://github-blocks.vercel.app/githubnext/blocks-tutorial), or on your own repos by searching in the top left.
+Check out our example folder Block by [clicking the root folder of this repo](https://next-devex-blocks.azurewebsites.net/githubnext/blocks-tutorial), or on your own repos by searching in the top left.
 
 ## Block features
 

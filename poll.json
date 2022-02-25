@@ -2,12 +2,12 @@
 	"poll": "What's your favorite tool?",
 	"options": [{
 		"text": "Next",
-		"votes": []
+		"votes": 11
 	}, {
 		"text": "Firebase",
-		"votes": []
+		"votes": 23
 	}, {
 		"text": "Azure",
-		"votes": []
+		"votes": 4
 	}]
 }

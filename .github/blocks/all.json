@@ -41,6 +41,6 @@
     "default": "jaked__mermaid-block__mermaid-block"
   },
   "Aside.jsx": {
-    "default": "githubnext__blocks-examples__react-feedback-block"
+    "default": "githubnext__blocks-examples__code-block"
   }
 }

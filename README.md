@@ -25,6 +25,8 @@ We've created an app at: [blocks.githubnext.com](https://blocks.githubnext.com/)
 
 > 💡 If you're reading this on the app, you're looking at a Block right now! This is a Markdown Block that is rendering the content of the `README.md` file.
 
+> 👀 You can also take a look at all of our example blocks by going to the [Blocks Marketplace](https://blocks-marketplace.githubnext.com/)!
+
 ### Viewing file Blocks
 
 You can switch which Block you're using in the dropdown menu in the top left of this window.

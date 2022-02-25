@@ -2,7 +2,6 @@
   "configs": [
     "date, count, area",
     "score, height, scatter",
-    "name, count, scatter",
     "height, count, scatter"
   ]
 }

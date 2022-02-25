@@ -21,7 +21,7 @@ Technically, a Block is React component that receives specific props and renders
 
 ## Show me the Blocks demo!
 
-We've created an app at: [next-devex-blocks.azurewebsites.net](https://next-devex-blocks.azurewebsites.net/) that lets you view your files and repositories with different Blocks.
+We've created an app at: [blocks.githubnext.com](https://blocks.githubnext.com/) that lets you view your files and repositories with different Blocks.
 
 > 💡 If you're reading this on the app, you're looking at a Block right now! This is a Markdown Block that is rendering the content of the `README.md` file.
 
@@ -41,7 +41,7 @@ You can find the code for all of these example Blocks in our [example Blocks rep
 
 Folder blocks can help you visualize the contents of a folder, or work with the entire data of a folder.
 
-Check out our example folder Block by [clicking the root folder of this repo](https://next-devex-blocks.azurewebsites.net/githubnext/blocks-tutorial), or on your own repos by searching in the top left.
+Check out our example folder Block by [clicking the root folder of this repo](https://blocks.githubnext.com/githubnext/blocks-tutorial), or on your own repos by searching in the top left.
 
 ## Block features
 

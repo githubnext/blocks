@@ -83,7 +83,7 @@ We've added a `metadata` prop to the Block. This is a freeform prop that can be 
 
 Hopefully you can see how a flexible Blocks API allows for completely new ways of interacting with code. The following section gives a high-level sense of the Blocks API and other resources for creating your own custom Block. 
 
-We also recommend you get started by going through our custom block tutorial in the `[blocks-template](https://github.com/githubnext/blocks-template)` repo.
+We also recommend you get started by going through our custom block tutorial in the [`blocks-template`](https://github.com/githubnext/blocks-template) repo.
 
 ### GitHub Blocks API
 
@@ -146,14 +146,6 @@ A few caveats and callouts:
 
 ### Other Relevant repos
 
-[Blocks examples](https://github.com/githubnext/blocks-examples)
-
-Example blocks that we've built to showcase the API.
-
-[Blocks template starter project](https://github.com/githubnext/blocks-template)
-
-A template and tutorial for creating your own custom Blocks.
-
-[Blocks utility library](https://github.com/githubnext/utils)
-
-To reduce the cognitive load associated with writing file and folder Block components, we've assembled a helper library called `@githunext/utils` that exposes interface definitions and a few helper functions. This list will undoubtedly change over time, so be sure to check out [the repository page](https://github.com/githubnext/utils) for more detail.
+* [Blocks examples](https://github.com/githubnext/blocks-examples): Example blocks that we've built to showcase the API.
+* [Blocks template starter project](https://github.com/githubnext/blocks-template): A template and tutorial for creating your own custom Blocks.
+* [Blocks utility library](https://github.com/githubnext/utils): To reduce the cognitive load associated with writing file and folder Block components, we've assembled a helper library called `@githunext/utils` that exposes interface definitions and a few helper functions. This list will undoubtedly change over time, so be sure to check out [the repository page](https://github.com/githubnext/utils) for more detail.

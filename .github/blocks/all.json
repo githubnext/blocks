@@ -36,5 +36,8 @@
   },
   "processing-sketch.js": {
     "default": "githubnext__blocks-examples__processing"
+  },
+  "Diagram.mermaid": {
+    "default": "jaked__mermaid-block__mermaid-block"
   }
 }

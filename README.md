@@ -1,4 +1,4 @@
-# GitHub Blocks Tutorial
+# GitHub Blocks Docs and Tutorial
 
 GitHub Blocks is an exploration of the question:
 
@@ -8,7 +8,9 @@ Instead of feeling like a storage locker for code, can we bring that content to 
 
 This sounds like a lot of work to build, right? With such an enthusiastic & active community, GitHub could build a flexible API that allows users to take control, and help with building out any use case.
 
-In our exploration we've created a first version of this API that lets anyone create their own custom Blocks.
+In our exploration we've created a first version of this API that let's anyone create their own custom Blocks.
+
+> 🚀🚀🚀 Check out the Demo: [blocks.githubnext.com](https://blocks.githubnext.com/)
 
 ## What is a Block?
 
@@ -73,13 +75,85 @@ Allowing Blocks to store metadata per file/folder opens the concept up to many m
 
 We've added a `metadata` prop to the Block. This is a freeform prop that can be used to store any information you'd like. To update it, the Block can call the `onUpdateMetadata` prop with new metadata. This creates a commit that stores that data in `.github/blocks/file/` for File Blocks and `.github/blocks/folder/` for Folder Blocks. You can see some example metadata by poking around those folders in the left sidebar.
 
+---
+
 ## Create your own custom Blocks
 
-Hopefully you can see how a flexible Blocks API allows for completely new ways of interacting with code.
+> 📣 Read this if you're a GitHub user interested in building your own custom Blocks!
 
-If you want to create your own custom Blocks then these repositories are setup to get you started:
+Hopefully you can see how a flexible Blocks API allows for completely new ways of interacting with code. The following section gives a high-level sense of the Blocks API and other resources for creating your own custom Block. 
 
-- [Blocks API](https://github.com/githubnext/blocks): Contains the API for building custom blocks
-- [Blocks template starter project](https://github.com/githubnext/blocks-template): a repo that has been setup to be cloned and be used as a template for creating your own custom Blocks.
-- [Blocks examples](https://github.com/githubnext/blocks-examples): a repo with example blocks we've built to showcase the API.
-- [Blocks utility library](https://github.com/githubnext/utils): a set of helper functions for writing custom blocks
+We also recommend you get started by going through our custom block tutorial in the `[blocks-template](https://github.com/githubnext/blocks-template)` repo.
+
+### GitHub Blocks API
+
+Recall there are two type of Blocks: File Blocks and Folder Blocks. Their API is largely the same, receiving the following props:
+
+```ts
+interface BlockProps {
+  block: {
+    id: string;
+    type: string;
+    title: string;
+    description: string;
+    entry: string;
+    extensions?: string[];
+  };
+  context: {
+    path: string;
+    file: string;
+    repo: string;
+    owner: string;
+    sha: string;
+  };
+  metadata: any;
+
+  // callback functions
+  onUpdateMetadata: (
+    newMetadata: any,
+    path: string,
+    block: Block,
+    currentMetadata: any
+  ) => void;
+  onRequestUpdateContent: (newContent: string) => void;
+  onRequestGitHubData: (type: string, config: any, id: string) => Promise<any>;
+  onNavigateToPath: (path: string) => void;
+
+  // if a File Block
+  content: string;
+
+  // if a Folder Block
+  tree: {
+    path?: string;
+    mode?: string;
+    type?: string;
+    sha?: string;
+    size?: number;
+    url?: string;
+  }[];
+}
+```
+
+For simple use cases, the `content` (the content of the file) or `tree` (a list of the contained files & folders) prop will be the most useful, with info about the file or folder the user is looking at on the GitHub Blocks UI. But if you need additional context (such as the path to the file or the owner/repo in which the file lives), you can access it via the handy `context` prop.
+
+`metadata` is a free-form prop that can be used to store arbitrary data about the file. It's up to you to decide what you want to store in this object: anywhere from definitions of data visualizations in a charts Block to annotations for a code Block. This is unique per file/folder per Block and stored within a [`.github/blocks/file/`](https://github.com/githubnext/blocks-tutorial/tree/main/.github/blocks) folder within the viewed repo. To update the metadata, you can call the `onUpdateMetadata` prop with the updated data, which creates a new commit on the repo.
+
+A few caveats and callouts:
+
+- Blocks have access to [GitHub Primer CSS styles](https://primer.style/css/) and Tailwind by default.
+- You can use both third-party _and_ relative imports in your Block code! Simply put, feel free to install any dependencies from NPM, or import a local JS/CSS file and it should be included in the final bundle.
+- Your Block entry file **must have the Block component as its default export**. If it does not, bad things will happen.
+
+### Other Relevant repos
+
+[Blocks examples](https://github.com/githubnext/blocks-examples)
+
+Example blocks that we've built to showcase the API.
+
+[Blocks template starter project](https://github.com/githubnext/blocks-template)
+
+A template and tutorial for creating your own custom Blocks.
+
+[Blocks utility library](https://github.com/githubnext/utils)
+
+To reduce the cognitive load associated with writing file and folder Block components, we've assembled a helper library called `@githunext/utils` that exposes interface definitions and a few helper functions. This list will undoubtedly change over time, so be sure to check out [the repository page](https://github.com/githubnext/utils) for more detail.

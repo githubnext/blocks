@@ -83,7 +83,7 @@ We've added a `metadata` prop to the Block. This is a freeform prop that can be 
 
 Hopefully you can see how a flexible Blocks API allows for completely new ways of interacting with code. The following section gives a high-level sense of the Blocks API and other resources for creating your own custom Block. 
 
-We also recommend you get started by going through our custom block tutorial in the <a href="https://github.com/githubnext/blocks-template" target="_blank">blocks-template</a> repo.
+We also recommend you get started by going through our custom block tutorial in the <a href="https://github.com/githubnext/blocks-template" target="_blank">`blocks-template`</a> repo.
 
 ### GitHub Blocks API
 

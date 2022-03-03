@@ -316,6 +316,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Matt's feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "OVAL",
+            "x": 51.66340508806262,
+            "y": 30.126953125,
+            "width": 15.851272015655582,
+            "height": 35
+          },
+          "data": {
+            "text": "Cool color",
+            "id": 0.7451252969886035
+          }
+        }
+      ]
     }
   ]
 }

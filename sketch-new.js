@@ -1,5 +1,6 @@
 let x = 100;
 let y = 100;
+console.log("p5 test");
 
 function setup() {
   createCanvas(400, 400);

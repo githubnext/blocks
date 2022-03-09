@@ -335,6 +335,38 @@
           }
         }
       ]
+    },
+    {
+      "title": "Idan's feedback session",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 7.18893968776216,
+            "y": 22.00519561767578,
+            "width": 23.77880050567483,
+            "height": 55
+          },
+          "data": {
+            "text": "Make it red",
+            "id": 0.4524196005607486
+          }
+        },
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 80.73732264717502,
+            "y": 28.88019561767578,
+            "width": 7.741935048359238,
+            "height": 19.375
+          },
+          "data": {
+            "text": "Less round",
+            "id": 0.596074325874087
+          }
+        }
+      ]
     }
   ]
 }

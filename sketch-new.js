@@ -3,7 +3,8 @@ let y = 100;
 console.log("p5 test");
 
 function setup() {
-  createCanvas(400, 400);
+  const myCanvas = createCanvas(400, 400);
+  console.log(myCanvas);
   background(0);
 }
 

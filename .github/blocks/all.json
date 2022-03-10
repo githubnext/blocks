@@ -32,7 +32,7 @@
     "default": "githubnext__blocks-examples__css-block"
   },
   "queries.json": {
-    "default": "githubnext__blocks-examples__sentence-encoder"
+    "default": "githubnext__blocks-examples__sentence-encoder-block"
   },
   "processing-sketch.js": {
     "default": "githubnext__blocks-examples__processing-block"

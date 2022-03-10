@@ -35,7 +35,7 @@
     "default": "githubnext__blocks-examples__sentence-encoder"
   },
   "processing-sketch.js": {
-    "default": "githubnext__blocks-examples__processing"
+    "default": "githubnext__blocks-examples__processing-block"
   },
   "Diagram.mermaid": {
     "default": "jaked__mermaid-block__mermaid-block"

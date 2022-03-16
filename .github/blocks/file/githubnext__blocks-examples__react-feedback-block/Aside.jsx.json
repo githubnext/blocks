@@ -367,6 +367,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "sdafasdfasdf",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 5.391911967500654,
+            "y": 21.25,
+            "width": 19.770343880835732,
+            "height": 60
+          },
+          "data": {
+            "text": "sadfasdfasdf",
+            "id": 0.10673908224618622
+          }
+        }
+      ]
     }
   ]
 }

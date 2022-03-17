@@ -894,6 +894,29 @@
       "groupIds": [],
       "strokeSharpness": "sharp",
       "boundElementIds": []
+    },
+    {
+      "id": "IrLGX9m8pKRCkvx5XI_Kw",
+      "type": "ellipse",
+      "x": 283.81005859375,
+      "y": 308.57879638671875,
+      "width": 95.11248779296875,
+      "height": 114.2396240234375,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "#e64980",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 758673348,
+      "version": 27,
+      "versionNonce": 940151108,
+      "isDeleted": false,
+      "boundElementIds": null
     }
   ],
   "appState": {

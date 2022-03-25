@@ -97,7 +97,8 @@ interface BlockProps {
     title: string;
     description: string;
     entry: string;
-    extensions?: string[];
+    extensions?: string[]; // Soon to be deprecated in favor of the following "matches" key.
+    matches?: string[]; // An array of globs written in picomatch syntax. See https://github.com/micromatch/picomatch for examples.
   };
   context: {
     path: string;

@@ -8,7 +8,7 @@ Instead of feeling like a storage locker for code, can we bring that content to 
 
 This sounds like a lot of work to build, right? With such an enthusiastic & active community, GitHub could build a flexible API that allows users to take control, and help with building out any use case.
 
-In our exploration we've created a first version of this API that let's anyone create their own custom Blocks.
+In our exploration we've created a first version of this API that lets anyone create their own custom Blocks.
 
 > 🚀🚀🚀 Check out the Demo: [blocks.githubnext.com](https://blocks.githubnext.com/)
 

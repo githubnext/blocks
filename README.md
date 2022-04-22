@@ -65,7 +65,7 @@ The code for this custom example component can be found [HERE](https://github.co
 
 We've also included the commit history for the file or folder you're viewing in the right sidebar.
 
-This is a great way to keep an eye on what's changed recently, plus you can click to surf through past versions of the code. This becomes very powerful, when combined with different visualizations of the code, instead of just the raw content.
+This is a great way to keep an eye on what's changed recently, plus you can click to surf through past versions of the code. This becomes very powerful when combined with different visualizations of the code, instead of just the raw content.
 
 ![commits](https://user-images.githubusercontent.com/8978670/144443772-36c4f827-d09b-4b03-99cd-e20ecadcf813.gif)
 

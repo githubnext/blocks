@@ -14,7 +14,7 @@ In our exploration we've created a first version of this API that lets anyone cr
 
 ## What is a Block?
 
-Our experiment looks similar to the current github.com ui, but introduces the concept of a Block: a different way to view or interact with a file or folder.
+Our experiment looks similar to the current github.com UI, but introduces the concept of a Block: a different way to view or interact with a file or folder.
 
 Technically, a Block is React component that receives specific props and renders a view of them. There are two types of blocks:
 

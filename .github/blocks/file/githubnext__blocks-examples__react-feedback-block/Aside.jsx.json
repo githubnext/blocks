@@ -405,6 +405,38 @@
           }
         }
       ]
+    },
+    {
+      "title": "Idan's feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 5.3449062009012405,
+            "y": 21.49738311767578,
+            "width": 14.938327587134237,
+            "height": 48.75
+          },
+          "data": {
+            "text": "sldkfjalksdf",
+            "id": 0.579259828885827
+          }
+        },
+        {
+          "geometry": {
+            "type": "OVAL",
+            "x": 48.926449069788276,
+            "y": 18.99738311767578,
+            "width": 14.527180956295673,
+            "height": 46.875
+          },
+          "data": {
+            "text": "asdfasdf",
+            "id": 0.6712899507956609
+          }
+        }
+      ]
     }
   ]
 }

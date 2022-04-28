@@ -1,9 +1,11 @@
 {
-  "name": "custom-block-template",
+  "name": "blocks-template",
   "version": "0.0.0",
   "watch": {
     "build-blocks": {
-      "patterns": ["src"],
+      "patterns": [
+        "src"
+      ],
       "extensions": "js,jsx,ts,tsx,css"
     }
   },
@@ -22,7 +24,9 @@
       "title": "Code block",
       "description": "A basic code block",
       "entry": "/src/blocks/file-blocks/code/index.tsx",
-      "extensions": ["*"],
+      "extensions": [
+        "*"
+      ],
       "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/Aside.jsx"
     },
     {
@@ -31,7 +35,9 @@
       "title": "Drawing block",
       "description": "A whiteboard tool",
       "entry": "/src/blocks/file-blocks/excalidraw.tsx",
-      "extensions": ["excalidraw"],
+      "extensions": [
+        "excalidraw"
+      ],
       "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/drawing.excalidraw"
     },
     {
@@ -40,7 +46,10 @@
       "title": "HTML block",
       "description": "View HTML content",
       "entry": "/src/blocks/file-blocks/html.tsx",
-      "extensions": ["html", "svelte"],
+      "extensions": [
+        "html",
+        "svelte"
+      ],
       "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/photos.html"
     },
     {
@@ -49,7 +58,9 @@
       "title": "CSS block",
       "description": "View selectors in a css file",
       "entry": "/src/blocks/file-blocks/css.tsx",
-      "extensions": ["css"],
+      "extensions": [
+        "css"
+      ],
       "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/global.css"
     },
     {
@@ -58,7 +69,13 @@
       "title": "Image block",
       "description": "View images",
       "entry": "/src/blocks/file-blocks/image.tsx",
-      "extensions": ["png", "jpg", "jpeg", "gif", "svg"],
+      "extensions": [
+        "png",
+        "jpg",
+        "jpeg",
+        "gif",
+        "svg"
+      ],
       "example_path": "https://github.com/pmndrs/react-spring/blob/HEAD/assets/projects/aragon.png?raw=true"
     },
     {
@@ -67,7 +84,13 @@
       "title": "Object explorer",
       "description": "An interactive view of JSON objects",
       "entry": "/src/blocks/file-blocks/json.tsx",
-      "extensions": ["json", "webmanifest", "prettierrc", "yaml", "yml"],
+      "extensions": [
+        "json",
+        "webmanifest",
+        "prettierrc",
+        "yaml",
+        "yml"
+      ],
       "example_path": "https://github.com/d3/d3-geo/blob/main/package.json"
     },
     {
@@ -76,7 +99,10 @@
       "title": "3D block",
       "description": "A block for 3d files",
       "entry": "/src/blocks/file-blocks/3d-files.tsx",
-      "extensions": ["gltf", "glb"],
+      "extensions": [
+        "gltf",
+        "glb"
+      ],
       "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/avocado.glb"
     },
     {
@@ -85,7 +111,9 @@
       "title": "Flat data block",
       "description": "A block for flat data files",
       "entry": "/src/blocks/file-blocks/flat.tsx",
-      "extensions": ["csv"],
+      "extensions": [
+        "csv"
+      ],
       "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/data.csv"
     },
     {
@@ -94,7 +122,9 @@
       "title": "Poll block",
       "description": "View simple polls beautifully",
       "entry": "/src/blocks/file-blocks/poll.tsx",
-      "extensions": ["json"],
+      "extensions": [
+        "json"
+      ],
       "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/poll.json"
     },
     {
@@ -103,7 +133,9 @@
       "title": "Chart block",
       "description": "An interactive chart block",
       "entry": "/src/blocks/file-blocks/charts/index.tsx",
-      "extensions": ["csv"],
+      "extensions": [
+        "csv"
+      ],
       "example_path": "https://github.com/the-pudding/data/blob/master/pockets/measurements.csv"
     },
     {
@@ -112,7 +144,10 @@
       "title": "Markdown",
       "description": "View markdown files. You can also view live repo into, using Issues, Releases, and Commits custom components, as well as live code examples with CodeSandbox.",
       "entry": "/src/blocks/file-blocks/live-markdown/index.tsx",
-      "extensions": ["md", "mdx"],
+      "extensions": [
+        "md",
+        "mdx"
+      ],
       "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/README.md"
     },
     {
@@ -121,7 +156,10 @@
       "title": "React component feedback",
       "description": "Give feedback on a React component",
       "entry": "/src/blocks/file-blocks/annotate-react/index.tsx",
-      "extensions": ["jsx", "tsx"],
+      "extensions": [
+        "jsx",
+        "tsx"
+      ],
       "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/Aside.jsx"
     },
     {

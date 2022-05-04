@@ -51,13 +51,7 @@ Check out our example folder Block by [clicking the root folder of this repo](ht
 
 ### View live data
 
-Since we have complete control over this content, we can render live data: say we want to see the latest commits in this repo:
-
-<Commits num={3} />
-
-The nice view of the commits above were generated with a custom component and one line of text in this markdown file:
-
-`<Commits />`
+Since we have complete control over this content, we can render live data: say we want to see the latest commits in this repo.
 
 The code for this custom example component can be found [HERE](https://github.com/githubnext/blocks-examples/blob/main/src/blocks/file-blocks/live-markdown/index.tsx#L198).
 

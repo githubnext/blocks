@@ -1,5 +1,6 @@
 {
   "configs": [
-    "time, temperatureMin, area"
+    "time, temperatureMin, area",
+    "pressure, humidity, scatter"
   ]
 }

@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "type": "text",
+      "text": "this is how you generate a mermaid diagram",
+      "position": [
+        2090,
+        2450
+      ],
+      "dimensions": [
+        200,
+        100
+      ]
+    },
+    {
+      "type": "file",
+      "path": "Diagram.mermaid",
+      "position": [
+        2010,
+        2280
+      ],
+      "dimensions": [
+        311,
+        163
+      ],
+      "block": {
+        "type": "file",
+        "id": "code-block",
+        "title": "Code block",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "sandbox": false,
+        "entry": "/src/blocks/file-blocks/code/index.tsx"
+      }
+    },
+    {
+      "type": "file",
+      "path": "Diagram.mermaid",
+      "position": [
+        2300,
+        2380
+      ],
+      "dimensions": [
+        540,
+        474
+      ],
+      "block": {
+        "type": "file",
+        "id": "mermaid-block",
+        "title": "Mermaid Block",
+        "description": "Render file with Mermaid",
+        "entry": "/src/blocks/mermaid-block/index.tsx",
+        "extensions": [
+          "*"
+        ],
+        "example_path": "https://github.com/sourcegraph/sourcegraph/blob/main/doc/code_intelligence/explanations/diagrams/index-states.mermaid",
+        "owner": "jaked",
+        "repo": "mermaid-block",
+        "key": "jaked__mermaid-block__mermaid-block"
+      }
+    }
+  ]
+}

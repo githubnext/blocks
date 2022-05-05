@@ -1,5 +1,5 @@
 {
   "configs": [
-    "time, summary, area"
+    "time, temperatureMin, area"
   ]
 }

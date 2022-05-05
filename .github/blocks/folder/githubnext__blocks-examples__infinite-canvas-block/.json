@@ -58,6 +58,36 @@
         "repo": "mermaid-block",
         "key": "jaked__mermaid-block__mermaid-block"
       }
+    },
+    {
+      "type": "file",
+      "path": "poll.json",
+      "position": [
+        2620,
+        1950
+      ],
+      "dimensions": [
+        509,
+        421
+      ],
+      "block": {
+        "type": "file",
+        "id": "simple-poll-block",
+        "title": "Poll block",
+        "description": "View simple polls beautifully",
+        "sandbox": false,
+        "entry": "/src/blocks/file-blocks/poll.tsx",
+        "extensions": [
+          "json"
+        ],
+        "matches": [
+          "*.json"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/poll.json",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "key": "githubnext__blocks-examples__simple-poll-block"
+      }
     }
   ]
 }

@@ -88,6 +88,18 @@
         "repo": "blocks-examples",
         "key": "githubnext__blocks-examples__simple-poll-block"
       }
+    },
+    {
+      "type": "text",
+      "text": "Clearly we like Next!",
+      "position": [
+        2460,
+        2040
+      ],
+      "dimensions": [
+        200,
+        100
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "https://blocks.githubnext.com",
+  "source": "http://localhost:3000",
   "elements": [
     {
       "type": "rectangle",
@@ -335,12 +335,35 @@
       "boundElementIds": []
     },
     {
-      "id": "HoVCNenMUtXPdojskhewy",
       "type": "diamond",
+      "version": 3,
+      "versionNonce": 1984430729,
+      "isDeleted": false,
+      "id": "HoVCNenMUtXPdojskhewy",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
       "x": 147.58169555664062,
       "y": 136.1146240234375,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
       "width": 102.03207397460938,
       "height": 118.2576904296875,
+      "seed": 976215977,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "boundElementIds": []
+    },
+    {
+      "id": "EvxMASM0RDiZn3nTyvnxv",
+      "type": "diamond",
+      "x": 108.26504516601562,
+      "y": 82.58782958984375,
+      "width": 59.482635498046875,
+      "height": 42.99041748046875,
       "angle": 0,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
@@ -351,9 +374,9 @@
       "opacity": 100,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "seed": 976215977,
-      "version": 3,
-      "versionNonce": 1984430729,
+      "seed": 1369324801,
+      "version": 2,
+      "versionNonce": 1278267279,
       "isDeleted": false,
       "boundElementIds": null
     }

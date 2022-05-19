@@ -437,6 +437,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Stars feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 4.2184962060826665,
+            "y": 10.9375,
+            "width": 19.632232343692408,
+            "height": 42.50000000000001
+          },
+          "data": {
+            "text": "Love the colors",
+            "id": 0.021112979136165277
+          }
+        }
+      ]
     }
   ]
 }

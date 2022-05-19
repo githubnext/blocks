@@ -226,8 +226,8 @@
     },
     {
       "type": "text",
-      "version": 76,
-      "versionNonce": 1761571451,
+      "version": 77,
+      "versionNonce": 342951299,
       "isDeleted": false,
       "id": "Xd6LHTQvcdoLgV2ZJ-HaG",
       "fillStyle": "hachure",
@@ -240,7 +240,7 @@
       "y": 308.9596761067711,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 184,
+      "width": 194,
       "height": 46,
       "seed": 1164179158,
       "groupIds": [],
@@ -248,7 +248,7 @@
       "boundElementIds": [],
       "fontSize": 36,
       "fontFamily": 1,
-      "text": "Hello world",
+      "text": "Hello world!",
       "baseline": 32,
       "textAlign": "left",
       "verticalAlign": "top"

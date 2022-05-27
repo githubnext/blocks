@@ -507,6 +507,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Idan's feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 7.396970923379809,
+            "y": 10.3125,
+            "width": 18.66854566376809,
+            "height": 50
+          },
+          "data": {
+            "text": "This is great",
+            "id": 0.8656914345539835
+          }
+        }
+      ]
     }
   ]
 }

@@ -475,6 +475,38 @@
           }
         }
       ]
+    },
+    {
+      "title": "Today's feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 6.340260791468408,
+            "y": 8.4375,
+            "width": 19.725255795679487,
+            "height": 73.75
+          },
+          "data": {
+            "text": "This is dope",
+            "id": 0.3805301336035767
+          }
+        },
+        {
+          "geometry": {
+            "x": 59.880240808312735,
+            "y": 17.8125,
+            "width": 0,
+            "height": 0,
+            "type": "POINT"
+          },
+          "data": {
+            "text": "Make this red",
+            "id": 0.8342174535253186
+          }
+        }
+      ]
     }
   ]
 }

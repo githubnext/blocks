@@ -526,6 +526,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "asdasd",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 4.931313948919872,
+            "y": 12.1875,
+            "width": 23.423741257369393,
+            "height": 53.125
+          },
+          "data": {
+            "text": "asdasd",
+            "id": 0.7604984243225057
+          }
+        }
+      ]
     }
   ]
 }

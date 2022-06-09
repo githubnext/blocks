@@ -1,6 +1,7 @@
 {
   "configs": [
     "pressure, humidity, scatter",
-    "date, uvIndex, area"
+    "date, uvIndex, area",
+    "pressure, precipIntensity, scatter"
   ]
 }

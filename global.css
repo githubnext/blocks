@@ -6,6 +6,7 @@ body {
   color: var(--text);
 
   --accent-1: #45aeb1;
+  --accent-2: #6da290;
   --gray-lightest: #f9f9f9;
   --gray-lighter: #ebebeb;
   --gray-light: #e0e0e0;

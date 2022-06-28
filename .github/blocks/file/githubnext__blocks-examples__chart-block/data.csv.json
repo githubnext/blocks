@@ -3,6 +3,7 @@
     "score, height, scatter",
     "height, count, scatter",
     "score, height, bar",
-    "date, count, area"
+    "date, count, area",
+    "height, score, scatter"
   ]
 }

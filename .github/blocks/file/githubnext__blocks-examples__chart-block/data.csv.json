@@ -1,6 +1,5 @@
 {
   "configs": [
-    "score, height, scatter",
     "height, count, scatter",
     "score, height, bar",
     "date, count, area",

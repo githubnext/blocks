@@ -100,6 +100,64 @@
         200,
         100
       ]
+    },
+    {
+      "type": "file",
+      "path": "weather.csv",
+      "position": [
+        2940,
+        2470
+      ],
+      "dimensions": [
+        697,
+        511
+      ],
+      "block": {
+        "type": "file",
+        "id": "flat-block",
+        "title": "Flat data block",
+        "description": "A block for flat data files",
+        "sandbox": false,
+        "entry": "blocks/file-blocks/flat.tsx",
+        "matches": [
+          "*.csv",
+          "*.yml",
+          "*.yaml"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/data.csv",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "repoId": 426677638,
+        "key": "githubnext__blocks-examples__flat-block"
+      }
+    },
+    {
+      "type": "file",
+      "path": "weather.csv",
+      "position": [
+        3530,
+        2710
+      ],
+      "dimensions": [
+        761,
+        504
+      ],
+      "block": {
+        "type": "file",
+        "id": "chart-block",
+        "title": "Chart block",
+        "description": "An interactive chart block",
+        "sandbox": false,
+        "entry": "blocks/file-blocks/charts/index.tsx",
+        "matches": [
+          "*.csv"
+        ],
+        "example_path": "https://github.com/the-pudding/data/blob/master/pockets/measurements.csv",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "repoId": 426677638,
+        "key": "githubnext__blocks-examples__chart-block"
+      }
     }
   ]
 }

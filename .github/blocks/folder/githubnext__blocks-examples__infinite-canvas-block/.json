@@ -158,6 +158,62 @@
         "repoId": 426677638,
         "key": "githubnext__blocks-examples__chart-block"
       }
+    },
+    {
+      "type": "file",
+      "path": "processing-sketch.js",
+      "position": [
+        1230,
+        2670
+      ],
+      "dimensions": [
+        970,
+        488
+      ],
+      "block": {
+        "type": "file",
+        "id": "edit-block",
+        "title": "Edit code",
+        "description": "Edit code by prompting a Machine Learning model",
+        "sandbox": false,
+        "entry": "blocks/file-blocks/edit/index.tsx",
+        "matches": [
+          "*"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/processing-sketch.js",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "repoId": 426677638,
+        "key": "githubnext__blocks-examples__edit-block"
+      }
+    },
+    {
+      "type": "file",
+      "path": "processing-sketch.js",
+      "position": [
+        1960,
+        2890
+      ],
+      "dimensions": [
+        361,
+        416
+      ],
+      "block": {
+        "type": "file",
+        "id": "processing-block",
+        "title": "Processing block",
+        "description": "Run your p5.js sketches",
+        "sandbox": true,
+        "entry": "blocks/file-blocks/processing.tsx",
+        "matches": [
+          "*.js"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/processing-sketch.js",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "repoId": 426677638,
+        "key": "githubnext__blocks-examples__processing-block"
+      }
     }
   ]
 }

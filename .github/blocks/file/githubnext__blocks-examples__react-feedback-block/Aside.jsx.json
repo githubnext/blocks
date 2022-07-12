@@ -545,6 +545,38 @@
           }
         }
       ]
+    },
+    {
+      "title": "AMA Feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 4.037520190513315,
+            "y": 12.318840579710146,
+            "width": 11.990211474857723,
+            "height": 68.84057971014494
+          },
+          "data": {
+            "text": "euu this is dope",
+            "id": 0.3368804153535727
+          }
+        },
+        {
+          "geometry": {
+            "x": 44.412722095646465,
+            "y": 18.115942028985508,
+            "width": 0,
+            "height": 0,
+            "type": "POINT"
+          },
+          "data": {
+            "text": "Can thyeasd sa;l as;dflkjh asl;df",
+            "id": 0.7703259387817436
+          }
+        }
+      ]
     }
   ]
 }

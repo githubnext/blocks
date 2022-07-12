@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://localhost:3001",
+  "source": "https://blocks-sandbox.githubnext.com",
   "elements": [
     {
       "type": "rectangle",
@@ -357,8 +357,8 @@
     },
     {
       "type": "rectangle",
-      "version": 8,
-      "versionNonce": 856367217,
+      "version": 21,
+      "versionNonce": 513968311,
       "isDeleted": false,
       "id": "zTiNl_J3pvh2JPrIrmOnM",
       "fillStyle": "hachure",
@@ -367,8 +367,8 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 562,
-      "y": 112.16668701171875,
+      "x": 743.5743408203125,
+      "y": 236.86618041992188,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
       "width": 198,
@@ -540,6 +540,29 @@
       "groupIds": [],
       "strokeSharpness": "sharp",
       "boundElementIds": []
+    },
+    {
+      "id": "Gz58tK59leWQZmpz-wvBC",
+      "type": "rectangle",
+      "x": 256.04296875,
+      "y": 256.8122253417969,
+      "width": 275.30731201171875,
+      "height": 249.4774169921875,
+      "angle": 0,
+      "strokeColor": "#a61e4d",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 167925431,
+      "version": 18,
+      "versionNonce": 724192057,
+      "isDeleted": false,
+      "boundElementIds": null
     }
   ],
   "appState": {

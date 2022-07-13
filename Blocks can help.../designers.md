@@ -41,7 +41,12 @@ block={{
     id:"images",
     type: "folder",
   }}
-context={{path:"",owner: "primer", repo: "octicons"}}
+context={{
+    path:"",
+    owner: "primer",
+    repo: "octicons",
+    sha: "HEAD",
+  }}
 />
 
 <BlockComponent

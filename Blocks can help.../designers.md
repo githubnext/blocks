@@ -71,8 +71,8 @@ context={{path:"Aside.jsx"}}
 <BlockComponent
 block={{
     owner:"githubnext",
-    repo: "blocks-examples",
-    id:"preview-block",
+    repo: "preview-block",
+    id:"preview-folder-block",
     type: "folder",
   }}
 context={{path:"",owner: "githubnext", repo: "blocks-preview-experiment"}}

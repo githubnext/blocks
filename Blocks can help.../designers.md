@@ -39,7 +39,7 @@ block={{
     owner:"Wattenberger",
     repo: "blocks",
     id:"images",
-    type: "file",
+    type: "folder",
   }}
 context={{path:"",owner: "primer", repo: "octicons"}}
 />

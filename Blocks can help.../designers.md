@@ -75,5 +75,10 @@ block={{
     id:"preview-folder-block",
     type: "folder",
   }}
-context={{path:"",owner: "githubnext", repo: "blocks-preview-experiment"}}
+context={{
+    path:"",
+    owner: "githubnext",
+    repo: "blocks-preview-experiment",
+    sha: "ec85745a2d8c7da8932aee921a6b8960e9eccf3d"
+  }}
 />

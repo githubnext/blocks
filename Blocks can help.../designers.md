@@ -72,7 +72,7 @@ context={{path:"Aside.jsx"}}
 block={{
     owner:"githubnext",
     repo: "blocks-examples",
-    id:"preview-folder-block",
+    id:"preview-block",
     type: "folder",
   }}
 context={{path:"",owner: "githubnext", repo: "blocks-preview-experiment"}}

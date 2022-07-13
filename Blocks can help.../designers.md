@@ -15,8 +15,13 @@ You could imagine a Block that would show the code side-by-side with explanation
 Or a Block that translates a site's CSS into the actual styles. This would be great for seeing changes through time, to test out changes, or to visualize the difference in a PR.
 
 <BlockComponent
-  blockId="githubnext__blocks-examples__css-block"
-  path="global.css"
+block={{
+    owner:"githubnext",
+    repo: "blocks-examples",
+    id:"css-block",
+    type: "file",
+  }}
+context={{path:"global.css"}}
 />
 
 ## Syncing between tools
@@ -30,15 +35,23 @@ Designers and developers work across a myriad of different tools - can we make g
 A prime example of where design turns into code! Can we make it easier to build and maintain design systems?
 
 <BlockComponent
-blockId="Wattenberger**blocks**images"
-path=""
-context={{owner: "primer", repo: "octicons"}}
+block={{
+    owner:"Wattenberger",
+    repo: "blocks",
+    id:"images",
+    type: "file",
+  }}
+context={{path:"",owner: "primer", repo: "octicons"}}
 />
 
 <BlockComponent
-blockId="Wattenberger**blocks**primer-colors"
-path="data/colors/themes/light.ts"
-context={{owner: "primer", repo: "primitives"}}
+block={{
+    owner:"Wattenberger",
+    repo: "blocks",
+    id:"primer-colors",
+    type: "file",
+  }}
+context={{path:"data/colors/themes/light.ts",owner: "primer", repo: "primitives"}}
 />
 
 ## Collaborating with developers
@@ -46,12 +59,21 @@ context={{owner: "primer", repo: "primitives"}}
 No more "throwing designs over the wall"! Can we make it easier for designers to respond to live code changes?
 
 <BlockComponent
-  blockId="githubnext__blocks-examples__react-feedback-block"
-  path="Aside.jsx"
+block={{
+    owner:"githubnext",
+    repo: "blocks-examples",
+    id:"react-feedback-block",
+    type: "file",
+  }}
+context={{path:"Aside.jsx"}}
 />
 
 <BlockComponent
-blockId="githubnext**preview-block**preview-folder-block"
-path=""
-context={{owner: "githubnext", repo: "blocks-preview-experiment"}}
+block={{
+    owner:"githubnext",
+    repo: "blocks-examples",
+    id:"preview-folder-block",
+    type: "file",
+  }}
+context={{path:"",owner: "githubnext", repo: "blocks-preview-experiment"}}
 />

@@ -4,7 +4,7 @@
 
 Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.
 
-<CodeSandbox language="js" dependencies={["lodash"]} sandboxOptions={{expanddevtools:1,hidedevtools:0,view:split}}>
+<CodeSandbox language="js" dependencies={["lodash"]} sandboxOptions={{expanddevtools:1,hidedevtools:0,view:"split"}}>
 
 ```js
 import _ from "lodash"
@@ -20,7 +20,7 @@ console.log(chunk)
 
 Creates an array with all falsey values removed. The values false, null, 0, "", undefined, and NaN are falsey.
 
-<CodeSandbox language="js" dependencies={["lodash"]} sandboxOptions={{expanddevtools:1,hidedevtools:0,view:split}}>
+<CodeSandbox language="js" dependencies={["lodash"]} sandboxOptions={{expanddevtools:1,hidedevtools:0,view:"split"}}>
 
 ```js
 import _ from "lodash"
@@ -36,7 +36,7 @@ console.log(compact)
 
 Creates a new array concatenating array with any additional arrays and/or values.
 
-<CodeSandbox language="js" dependencies={["lodash"]} sandboxOptions={{expanddevtools:1,hidedevtools:0,view:split}}>
+<CodeSandbox language="js" dependencies={["lodash"]} sandboxOptions={{expanddevtools:1,hidedevtools:0,view:"split"}}>
 
 ```js
 import _ from "lodash"

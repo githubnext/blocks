@@ -20,7 +20,7 @@ console.log(chunk)
 
 Creates an array with all falsey values removed. The values false, null, 0, "", undefined, and NaN are falsey.
 
-<CodeSandbox language="js" dependencies={["lodash"]} sandboxOptions={{expanddevtools:1,hidedevtools:0}}>
+<CodeSandbox language="js" dependencies={["lodash"]} sandboxOptions={{expanddevtools:1,hidedevtools:0,editorsize:60}}>
 
 ```js
 import _ from "lodash"

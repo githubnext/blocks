@@ -2,8 +2,9 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(255);
   fill(0);
-  textSize(50);
-  text("Move your mouse around the screen", width / 2, height / 2);
+  textSize(width / 60);
+  textAlign(CENTER);
+  text("Move your mouse around the screen", width / 2, height / 3);
 }
 
 function draw() {

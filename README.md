@@ -51,15 +51,26 @@ Check out our example folder Block by [clicking the root folder of this repo](ht
 
 ### View live data
 
-Since we have complete control over this content, we can render live data: say we want to see the latest commits in this repo:
+Since we have complete control over this content, we can render live data: say we wanted to show off our p5.js sketch, we can do that inline:
 
-<Commits num={3} />
+<BlockComponent
+  block={{"owner":"githubnext","repo":"blocks-examples","id":"processing-block","type":"file"}}
+context={{"repo":"blocks-tutorial","owner":"githubnext","path":"processing-sketch.js","sha":"HEAD","file":"README.md"}}
+height={418}
+/>
+as well as show the code for that sketch:
 
-The nice view of the commits above were generated with a custom component and one line of text in this markdown file:
+<BlockComponent
+  block={{"owner":"githubnext","repo":"blocks-examples","id":"code-block","type":"file"}}
+context={{"repo":"blocks-tutorial","owner":"githubnext","path":"processing-sketch.js","sha":"HEAD","file":"README.md"}}
+height={202}
+/>
+We can also embed interactive code examples, say for demonstrating how to use gestures in framer-motion:
 
-`<Commits />`
-
-The code for this custom example component can be found [HERE](https://github.com/githubnext/blocks-examples/blob/main/src/blocks/file-blocks/live-markdown/index.tsx#L198).
+<BlockComponent
+  block={{"owner":"githubnext","repo":"blocks-examples","id":"sandbox-block","type":"file"}}
+context={{"repo":"blocks-tutorial","owner":"githubnext","path":"framer motion docs/example2.js","sha":"HEAD","file":"README.md"}}
+/>
 
 ### View changes over time
 

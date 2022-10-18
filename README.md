@@ -4,7 +4,7 @@ GitHub Blocks is an exploration of the question:
 
 > What if developers could customize GitHub, not only to present their code and data, but to make it a living, interactive platform?
 
-Instead of feeling like a storage locker for code, can we bring that content to life? What if a designer could view styles from a CSS file instead of having to wait for a developer to transform it? Or if journalists could visualize data right on GitHub, along with how it's changed over time? There are so many possibilities!
+Instead of feeling like a storage locker for code, can we bring that content to life? What if a designer could view styles from a CSS file instead of having to wait for a developer to transform it? Or if journalists could visualize data right on GitHub, along with how it's changed over time? There are so many possibilities!!
 
 This sounds like a lot of work to build, right? With such an enthusiastic and active community, GitHub could build a flexible API that allows users to take control, and help with building out any use case.
 

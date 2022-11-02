@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap');
 
 body {
   margin: 0;
@@ -16,7 +16,7 @@ body {
   --color-gray-800: #424a53;
   --color-gray-900: #32383f;
   --color-gray-1000: #24292f;
-  --color-blue-100: #ddf4ff;
+  --color-blue-100: #F3FAFF;
   --color-blue-200: #b6e3ff;
   --color-blue-300: #80ccff;
   --color-blue-400: #54aeff;
@@ -46,7 +46,7 @@ body {
   --color-coral-800: #801f0f;
   --color-coral-900: #691105;
   --color-coral-1000: #510901;
-  --font-serif: "Alike";
+  --font-serif: "Hepta Slab";
   --font-sans-serif: "Roboto";
 
   font-family: var(--font-sans-serif)

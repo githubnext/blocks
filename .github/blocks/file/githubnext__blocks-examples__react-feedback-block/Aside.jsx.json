@@ -577,6 +577,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Idan's feedback",
+      "componentDefinition": "<Aside>\n</Aside>",
+      "annotations": [
+        {
+          "geometry": {
+            "x": 17.624521072796934,
+            "y": 10,
+            "width": 0,
+            "height": 0,
+            "type": "POINT"
+          },
+          "data": {
+            "text": "I love this color",
+            "id": 0.7657222803152612
+          }
+        }
+      ]
     }
   ]
 }

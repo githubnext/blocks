@@ -2,6 +2,7 @@
   "configs": [
     "pressure, humidity, scatter",
     "date, uvIndex, area",
-    "time, moonPhase, scatter"
+    "time, moonPhase, scatter",
+    "date, moonPhase, scatter"
   ]
 }

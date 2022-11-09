@@ -27,8 +27,6 @@ We've created an app at: [blocks.githubnext.com](https://blocks.githubnext.com/)
 
 > 💡 If you're reading this on the app, you're looking at a Block right now! This is a Markdown Block that is rendering the content of the `README.md` file.
 
-> 👀 You can also take a look at all of our example blocks by going to the [Blocks Marketplace](https://blocks-marketplace.githubnext.com/)!
-
 ### Viewing file Blocks
 
 You can switch which Block you're using in the dropdown menu in the top left of this window.
@@ -54,21 +52,21 @@ Check out our example folder Block by [clicking the root folder of this repo](ht
 Since we have complete control over this content, we can render live data: say we wanted to show off our p5.js sketch, we can do that inline:
 
 <BlockComponent
-  block={{"owner":"githubnext","repo":"blocks-examples","id":"processing-block","type":"file"}}
+block={{"owner":"githubnext","repo":"blocks-examples","id":"processing-block","type":"file"}}
 context={{"repo":"blocks-tutorial","owner":"githubnext","path":"processing-sketch.js","sha":"HEAD","file":"README.md"}}
 height={418}
 />
 as well as show the code for that sketch:
 
 <BlockComponent
-  block={{"owner":"githubnext","repo":"blocks-examples","id":"code-block","type":"file"}}
+block={{"owner":"githubnext","repo":"blocks-examples","id":"code-block","type":"file"}}
 context={{"repo":"blocks-tutorial","owner":"githubnext","path":"processing-sketch.js","sha":"HEAD","file":"README.md"}}
 height={202}
 />
 We can also embed interactive code examples, say for demonstrating how to use gestures in framer-motion:
 
 <BlockComponent
-  block={{"owner":"githubnext","repo":"blocks-examples","id":"sandbox-block","type":"file"}}
+block={{"owner":"githubnext","repo":"blocks-examples","id":"sandbox-block","type":"file"}}
 context={{"repo":"blocks-tutorial","owner":"githubnext","path":"framer motion docs/example2.js","sha":"HEAD","file":"README.md"}}
 />
 
@@ -92,7 +90,7 @@ We've added a `metadata` prop to the Block. This is a freeform prop that can be 
 
 > 📣 Read this if you're a GitHub user interested in building your own custom Blocks!
 
-Hopefully you can see how a flexible Blocks API allows for completely new ways of interacting with code. The following section gives a high-level sense of the Blocks API and other resources for creating your own custom Block. 
+Hopefully you can see how a flexible Blocks API allows for completely new ways of interacting with code. The following section gives a high-level sense of the Blocks API and other resources for creating your own custom Block.
 
 We also recommend you get started by going through our custom block tutorial in the <a href="https://github.com/githubnext/blocks-template" target="_blank">`blocks-template`</a> repo.
 
@@ -158,6 +156,6 @@ A few caveats and callouts:
 
 ### Other Relevant repos
 
-* [Blocks examples](https://github.com/githubnext/blocks-examples): Example blocks that we've built to showcase the API.
-* [Blocks template starter project](https://github.com/githubnext/blocks-template): A template and tutorial for creating your own custom Blocks.
-* [Blocks utility library](https://github.com/githubnext/utils): To reduce the cognitive load associated with writing file and folder Block components, we've assembled a helper library called `@githunext/utils` that exposes interface definitions and a few helper functions. This list will undoubtedly change over time, so be sure to check out [the repository page](https://github.com/githubnext/utils) for more detail.
+- [Blocks examples](https://github.com/githubnext/blocks-examples): Example blocks that we've built to showcase the API.
+- [Blocks template starter project](https://github.com/githubnext/blocks-template): A template and tutorial for creating your own custom Blocks.
+- [Blocks utility library](https://github.com/githubnext/utils): To reduce the cognitive load associated with writing file and folder Block components, we've assembled a helper library called `@githunext/utils` that exposes interface definitions and a few helper functions. This list will undoubtedly change over time, so be sure to check out [the repository page](https://github.com/githubnext/utils) for more detail.

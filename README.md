@@ -54,7 +54,7 @@ Since we have complete control over this content, we can render live data: say w
 <BlockComponent
 block={{"owner":"githubnext","repo":"blocks-examples","id":"processing-block","type":"file"}}
 context={{"repo":"blocks-tutorial","owner":"githubnext","path":"processing-sketch.js","sha":"HEAD","file":"README.md"}}
-height={418}
+height={438}
 />
 as well as show the code for that sketch:
 

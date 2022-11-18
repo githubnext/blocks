@@ -1,4 +1,14 @@
-# GitHub Blocks Docs and Tutorial
+# GitHub Blocks
+
+> 🎉 You made it! Welcome to the Blocks Technical Preview.
+
+## What are blocks?
+
+With Blocks, you can extend GitHub's interface in some pretty powerful ways! It could be as simple as a custom renderer for files or folders in your repository, or it can be as flexible as a full interface for editing content.
+
+You can view any repository in the experimental Blocks interface at [blocks.githubnext.com](https://blocks.githubnext.com). 
+
+> 🚨 Blocks is currently a technical preview! It may have bugs or issues, and should not be used for anything mission-critical.
 
 GitHub Blocks is an exploration of the question:
 

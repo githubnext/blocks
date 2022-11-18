@@ -10,6 +10,7 @@ There are two kinds of blocks: file blocks and folder blocks. Their API is mostl
 
 You develop blocks using standard web technologies, and you publish them for yourself or others to use by pushing their code to a GitHub repository, and tagging that repository with the `github-blocks` tag. You won't need to handle building, deploying, or hosting. Not every app can be a block, but many can! We want you to reimagine repositories, and customize them with minimum effort.
 
+# 👇 move or delete
 
 
 You can [click here to use this repository as a template](https://github.com/githubnext/blocks-template/generate) to develop a new block!
@@ -23,12 +24,6 @@ Once developed, you can _use_ a block on any repository by picking it from the b
 If your block is not in the dropdown list, you can paste the URL of the repo containing your block into the search field at the top of the block picker.
 
 A block can be used by anyone that can see the repository where that block is developed. If the repo is private, it is usable by any collaborator that has read permissions (or better) on that repo.
-
-
-
-Or watch the video:
-
-<video src="https://user-images.githubusercontent.com/56439/186799325-41602d5b-708b-4905-b3a3-02f50ef52425.mp4" />
 
 
 ## What are blocks?
@@ -61,108 +56,6 @@ If your block is not in the dropdown list, you can paste the URL of the repo con
 
 A block can be used by anyone that can see the repository where that block is developed. If the repo is private, it is usable by any collaborator that has read permissions (or better) on that repo.
 
-## Blocks API
-
-These are the props that are supplied to every block when it is mounted. These are fixed: you can't change the props, and you can't control the information passed in each prop as they are automatically determined based on the underlying repo and content.
-
-### Props received by all blocks
-
-```ts
-interface CommonBlockProps {
-  // metadata from `blocks.config.json`
-  block: {
-    id: string;
-    type: string;
-    title: string;
-    description: string;
-    entry: string;
-    matches?: string[];
-  };
-
-  // context about the repo, file / folder, and version
-  context: {
-    path: string;
-    file: string; // for File Blocks
-    folder: string; // for Folder Blocks
-    repo: string;
-    owner: string;
-    sha: string;
-  };
-
-  // arbitrary metadata for Blocks to store configuration etc.
-  metadata: any;
-  onUpdateMetadata: (newMetadata: any) => void;
-
-  // callback to call any GET endpoint in the GitHub API:
-  // https://docs.github.com/en/rest/overview/endpoints-available-for-github-apps
-  // e.g. `/repos/{owner}/{repo}/contributors`
-  onRequestGitHubData: (
-    path: string,
-    params: Record<string, any>
-  ) => Promise<any>;
-
-  onNavigateToPath: (path: string) => void;
-
-  // returns a list of repos containing blocks
-  onRequestBlocksRepos: (params?: {
-    path?: string; // restrict to blocks that match the path (see `matches` in `blocks.config.json`)
-    searchTerm?: string; // restrict to blocks matching the search term
-    repoUrl?: string; // restrict to blocks in the repo
-    type?: "file" | "folder"; // restrict to blocks of this type
-  }) => Promise<BlocksRepo[]>;
-
-  // a React component that renders a block viewing a file or folder
-  BlockComponent: ({
-    block,
-    context,
-  }: {
-    // owner, repo, and id identifying the block
-    block: { owner: string; repo: string; id: string };
-
-    // optional context specifying the file or folder to view;
-    // omitted context or omitted fields default to the current file or folder
-    context?:
-      owner?: string;
-      repo?: string;
-      path?: string;
-      sha?: string;
-    };
-  }) => JSX.Element;
-}
-```
-
-### Props received by file blocks
-
-```ts
-interface FileBlockProps {
-  // the file content
-  content: string;
-  // callback to update the file content
-  onUpdateContent: (newContent: string) => void;
-
-  // the original file content
-  originalContent: string;
-
-  // whether or not the user can edit the content
-  isEditable: boolean;
-}
-```
-
-### Props received by folder blocks
-
-```ts
-interface FolderBlockProps {
-  // flat list of files and folders in the tree
-  tree: {
-    path?: string;
-    mode?: string;
-    type?: string;
-    sha?: string;
-    size?: number;
-    url?: string;
-  }[];
-}
-```
 
 ### Metadata
 

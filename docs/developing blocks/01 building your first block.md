@@ -112,3 +112,5 @@ You can use any third-party dependencies from NPM; just add them with `yarn add`
 
 **Style my block like GitHub?**
 The [GitHub Primer React components](https://primer.style/react/) are already included as a dependency
+
+If you're looking for examples or inspiration, check out our **[repo full of example blocks](https://github.com/githubnext/blocks-examples)**.

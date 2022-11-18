@@ -42,8 +42,7 @@ To create your own custom blocks you need to do two things:
 - Code your block
 ### Define your custom block
 
-If you open up `/blocks.config.json`, you'll notice an array of block objects
-with the definitions for each custom block. Block objects follow this interface:
+If you open up `/blocks.config.json`, you'll notice an array of block objects with the definitions for each custom block. Block objects follow this interface:
 
 ```ts
 interface BlockDefinition {
@@ -59,16 +58,15 @@ interface BlockDefinition {
 You have to define these properties for your own custom block.
 
 From top to bottom:
-
 - `type` determines whether this block applies to files or folders.
 - `id` is an identifier string for this block, like `"code-block"`. GitHub Blocks uses this to determine which block to render; it needs to be unique within your project.
 - `title` and `description` control how your block appears within the GitHub Blocks application.
 - `entry` is the path (relative to the project root) to the block's entry point, like `"blocks/example-file-block/index.tsx"`.
-- `matches` is an array of globs describing filenames for which GitHub Blocks should show this block as an option, like `["*.json"]` for a block that handles JSON files, or `["*"]` for one that handles any file. (The glob syntax follows https://github.com/micromatch/picomatch)
+- `matches` is an array of globs describing filenames for which GitHub Blocks should show this block as an option, like `["*.json"]` for a block that handles JSON files, or `["*"]` for one that handles any file. (The glob syntax follows [github.com/micromatch/picomatch](https://github.com/micromatch/picomatch))
 
-> 🚨 Note that the `/blocks.config.json` file is not hot-reloaded, so you'll need to refresh the app to pick up changes.
+> 🚨 Note that the `/blocks.config.json` file is not hot-reloaded, so you'll need to pick-up the changes by either refreshing the app or clicking the "refresh" button in the block picker.
 
-### Code Your block
+### Code your block
 
 Your code goes in the `blocks/` directory. Here you'll find the two example blocks as a starting point. You can modify them, rename them (don't forget to update `blocks.config.json` if you change the path or file names), or just delete them.
 

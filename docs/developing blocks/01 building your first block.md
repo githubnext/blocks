@@ -11,7 +11,7 @@ The button will take you to a screen to specify what you want to name your own r
 
 <img width="801" alt="&quot;Create a new repository from blocks-template&quot; screen" src="https://user-images.githubusercontent.com/8978670/144893351-25b24bfa-3400-4e92-9a2a-618b3ac06a5e.png" />
 
-## Step 1. Develop locally
+## Developing locally
 
 ```bash
 git clone <repo URL>
@@ -21,7 +21,7 @@ yarn start # start the dev server
 
 A development server should now be running on [localhost:4000](localhost:4000).
 
-## Step 2. View your development server within the Blocks app
+## View your development server within the Blocks app
 
 When you visit [localhost:4000](localhost:4000) in your browser, you'll be redirected to the Blocks app with your locally-developed blocks embedded in it. You can see your blocks by clicking on the block picker toward the top of the page (they're shown at the top in blue with a plug icon):
 
@@ -34,11 +34,12 @@ If you don't see your blocks, make sure that:
 - your development server is running
 - there's a `devServer` query parameter in the URL pointing to your development server [like this](https://blocks.githubnext.com/githubnext/blocks-tutorial?devServer=http://localhost:4000)
 
-## Step 3. Build your custom Blocks with the GitHub Blocks API
+## The GitHub Blocks API
 
 To create your own custom blocks you need to do two things:
-
-### Step 3.1: Define your custom block
+- Define your custom block
+- Code your block
+### Define your custom block
 
 If you open up `/blocks.config.json`, you'll notice an array of block objects
 with the definitions for each custom block. Block objects follow this interface:
@@ -54,7 +55,7 @@ interface BlockDefinition {
 }
 ```
 
-You have to define these properties for your own custom Block.
+You have to define these properties for your own custom block.
 
 From top to bottom:
 
@@ -67,52 +68,47 @@ From top to bottom:
 Note that the `/blocks.config.json` file is not hot-reloaded, so you'll need to
 refresh the app to pick up changes.
 
-### Step 3.2: Code your Block
+### Code Your block
 
 Your code goes in the `blocks/` directory. Here you'll find the two example blocks as a starting point. You can modify them, rename them (don't forget to update `blocks.config.json` if you change the path or file names), or just delete them.
 
-## Step 4. Deploy your Blocks to production
+Note that your Block entry file **must have the Block component as its default export** so the GitHub Blocks application can find it.
 
-To make your custom block accessible to the Blocks app without your development server running, there are a few steps you need to take:
+## Important block concepts
 
-### Step 4.1: Commit your code and push a new tag
+### Metadata
 
-This template includes a GitHub Action to build a production version of your block. All you need to do to kick off the build process is commit and push your code changes, then create a new tag:
+Blocks can store freeform metadata about themselves in the repository where they are _used_ (as opposed to the repo containing the code that powers the block). Metadata is unique per file/folder per Block, and committed to the [`.github/blocks/`](https://github.com/githubnext/blocks-tutorial/tree/main/.github/blocks) folder.
 
-```bash
-git commit -m'made an awesome block'
-git push
-git tag 0.9.0 # Create a new tag with your own version number
-git push --tags # Push the tag to GitHub
-```
+Often, metadata is used to store configuration data, so that you can customize how a block works by default for a specific file or folder in your repository.
 
-The action runs `yarn build`, which can be more picky than the development server. You might want to run `yarn build` manually to ensure the action will succeed, or to debug an issue if the action fails.
+To store or update metadata, call the `onUpdateMetadata` hook which is supplied to your block as a prop. The user will be prompted to accept the change and commit the new metadata to the repository.
 
-### Step 4.2: Wait for the build process to finish
+When you next view the specific content with that block, the metadata prop will contain the committed metadata.
 
-Look under Actions for your repo to see that your build has finished. The latest successful build should now be accessible in the GitHub Blocks application.
+### Updating content
 
-From the repository settings page, make sure that your workflow has **Read and write** permissions or the action will fail with a 403 error.
+Blocks are not just for viewing content! They can also offer custom interfaces for editing content.
 
-<img width="805" alt="&quot;Workflow permissions&quot; setting" src="https://user-images.githubusercontent.com/5148596/167847856-22ad190a-d73c-4b97-a0e2-c3c854db0d4f.png" />
+There are three props which facilitate editing content in blocks:
 
-<img width="1097" alt="Successful build action screen" src="https://user-images.githubusercontent.com/8978670/144665796-cb1ff450-c872-47c5-90b3-f74aea10286b.png" />
-
-<img width="152" alt="Tagged release" src="https://user-images.githubusercontent.com/8978670/144665673-431e28f9-9e9d-43b3-87f8-1e5d98bed92c.png" />
-
-### Step 4.3: Test your production block in the Blocks app
-
-Once the action has completed, visit [blocks.githubnext.com](https://blocks.githubnext.com) (with no `devServer` parameter in the URL), then paste your repo URL (`https://github.com/{owner}/{repo}`) into the block picker search bar. This will load the production version of your block, without using your development server.
-
-Everything should work the same as before.
-
-### Step 4.4: Add the topic `github-blocks` to your repo (optional)
-
-If you want your blocks to show up in the block picker in GitHub Blocks, you need to tag this repository with the topic `github-blocks` so the application can find it.
-
-<img width="323" alt="Repository tagged with &quot;github-blocks&quot;" src="https://user-images.githubusercontent.com/8978670/144665902-63543c98-2486-4e13-9c54-f1d4bc6544a4.png" />
-
-**This step is optional!** If you aren't ready to share your block with others, don't tag the repo. Your blocks won't show up in the block picker by default, but you can still paste the repo URL (`https://github.com/{owner}/{repo}`) into the search box at the top of the block picker to search blocks in the repo. If your repo is private, only people with access to the repo can see and use your blocks.
+- `originalContent`: contains the original contents of the file. This is useful if you want to be able to display a diff of changes made, but not yet committed.
+- `isEditable`: a flag indicating whether the current user has permission to edit the file. If it is false, the block should disable editing functionality, if present.
+- `onUpdateContent`: a hook that can be called to update content programmatically. Users can also commit changes using the `Save` button in the Blocks interface next to the block picker. Whether triggered via the hook or the save button, the Blocks application will display a dialog containing a diff to the user, and ask for their permission to make a commit. Commits recorded as being authored by the user that made (and approved) the request.
 
 
+### Nesting
 
+Blocks can be nested inside other blocks using `BlockComponent`; you can retrieve a list of available blocks using `onRequestBlocksRepos`. See the [edit-and-preview](https://github.com/githubnext/blocks-examples/blob/main/blocks/file-blocks/edit-and-preview/index.tsx) block for an example of their use.
+
+
+## How might I...
+
+**Import other files?**
+You can import CSS files or split your block into multiple TypeScript files, and everything will be bundled with your block.
+
+**Use third-party dependencies?**
+You can use any third-party dependencies from NPM; just add them with `yarn add` and import them as usual, and they'll be bundled with your block.
+
+**Style my block like GitHub?**
+The [GitHub Primer React components](https://primer.style/react/) are already included as a dependency

@@ -3,7 +3,7 @@
 Let's jump in! Use the [blocks-template](https://github.com/githubnext/blocks-template/generate) as your starting point so you can focus on the fun parts of block development.
 ## Setup
 
-✨👉[Fork the template](https://github.com/githubnext/blocks-template/generate) 👈✨
+✨👉 [Fork the template](https://github.com/githubnext/blocks-template/generate) 👈✨
 
 > 💡Alternatively, you can go to [the blocks-template repository](https://github.com/githubnext/blocks-template) and click on the "Use this template" button on the top right of the repository to make a copy for your use. ![](https://user-images.githubusercontent.com/8978670/144893319-5d45ab5c-12c0-42b4-99f8-97f658deb03b.png)
 

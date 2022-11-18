@@ -25,5 +25,5 @@ Example blocks that we've built to showcase the API.
 
 - `Blocks`, capitalized, refers to the product. The proper name is `GitHub Blocks`.
 - `blocks`, uncapitalized, refers to specific blocks, abstract blocks, or to blocks _en masse_.
-- `Blocks Platform` is the web application which hosts or embeds blocks, running on [blocks.githubnext.com](https://blocks.githubnext.com)
+- `Blocks platform` or `the platform` is the web application which hosts or embeds blocks, running on [blocks.githubnext.com](https://blocks.githubnext.com)
 - `file blocks` and `folder blocks` refer to the two kinds of blocks that are possible today.

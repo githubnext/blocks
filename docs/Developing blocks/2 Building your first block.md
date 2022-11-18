@@ -92,7 +92,7 @@ There are three props which facilitate editing content in blocks:
 
 - `originalContent`: contains the original contents of the file. This is useful if you want to be able to display a diff of changes made, but not yet committed.
 - `isEditable`: a flag indicating whether the current user has permission to edit the file. If it is false, the block should disable editing functionality, if present.
-- `onUpdateContent`: a hook that can be called to update content programmatically. Users can also commit changes using the `Save` button in the Blocks interface next to the block picker. Whether triggered via the hook or the save button, the Blocks application will display a dialog containing a diff to the user, and ask for their permission to make a commit. Commits are recorded as being authored by the user that made (and approved) the request.
+- `onUpdateContent`: a hook that can be called to update content programmatically. Users can also commit changes using the `Save` button in the Blocks interface next to the block picker. Whether triggered via the hook or the save button, the Blocks platform will display a dialog containing a diff to the user, and ask for their permission to make a commit. Commits are recorded as being authored by the user that made (and approved) the request.
 
 
 ### Nesting

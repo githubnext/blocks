@@ -1,16 +1,17 @@
 # Building your first block
 
-Let's jump in! Blocks are fairly simple, but they use a standard set of messages to communicate with the wrapper Blocks frame. Not to worry! We have a [template](https://github.com/githubnext/blocks-template/generate) that implements this wrapper so you can focus on the fun parts of block development.
+Let's jump in! Use the [blocks-template](https://github.com/githubnext/blocks-template/generate) as your starting point so you can focus on the fun parts of block development.
 ## Setup
 
-To use [the template](https://github.com/githubnext/blocks-template/generate) just click on the "Use this template" button on the top right to set it up for your use.
+✨👉[Fork the template](https://github.com/githubnext/blocks-template/generate) 👈✨
 
-<img width="495" alt="&quot;Use this template&quot; button" src="https://user-images.githubusercontent.com/8978670/144893319-5d45ab5c-12c0-42b4-99f8-97f658deb03b.png" />
+> 💡Alternatively, you can go to [the blocks-template repository](https://github.com/githubnext/blocks-template) and click on the "Use this template" button on the top right of the repository to make a copy for your use. ![](https://user-images.githubusercontent.com/8978670/144893319-5d45ab5c-12c0-42b4-99f8-97f658deb03b.png)
 
-The button will take you to a screen to specify what you want to name your own repo.
+
+Name your repository:
 
 <img width="801" alt="&quot;Create a new repository from blocks-template&quot; screen" src="https://user-images.githubusercontent.com/8978670/144893351-25b24bfa-3400-4e92-9a2a-618b3ac06a5e.png" />
-
+Finally, clone your newly-created repository, you're ready to work.
 ## Developing locally
 
 ```bash
@@ -23,7 +24,7 @@ A development server should now be running on [localhost:4000](localhost:4000).
 
 ## View your development server within the Blocks app
 
-When you visit [localhost:4000](localhost:4000) in your browser, you'll be redirected to the Blocks app with your locally-developed blocks embedded in it. You can see your blocks by clicking on the block picker toward the top of the page (they're shown at the top in blue with a plug icon):
+When you visit [localhost:4000](localhost:4000) in your browser, you'll be redirected to the Blocks platform with your locally-developed blocks embedded in it. You can see your blocks by clicking on the block picker toward the top of the page (they're shown at the top in blue with a plug icon):
 
 <img alt="Block picker" src="https://user-images.githubusercontent.com/56439/181648955-101b6567-3f9b-44b3-af99-7ef3ca6161b9.png" width="418" />
 
@@ -32,7 +33,7 @@ This starter project has one example folder block and one example file block. Tr
 If you don't see your blocks, make sure that:
 
 - your development server is running
-- there's a `devServer` query parameter in the URL pointing to your development server [like this](https://blocks.githubnext.com/githubnext/blocks-tutorial?devServer=http://localhost:4000)
+- there's a `devServer` query parameter in the URL pointing to your development server, [like this](https://blocks.githubnext.com/githubnext/blocks?devServer=http://localhost:4000)
 
 ## The GitHub Blocks API
 
@@ -65,8 +66,7 @@ From top to bottom:
 - `entry` is the path (relative to the project root) to the block's entry point, like `"blocks/example-file-block/index.tsx"`.
 - `matches` is an array of globs describing filenames for which GitHub Blocks should show this block as an option, like `["*.json"]` for a block that handles JSON files, or `["*"]` for one that handles any file. (The glob syntax follows https://github.com/micromatch/picomatch)
 
-Note that the `/blocks.config.json` file is not hot-reloaded, so you'll need to
-refresh the app to pick up changes.
+> 🚨 Note that the `/blocks.config.json` file is not hot-reloaded, so you'll need to refresh the app to pick up changes.
 
 ### Code Your block
 
@@ -94,7 +94,7 @@ There are three props which facilitate editing content in blocks:
 
 - `originalContent`: contains the original contents of the file. This is useful if you want to be able to display a diff of changes made, but not yet committed.
 - `isEditable`: a flag indicating whether the current user has permission to edit the file. If it is false, the block should disable editing functionality, if present.
-- `onUpdateContent`: a hook that can be called to update content programmatically. Users can also commit changes using the `Save` button in the Blocks interface next to the block picker. Whether triggered via the hook or the save button, the Blocks application will display a dialog containing a diff to the user, and ask for their permission to make a commit. Commits recorded as being authored by the user that made (and approved) the request.
+- `onUpdateContent`: a hook that can be called to update content programmatically. Users can also commit changes using the `Save` button in the Blocks interface next to the block picker. Whether triggered via the hook or the save button, the Blocks application will display a dialog containing a diff to the user, and ask for their permission to make a commit. Commits are recorded as being authored by the user that made (and approved) the request.
 
 
 ### Nesting

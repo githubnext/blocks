@@ -11,7 +11,7 @@ Let's jump in! Use the [blocks-template](https://github.com/githubnext/blocks-te
 Name your repository:
 
 <img width="801" alt="&quot;Create a new repository from blocks-template&quot; screen" src="https://user-images.githubusercontent.com/8978670/144893351-25b24bfa-3400-4e92-9a2a-618b3ac06a5e.png" />
-Finally, clone your newly-created repository, you're ready to work.
+Finally, clone your newly-created repository, and you're ready to work.
 ## Developing locally
 
 ```bash

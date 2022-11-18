@@ -1,11 +1,35 @@
+# Introduction
 
-This project contains [React](https://reactjs.org/) components written in
-[Typescript](https://www.typescriptlang.org/) and bundled with
-[Vite](https://vitejs.dev/). Read on to learn how to build Blocks with it!
+You can _use_ blocks made by the community without _building_ blocks yourself. To use a block that someone else has made, choose it in the block picker at the top of the content area. If you're interested in building your own block, read on!
+
+Under the hood, a block is a React component; it receives a fixed set of props and returns JSX. The [Blocks web application](https://blocks.githubnext.com) supplies a standard set of inputs to blocks, including the content to render, and hooks that a block can call in order to take actions like updating content or calling the GitHub API.
+
+There are two kinds of blocks: file blocks and folder blocks. Their API is mostly the same, except that file blocks receive the content of a file and folder blocks receive the contents of a directory.
+
+## How are blocks developed and shared?
+
+You develop blocks using standard web technologies, and you publish them for yourself or others to use by pushing their code to a GitHub repository, and tagging that repository with the `github-blocks` tag. You won't need to handle building, deploying, or hosting. Not every app can be a block, but many can! We want you to reimagine repositories, and customize them with minimum effort.
+
+
+
+You can [click here to use this repository as a template](https://github.com/githubnext/blocks-template/generate) to develop a new block!
+
+> 💖 There's no deploy step needed! Just push your block to a GitHub repo in order to use it, anywhere.
+
+Once developed, you can _use_ a block on any repository by picking it from the block picker:
+
+![Screenshot showing the blocks interface with the block picker open and the mouse cursor hovering over the Markdown block](https://user-images.githubusercontent.com/22723/184006093-3dc85092-a783-4cf3-a953-0dc786f8bd62.png)
+
+If your block is not in the dropdown list, you can paste the URL of the repo containing your block into the search field at the top of the block picker.
+
+A block can be used by anyone that can see the repository where that block is developed. If the repo is private, it is usable by any collaborator that has read permissions (or better) on that repo.
+
+
 
 Or watch the video:
 
-https://user-images.githubusercontent.com/56439/186799325-41602d5b-708b-4905-b3a3-02f50ef52425.mp4
+<video src="https://user-images.githubusercontent.com/56439/186799325-41602d5b-708b-4905-b3a3-02f50ef52425.mp4" />
+
 
 ## What are blocks?
 
@@ -320,3 +344,13 @@ but you can still paste the repo URL (`https://github.com/{owner}/{repo}`) into
 the search box at the top of the block picker to search blocks in the repo. If
 your repo is private, only people with access to the repo can see and use your
 blocks.
+
+
+
+
+
+### Style guide and conventions
+
+- `Blocks`, capitalized, refers to the product. The proper name is `GitHub Blocks`.
+- `blocks`, uncapitalized, refers to specific blocks, abstract blocks, or to blocks _en masse_.
+- `file blocks` and `folder blocks` refer to the two kinds of blocks that are possible today.

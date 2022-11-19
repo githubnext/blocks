@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Aside = (props) => {
+const MyComponent = (props) => {
   const { children, className } = props
   return (
     <div style={{
@@ -41,4 +41,4 @@ const Aside = (props) => {
   )
 }
 
-export default Aside
+export default MyComponent

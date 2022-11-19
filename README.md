@@ -49,21 +49,21 @@ Since we have complete control over this content, we can render live data: say w
 
 <BlockComponent
 block={{"owner":"githubnext","repo":"blocks-examples","id":"processing-block","type":"file"}}
-context={{"repo":"blocks-tutorial","owner":"githubnext","path":"processing-sketch.js","sha":"HEAD","file":"README.md"}}
+context={{"repo":"blocks-tutorial","owner":"githubnext","path":"examples/p5-sketch.js","sha":"HEAD","file":"README.md"}}
 height={438}
 />
 as well as show the code for that sketch:
 
 <BlockComponent
 block={{"owner":"githubnext","repo":"blocks-examples","id":"code-block","type":"file"}}
-context={{"repo":"blocks-tutorial","owner":"githubnext","path":"processing-sketch.js","sha":"HEAD","file":"README.md"}}
+context={{"repo":"blocks-tutorial","owner":"githubnext","path":"examples/p5-sketch.js","sha":"HEAD","file":"README.md"}}
 height={202}
 />
 We can also embed interactive code examples, say for demonstrating how to use gestures in framer-motion:
 
 <BlockComponent
 block={{"owner":"githubnext","repo":"blocks-examples","id":"sandbox-block","type":"file"}}
-context={{"repo":"blocks-tutorial","owner":"githubnext","path":"framer motion docs/example2.js","sha":"HEAD","file":"README.md"}}
+context={{"repo":"blocks-tutorial","owner":"githubnext","path":"examples/framer motion docs/example2.js","sha":"HEAD","file":"README.md"}}
 />
 
 ### View changes over time
@@ -75,8 +75,8 @@ This is a great way to keep an eye on what's changed recently, plus you can clic
 ![commits](https://user-images.githubusercontent.com/8978670/144443772-36c4f827-d09b-4b03-99cd-e20ecadcf813.gif)
 
 
-
 ---
+
 ## Developing your own blocks
 
 We've written a guide for developing blocks! Use the file tree on the left to navigate to `docs/Developing Blocks`.

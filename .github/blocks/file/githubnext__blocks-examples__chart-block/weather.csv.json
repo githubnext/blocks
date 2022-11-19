@@ -1,8 +1,0 @@
-{
-  "configs": [
-    "pressure, humidity, scatter",
-    "date, uvIndex, area",
-    "date, moonPhase, scatter",
-    "pressure, moonPhase, scatter"
-  ]
-}

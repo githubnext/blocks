@@ -4,7 +4,7 @@ Motion is a production-ready motion library for React from Framer. It brings dec
 
 <BlockComponent
 block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox-block"}}
-context={{path: "framer motion docs/example1.js"}}
+context={{path: "examples/framer motion docs/example1.js"}}
 height="20em"
 state={{
   highlights:"6,7,8,9,10",
@@ -23,7 +23,7 @@ Motion will also automatically handle the interplay of the two gestures, so if a
 
 <BlockComponent
 block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox-block"}}
-context={{path: "framer motion docs/example2.js"}}
+context={{path: "examples/framer motion docs/example2.js"}}
 height="30em"
 state={{
   highlights:"6,7",
@@ -41,7 +41,7 @@ These constraints are elastic, and the strength of this elasticity can be config
 
 <BlockComponent
 block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox-block"}}
-context={{path: "framer motion docs/example3.js"}}
+context={{path: "examples/framer motion docs/example3.js"}}
 height="30em"
 state={{
   highlights:"6,7,8,9,10,11,12",
@@ -57,7 +57,7 @@ This is the default animation for physical values like x, y, scale and rotate.
 
 <BlockComponent
 block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox-block"}}
-context={{path: "framer motion docs/example4.js"}}
+context={{path: "examples/framer motion docs/example4.js"}}
 height="30em"
 state={{
   highlights:"11",
@@ -71,7 +71,7 @@ To automatically animate the layout of a motion component when its size or posit
 
 <BlockComponent
 block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox-block"}}
-context={{path: "framer motion docs/example5.js"}}
+context={{path: "examples/framer motion docs/example5.js"}}
 height="30em"
 state={{
   highlights:"11",

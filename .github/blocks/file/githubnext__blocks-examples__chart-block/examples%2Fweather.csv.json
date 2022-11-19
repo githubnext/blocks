@@ -1,5 +1,6 @@
 {
   "configs": [
-    "date, temperatureHigh, area"
+    "date, temperatureHigh, area",
+    "humidity, temperatureHigh, scatter"
   ]
 }

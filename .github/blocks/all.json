@@ -1,5 +1,8 @@
 {
   "examples/machinelearning.json": {
     "default": "githubnext__blocks-examples__sentence-encoder-block"
+  },
+  "examples/MyComponent.jsx": {
+    "default": "githubnext__blocks-examples__react-feedback-block"
   }
 }

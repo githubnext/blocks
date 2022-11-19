@@ -1,14 +1,13 @@
 # GitHub Blocks
 
-> 🎉 You made it! Welcome to the GitHub Blocks Technical Preview.
-
+> 🎉 You made it! Welcome to the GitHub Blocks Technical Preview. For questions and help, join us at [discord.gg/githubnext](https://discord.gg/githubnext) in the `#blocks` channel.
 ## What are blocks?
 
 With Blocks, you can extend GitHub's interface in some pretty powerful ways! It could be as simple as a custom renderer for files or folders in your repository, and it can be as flexible as a full interface for editing content.
 
 The Blocks platform is [blocks.githubnext.com](https://blocks.githubnext.com). If you have access, you can view any public repository on GitHub by navigating to `blocks.githubnext.com/{owner}/{repo}`.
 
-> 🚨 Blocks is currently an experimental technical preview! It may have bugs or issues, and should not be used for anything mission-critical.
+> 🚨 Blocks is currently an experimental technical preview! It WILL have bugs and issues, and should not be used for anything mission-critical.
 
 ## Goals of the Technical Preview
 
@@ -80,3 +79,10 @@ This is a great way to keep an eye on what's changed recently, plus you can clic
 ---
 ## Developing your own blocks
 
+We've written a guide for developing blocks! Use the file tree on the left to navigate to `docs/Developing Blocks`.
+
+## Getting help
+
+Blocks is a technical preview, and is NOT a supported GitHub product. Please don't reach out to GitHub support, as they will not be able to help you.
+
+The best venue to find help and connect with other creators is the GitHub Next discord, at [discord.gg/githubnext](https://discord.gg/githubnext). Join the `#blocks` channel and say hi!

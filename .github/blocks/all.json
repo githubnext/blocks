@@ -1,0 +1,5 @@
+{
+  "examples/machinelearning.json": {
+    "default": "githubnext__blocks-examples__sentence-encoder-block"
+  }
+}

@@ -4,5 +4,11 @@
   },
   "examples/MyComponent.jsx": {
     "default": "githubnext__blocks-examples__react-feedback-block"
+  },
+  "examples/p5-sketch.js": {
+    "default": "Wattenberger__blocks__p5-sandbox"
+  },
+  "examples/pets.mermaid": {
+    "default": "jaked__mermaid-block__mermaid-block"
   }
 }

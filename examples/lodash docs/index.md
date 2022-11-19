@@ -6,7 +6,7 @@ Creates an array of elements split into groups the length of size. If array can'
 
 <BlockComponent
   block={{"owner":"githubnext","repo":"blocks-examples","id":"sandbox-block","type":"file"}}
-context={{"path":"lodash docs/example1.js"}}
+context={{"path":"examples/lodash docs/example1.js"}}
 height={294}
 />
 
@@ -21,7 +21,7 @@ Creates an array with all falsey values removed. The values false, null, 0, "", 
     id: "sandbox-block",
     type: "file",
   }}
-  context={{path: "lodash docs/example2.js"}}
+  context={{path: "examples/lodash docs/example2.js"}}
 />
 
 `_.concat`
@@ -35,5 +35,5 @@ Creates a new array concatenating array with any additional arrays and/or values
     id: "sandbox-block",
     type: "file",
   }}
-  context={{path: "lodash docs/example3.js"}}
+  context={{path: "examples/lodash docs/example3.js"}}
 />

@@ -1,0 +1,36 @@
+{
+  "saved": [
+    {
+      "title": "Idan's Feedback",
+      "componentDefinition": "<MyComponent>Default textfield content says what?\n</MyComponent>",
+      "annotations": [
+        {
+          "geometry": {
+            "x": 4.579517127292161,
+            "y": 11.875,
+            "width": 0,
+            "height": 0,
+            "type": "POINT"
+          },
+          "data": {
+            "text": "Could these be bigger, and red?",
+            "id": 0.8379651006603528
+          }
+        },
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 80.76602933587994,
+            "y": 25,
+            "width": 14.571190859565974,
+            "height": 43.75
+          },
+          "data": {
+            "text": "Add a submit button over here please!",
+            "id": 0.5203655456930163
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,38 +1,14 @@
 {
-  "poll.json": {
-    "poll.json": {
-      "default": "githubnext__blocks-examples__simple-poll-block"
-    },
-    "default": "githubnext__blocks-examples__simple-poll-block"
-  },
-  ".github/blocks/all.json": {
-    ".github/blocks/all.json": {
-      "default": "githubnext__blocks-examples__code-block"
-    }
-  },
-  ".github/blocks/file/githubnext__blocks-examples__react-feedback-block.json": {
-    ".github/blocks/file/githubnext__blocks-examples__react-feedback-block.json": {
-      "default": "githubnext__blocks-examples__code-block"
-    }
-  },
-  ".github/blocks/file/githubnext__blocks-examples__chart-block.json": {
-    ".github/blocks/file/githubnext__blocks-examples__chart-block.json": {
-      "default": "githubnext__blocks-examples__code-block"
-    }
-  },
-  "global.css": {
-    "default": "githubnext__blocks-examples__css-block"
-  },
-  "queries.json": {
+  "examples/machinelearning.json": {
     "default": "githubnext__blocks-examples__sentence-encoder-block"
   },
-  "processing-sketch.js": {
-    "default": "githubnext__blocks-examples__processing-block"
-  },
-  "Diagram.mermaid": {
-    "default": "jaked__mermaid-block__mermaid-block"
-  },
-  "Aside.jsx": {
+  "examples/MyComponent.jsx": {
     "default": "githubnext__blocks-examples__react-feedback-block"
+  },
+  "examples/p5-sketch.js": {
+    "default": "Wattenberger__blocks__p5-sandbox"
+  },
+  "examples/pets.mermaid": {
+    "default": "jaked__mermaid-block__mermaid-block"
   }
 }

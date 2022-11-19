@@ -1,35 +1,31 @@
-# GitHub Blocks Docs and Tutorial
+# GitHub Blocks
+
+> 🎉 You made it! Welcome to the GitHub Blocks Technical Preview. For questions and help, join us at [discord.gg/githubnext](https://discord.gg/githubnext) in the `#blocks` channel.
+## What are blocks?
+
+With Blocks, you can extend GitHub's interface in some pretty powerful ways! It could be as simple as a custom renderer for files or folders in your repository, and it can be as flexible as a full interface for editing content.
+
+The Blocks platform is [blocks.githubnext.com](https://blocks.githubnext.com). If you have access, you can view any public repository on GitHub by navigating to `blocks.githubnext.com/{owner}/{repo}`.
+
+> 🚨 Blocks is currently an experimental technical preview! It WILL have bugs and issues, and should not be used for anything mission-critical.
+
+## Goals of the Technical Preview
 
 GitHub Blocks is an exploration of the question:
 
 > What if developers could customize GitHub, not only to present their code and data, but to make it a living, interactive platform?
 
-Instead of feeling like a storage locker for code, can we bring that content to life? What if a designer could view styles from a CSS file instead of having to wait for a developer to transform it? Or if journalists could visualize data right on GitHub, along with how it's changed over time? There are so many possibilities!
+Instead of feeling like a storage locker for code, could you bring that content to life? What if a designer could view styles from a CSS file instead of having to wait for a developer to transform it? What if you could review that branch with the new component by looking at the file here, instead of cloning the repository and setting up a local development environment? What if journalists and scientists could visualize data right on GitHub, along with how it's changed over time?
 
-This sounds like a lot of work to build, right? With such an enthusiastic and active community, GitHub could build a flexible API that allows users to take control, and help with building out any use case.
+Ultimately, extensibility is about making all the parts of the developer platform that we never imagined. It could be a great idea that all developers love, or just something that scratches your own itch. 
 
-In our exploration we've created a first version of this API that lets anyone create their own custom Blocks.
+We can't imagine the developer platform of the future alone! **We want you to build blocks and share them.** Help us to design the developer experience, and help us to figure out how to strike a good balance between ease-of-use and flexibility. We're very excited to see how you use the Blocks platform!
 
-> 🚀🚀🚀 Check out the Demo: [blocks.githubnext.com](https://blocks.githubnext.com/)
+### Using Blocks
 
-## What is a Block?
+If you're viewing this in the [Blocks platform](https://blocks.githubnext.com), You can switch which block you're using in the dropdown menu in the top left of this window.
 
-Our experiment looks similar to the current github.com UI, but introduces the concept of a Block: a different way to view or interact with a file or folder.
-
-Technically, a Block is React component that receives specific props and renders a view of them. There are two types of blocks:
-
-- **File Blocks** receive the contents of a file, and
-- **Folder Blocks** receive the structure of a folder.
-
-## Show me the Blocks demo!
-
-We've created an app at: [blocks.githubnext.com](https://blocks.githubnext.com/) that lets you view your files and repositories with different Blocks.
-
-> 💡 If you're reading this on the app, you're looking at a Block right now! This is a Markdown Block that is rendering the content of the `README.md` file.
-
-### Viewing file Blocks
-
-You can switch which Block you're using in the dropdown menu in the top left of this window.
+### File blocks 
 
 We have Blocks for viewing 3D files, prettifying CSV and JSON files, React components, CSS selectors, and much more.
 
@@ -39,11 +35,11 @@ We've populated this repo with different types of content to explore. Feel free 
 
 You can find the code for all of these example Blocks in our [example Blocks repo](https://github.com/githubnext/blocks-examples)
 
-### Viewing folder Blocks
+### Folder blocks
 
-Folder blocks can help you visualize the contents of a folder, or work with the entire data of a folder.
+Folder blocks can visualize or the contents of a folder, or even the entire repository.
 
-Check out our example folder Block by [clicking the root folder of this repo](https://blocks.githubnext.com/githubnext/blocks-tutorial), or on your own repos by searching in the top left.
+Check out our example folder Block by [clicking the root folder of this repo](https://blocks.githubnext.com/githubnext/blocks).
 
 ## Block features
 
@@ -53,21 +49,21 @@ Since we have complete control over this content, we can render live data: say w
 
 <BlockComponent
 block={{"owner":"githubnext","repo":"blocks-examples","id":"processing-block","type":"file"}}
-context={{"repo":"blocks-tutorial","owner":"githubnext","path":"processing-sketch.js","sha":"HEAD","file":"README.md"}}
+context={{"repo":"blocks-tutorial","owner":"githubnext","path":"examples/p5-sketch.js","sha":"HEAD","file":"README.md"}}
 height={438}
 />
 as well as show the code for that sketch:
 
 <BlockComponent
 block={{"owner":"githubnext","repo":"blocks-examples","id":"code-block","type":"file"}}
-context={{"repo":"blocks-tutorial","owner":"githubnext","path":"processing-sketch.js","sha":"HEAD","file":"README.md"}}
+context={{"repo":"blocks-tutorial","owner":"githubnext","path":"examples/p5-sketch.js","sha":"HEAD","file":"README.md"}}
 height={202}
 />
 We can also embed interactive code examples, say for demonstrating how to use gestures in framer-motion:
 
 <BlockComponent
 block={{"owner":"githubnext","repo":"blocks-examples","id":"sandbox-block","type":"file"}}
-context={{"repo":"blocks-tutorial","owner":"githubnext","path":"framer motion docs/example2.js","sha":"HEAD","file":"README.md"}}
+context={{"repo":"blocks-tutorial","owner":"githubnext","path":"examples/framer motion docs/example2.js","sha":"HEAD","file":"README.md"}}
 />
 
 ### View changes over time
@@ -78,84 +74,15 @@ This is a great way to keep an eye on what's changed recently, plus you can clic
 
 ![commits](https://user-images.githubusercontent.com/8978670/144443772-36c4f827-d09b-4b03-99cd-e20ecadcf813.gif)
 
-### Blocks metadata
-
-Allowing Blocks to store metadata per file/folder opens the concept up to many more use cases. For example, the Chart Block uses this to store an array of saved chart types to easily come back to later.
-
-We've added a `metadata` prop to the Block. This is a freeform prop that can be used to store any information you'd like. To update it, the Block can call the `onUpdateMetadata` prop with new metadata. This creates a commit that stores that data in `.github/blocks/file/` for File Blocks and `.github/blocks/folder/` for Folder Blocks. You can see some example metadata by poking around those folders in the left sidebar.
 
 ---
 
-## Create your own custom Blocks
+## Developing your own blocks
 
-> 📣 Read this if you're a GitHub user interested in building your own custom Blocks!
+We've written a guide for developing blocks! Use the file tree on the left to navigate to `docs/Developing Blocks`.
 
-Hopefully you can see how a flexible Blocks API allows for completely new ways of interacting with code. The following section gives a high-level sense of the Blocks API and other resources for creating your own custom Block.
+## Getting help
 
-We also recommend you get started by going through our custom block tutorial in the <a href="https://github.com/githubnext/blocks-template" target="_blank">`blocks-template`</a> repo.
+Blocks is a technical preview, and is NOT a supported GitHub product. Please don't reach out to GitHub support, as they will not be able to help you.
 
-### GitHub Blocks API
-
-Recall there are two type of Blocks: File Blocks and Folder Blocks. Their API is largely the same, receiving the following props:
-
-```ts
-interface BlockProps {
-  block: {
-    id: string;
-    type: string;
-    title: string;
-    description: string;
-    entry: string;
-    extensions?: string[]; // Soon to be deprecated in favor of the following "matches" key.
-    matches?: string[]; // An array of globs written in picomatch syntax. See https://github.com/micromatch/picomatch for examples.
-  };
-  context: {
-    path: string;
-    file: string;
-    repo: string;
-    owner: string;
-    sha: string;
-  };
-  metadata: any;
-
-  // callback functions
-  onUpdateMetadata: (
-    newMetadata: any,
-    path: string,
-    block: Block,
-    currentMetadata: any
-  ) => void;
-  onRequestUpdateContent: (newContent: string) => void;
-  onRequestGitHubData: (type: string, config: any, id: string) => Promise<any>;
-  onNavigateToPath: (path: string) => void;
-
-  // if a File Block
-  content: string;
-
-  // if a Folder Block
-  tree: {
-    path?: string;
-    mode?: string;
-    type?: string;
-    sha?: string;
-    size?: number;
-    url?: string;
-  }[];
-}
-```
-
-For simple use cases, the `content` (the content of the file) or `tree` (a list of the contained files & folders) prop will be the most useful, with info about the file or folder the user is looking at on the GitHub Blocks UI. But if you need additional context (such as the path to the file or the owner/repo in which the file lives), you can access it via the handy `context` prop.
-
-`metadata` is a free-form prop that can be used to store arbitrary data about the file. It's up to you to decide what you want to store in this object: anywhere from definitions of data visualizations in a charts Block to annotations for a code Block. This is unique per file/folder per Block and stored within a [`.github/blocks/file/`](https://github.com/githubnext/blocks-tutorial/tree/main/.github/blocks) folder within the viewed repo. To update the metadata, you can call the `onUpdateMetadata` prop with the updated data, which creates a new commit on the repo.
-
-A few caveats and callouts:
-
-- Blocks have access to [GitHub Primer CSS styles](https://primer.style/css/) and Tailwind by default.
-- You can use both third-party _and_ relative imports in your Block code! Simply put, feel free to install any dependencies from NPM, or import a local JS/CSS file and it should be included in the final bundle.
-- Your Block entry file **must have the Block component as its default export**. If it does not, bad things will happen.
-
-### Other Relevant repos
-
-- [Blocks examples](https://github.com/githubnext/blocks-examples): Example blocks that we've built to showcase the API.
-- [Blocks template starter project](https://github.com/githubnext/blocks-template): A template and tutorial for creating your own custom Blocks.
-- [Blocks utility library](https://github.com/githubnext/utils): To reduce the cognitive load associated with writing file and folder Block components, we've assembled a helper library called `@githunext/utils` that exposes interface definitions and a few helper functions. This list will undoubtedly change over time, so be sure to check out [the repository page](https://github.com/githubnext/utils) for more detail.
+The best venue to find help and connect with other creators is the GitHub Next discord, at [discord.gg/githubnext](https://discord.gg/githubnext). Join the `#blocks` channel and say hi!

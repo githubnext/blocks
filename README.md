@@ -11,6 +11,12 @@ The Blocks platform is [blocks.githubnext.com](https://blocks.githubnext.com). I
 
 ## Goals of the Technical Preview
 
+We’re aiming for two things with the technical preview:
+- Seed a marketplace with Blocks for common use cases
+- Refine the developer experience for building and using Blocks.
+
+**As an early adopter you can help shape the direction for Blocks by building your own, and by sharing your feedback. We will work closely with you every step of the way**.
+
 GitHub Blocks is an exploration of the question:
 
 > What if developers could customize GitHub, not only to present their code and data, but to make it a living, interactive platform?

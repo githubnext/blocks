@@ -22,5 +22,8 @@
   },
   "docs/Developing blocks/1 Intro.md": {
     "default": "githubnext__blocks-examples__markdown-block"
+  },
+  "README.md": {
+    "default": "githubnext__blocks-examples__markdown-block"
   }
 }

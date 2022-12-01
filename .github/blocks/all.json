@@ -10,5 +10,8 @@
   },
   "examples/pets.mermaid": {
     "default": "jaked__mermaid-block__mermaid-block"
+  },
+  "docs/Developing blocks/3 Deploying your block.md": {
+    "default": "githubnext__blocks-examples__markdown-block"
   }
 }

@@ -16,5 +16,8 @@
   },
   "docs/Developing blocks/2 Building your first block.md": {
     "default": "githubnext__blocks-examples__markdown-block"
+  },
+  "docs/Developing blocks/4 API reference and types.md": {
+    "default": "githubnext__blocks-examples__markdown-block"
   }
 }

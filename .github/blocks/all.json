@@ -13,5 +13,8 @@
   },
   "docs/Developing blocks/3 Deploying your block.md": {
     "default": "githubnext__blocks-examples__markdown-block"
+  },
+  "docs/Developing blocks/2 Building your first block.md": {
+    "default": "githubnext__blocks-examples__markdown-block"
   }
 }

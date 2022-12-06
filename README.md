@@ -54,8 +54,8 @@ Check out our example folder Block by [clicking the root folder of this repo](ht
 Since we have complete control over this content, we can render live data: say we wanted to show off our p5.js sketch, we can do that inline:
 
 <BlockComponent
-block={{"owner":"githubnext","repo":"blocks-examples","id":"processing-block","type":"file"}}
-context={{"repo":"blocks","owner":"githubnext","path":"examples/p5-sketch.js","sha":"HEAD","file":"README.md"}}
+block={{"type":"file","id":"processing","title":"p5.js","description":"Run a p5.js sketch","sandbox":true,"entry":"blocks/file-blocks/processing.tsx","matches":["*.js"],"example_path":"https://github.com/githubnext/blocks-tutorial/blob/main/processing-sketch.js","owner":"githubnext","repo":"blocks-examples"}}
+context={{"repo":"blocks","owner":"githubnext","path":"examples/p5-sketch.js","sha":"main","file":"README.md"}}
 height={438}
 />
 as well as show the code for that sketch:
@@ -68,8 +68,8 @@ height={202}
 We can also embed interactive code examples, say for demonstrating how to use gestures in framer-motion:
 
 <BlockComponent
-block={{"owner":"githubnext","repo":"blocks-examples","id":"sandbox-block","type":"file"}}
-context={{"repo":"blocks","owner":"githubnext","path":"examples/framer motion docs/example2.js","sha":"HEAD","file":"README.md"}}
+block={{"type":"file","id":"sandbox","title":"JS Sandbox","description":"Run JavaScript code in a sandbox","entry":"blocks/file-blocks/sandbox/index.tsx","matches":["*.js","*.ts","*.tsx","*.jsx"],"example_path":"https://github.com/githubnext/blocks-tutorial/blob/main/README.md","owner":"githubnext","repo":"blocks-examples"}}
+context={{"repo":"blocks","owner":"githubnext","path":"examples/framer motion docs/example2.js","sha":"main","file":"README.md"}}
 />
 
 ### View changes over time

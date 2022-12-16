@@ -3,7 +3,7 @@
     "default": "githubnext__blocks-examples__sentence-encoder"
   },
   "examples/MyComponent.jsx": {
-    "default": "githubnext__blocks-examples__react-feedback-block"
+    "default": "githubnext__blocks-examples__react-feedback"
   },
   "examples/p5-sketch.js": {
     "default": "Wattenberger__blocks__p5-sandbox"

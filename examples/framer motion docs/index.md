@@ -3,7 +3,7 @@
 Motion is a production-ready motion library for React from Framer. It brings declarative animations, effortless layout transitions and gestures while maintaining HTML and SVG semantics.
 
 <BlockComponent
-block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox-block"}}
+block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox"}}
 context={{path: "examples/framer motion docs/example1.js"}}
 height="20em"
 state={{
@@ -22,7 +22,7 @@ Like animate, these can either be set as an object of properties (each with thei
 Motion will also automatically handle the interplay of the two gestures, so if a component is being pressed while a hover gestures starts/stops, the whileTap gesture will take priority.
 
 <BlockComponent
-block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox-block"}}
+block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox"}}
 context={{path: "examples/framer motion docs/example2.js"}}
 height="30em"
 state={{
@@ -40,7 +40,7 @@ The component can be constrained to a specific range, defined either in pixels, 
 These constraints are elastic, and the strength of this elasticity can be configured with the dragElastic prop.
 
 <BlockComponent
-block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox-block"}}
+block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox"}}
 context={{path: "examples/framer motion docs/example3.js"}}
 height="30em"
 state={{
@@ -56,7 +56,7 @@ An animation that simulates spring physics for realistic motion.
 This is the default animation for physical values like x, y, scale and rotate.
 
 <BlockComponent
-block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox-block"}}
+block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox"}}
 context={{path: "examples/framer motion docs/example4.js"}}
 height="30em"
 state={{
@@ -70,7 +70,7 @@ state={{
 To automatically animate the layout of a motion component when its size or position changes, give it a layout prop.
 
 <BlockComponent
-block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox-block"}}
+block={{owner: "githubnext", repo: "blocks-examples", "id": "sandbox"}}
 context={{path: "examples/framer motion docs/example5.js"}}
 height="30em"
 state={{

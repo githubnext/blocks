@@ -30,10 +30,13 @@ When you visit [localhost:4000](localhost:4000) in your browser, you'll be redir
 
 This starter project has one example folder block and one example file block. Try choosing one of the example blocks in the block picker to see it in action. When you make changes to the block code it will be hot-reloaded in the app.
 
+### Troubleshooting the dev server
+
 If you don't see your blocks, make sure that:
 
 - your development server is running
 - there's a `devServer` query parameter in the URL pointing to your development server, [like this](https://blocks.githubnext.com/githubnext/blocks?devServer=http://localhost:4000)
+- if you're using Safari (or another browser that doesn't permit calling `http` URLs from an `https` page), run `yarn start-https` and visit [https://localhost:4000](https://localhost:4000) instead
 
 ## The GitHub Blocks API
 

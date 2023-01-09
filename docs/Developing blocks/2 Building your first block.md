@@ -37,6 +37,7 @@ If you don't see your blocks, make sure that:
 - your development server is running
 - there's a `devServer` query parameter in the URL pointing to your development server, [like this](https://blocks.githubnext.com/githubnext/blocks?devServer=http://localhost:4000)
 - if you're using Safari (or another browser that doesn't permit calling `http` URLs from an `https` page), run `yarn start-https` and visit [https://localhost:4000](https://localhost:4000) instead
+
 ## The GitHub Blocks API
 
 To create your own custom blocks you need to do two things:

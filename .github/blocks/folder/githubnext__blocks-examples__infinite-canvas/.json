@@ -1,0 +1,57 @@
+{
+  "items": {
+    "1": {
+      "type": "file",
+      "path": "README.md",
+      "position": [
+        2030,
+        2280
+      ],
+      "dimensions": [
+        500,
+        360
+      ],
+      "block": {
+        "type": "file",
+        "id": "code-block",
+        "title": "Code block",
+        "description": "A basic code block",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "sandbox": false,
+        "entry": "/src/blocks/file-blocks/code/index.tsx"
+      },
+      "id": 1
+    },
+    "2": {
+      "type": "file",
+      "path": "README.md",
+      "position": [
+        2320,
+        2440
+      ],
+      "dimensions": [
+        500,
+        360
+      ],
+      "block": {
+        "type": "file",
+        "id": "markdown-block",
+        "title": "Markdown",
+        "description": "View and edit Markdown content, with the ability to embed other blocks",
+        "entry": "blocks/file-blocks/markdown-edit/index.tsx",
+        "matches": [
+          "*.md",
+          "*.markdown",
+          "*.mdx",
+          "*"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/README.md",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "key": "githubnext__blocks-examples__markdown-block"
+      },
+      "id": 2
+    }
+  }
+}

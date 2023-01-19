@@ -1,34 +1,11 @@
 {
   "items": {
-    "1": {
-      "type": "file",
-      "path": "README.md",
-      "position": [
-        2030,
-        2280
-      ],
-      "dimensions": [
-        500,
-        360
-      ],
-      "block": {
-        "type": "file",
-        "id": "code-block",
-        "title": "Code block",
-        "description": "A basic code block",
-        "owner": "githubnext",
-        "repo": "blocks-examples",
-        "sandbox": false,
-        "entry": "/src/blocks/file-blocks/code/index.tsx"
-      },
-      "id": 1
-    },
     "2": {
       "type": "file",
       "path": "README.md",
       "position": [
-        2320,
-        2440
+        2200,
+        2690
       ],
       "dimensions": [
         500,
@@ -52,6 +29,63 @@
         "key": "githubnext__blocks-examples__markdown-block"
       },
       "id": 2
+    },
+    "4": {
+      "type": "file",
+      "path": "examples/weather.csv",
+      "position": [
+        1630,
+        2250
+      ],
+      "dimensions": [
+        961,
+        412
+      ],
+      "block": {
+        "type": "file",
+        "id": "flat",
+        "title": "Spreadsheet",
+        "description": "View & edit CSV and YAML files in a spreadsheet",
+        "entry": "blocks/file-blocks/flat.tsx",
+        "matches": [
+          "*.csv",
+          "*.yml",
+          "*.yaml"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/data.csv",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "key": "githubnext__blocks-examples__flat"
+      },
+      "id": 4
+    },
+    "5": {
+      "type": "file",
+      "path": "examples/p5-sketch.js",
+      "position": [
+        2510,
+        2270
+      ],
+      "dimensions": [
+        500,
+        360
+      ],
+      "block": {
+        "type": "file",
+        "id": "processing",
+        "title": "p5.js",
+        "description": "Run a p5.js sketch",
+        "sandbox": true,
+        "entry": "blocks/file-blocks/processing.tsx",
+        "matches": [
+          "*.js"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/processing-sketch.js",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "key": "githubnext__blocks-examples__processing"
+      },
+      "id": 5
     }
   }
 }

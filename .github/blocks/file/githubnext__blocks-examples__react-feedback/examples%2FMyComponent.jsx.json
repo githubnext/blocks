@@ -1,0 +1,36 @@
+{
+  "saved": [
+    {
+      "title": "Idan's feedback",
+      "componentDefinition": "<MyComponent>\n</MyComponent>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 5.156537753222836,
+            "y": 13.750000000000002,
+            "width": 7.918968692449355,
+            "height": 23.75
+          },
+          "data": {
+            "text": "Make this red",
+            "id": 0.846007318012689
+          }
+        },
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 34.806629834254146,
+            "y": 40.625,
+            "width": 13.07550644567219,
+            "height": 11.250000000000007
+          },
+          "data": {
+            "text": "Have some default text",
+            "id": 0.5784305358492561
+          }
+        }
+      ]
+    }
+  ]
+}

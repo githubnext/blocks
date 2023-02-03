@@ -5,9 +5,14 @@
 Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.
 
 <BlockComponent
-  block={{"owner":"githubnext","repo":"blocks-examples","id":"sandbox-block","type":"file"}}
-context={{"path":"examples/lodash docs/example1.js"}}
-height={294}
+  block={{
+    owner: "githubnext",
+    repo: "blocks-examples",
+    id: "sandbox",
+    type: "file",
+  }}
+  context={{path: "examples/lodash docs/example1.js"}}
+  height={294}
 />
 
 `_.compact`
@@ -18,10 +23,11 @@ Creates an array with all falsey values removed. The values false, null, 0, "", 
   block={{
     owner: "githubnext",
     repo: "blocks-examples",
-    id: "sandbox-block",
+    id: "sandbox",
     type: "file",
   }}
   context={{path: "examples/lodash docs/example2.js"}}
+  height={294}
 />
 
 `_.concat`
@@ -32,8 +38,9 @@ Creates a new array concatenating array with any additional arrays and/or values
   block={{
     owner: "githubnext",
     repo: "blocks-examples",
-    id: "sandbox-block",
+    id: "sandbox",
     type: "file",
   }}
   context={{path: "examples/lodash docs/example3.js"}}
+  height={294}
 />

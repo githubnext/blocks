@@ -29,7 +29,7 @@ We can't imagine the developer platform of the future alone! **We want you to bu
 
 ### Using Blocks
 
-If you're viewing this in the [Blocks platform](https://blocks.githubnext.com), You can switch which block you're using in the dropdown menu in the top left of this window.
+If you're viewing this in the [Blocks platform](https://blocks.githubnext.com), you can switch which block you're using in the dropdown menu in the top left of this window.
 
 ### File blocks 
 

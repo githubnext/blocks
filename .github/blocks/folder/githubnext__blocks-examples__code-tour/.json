@@ -1,0 +1,27 @@
+{
+  "tours": [
+    {
+      "name": "Embedding a p5 sketch",
+      "steps": [
+        {
+          "name": "Create a p5 sketch",
+          "description": "",
+          "path": "examples/p5-sketch.js",
+          "query": "1-1"
+        },
+        {
+          "name": "Embed the sketch's code",
+          "description": "",
+          "path": "README.md",
+          "query": "67-63"
+        },
+        {
+          "name": "Or embed the running p5 sketch",
+          "description": "",
+          "path": "README.md",
+          "query": "63-67"
+        }
+      ]
+    }
+  ]
+}

@@ -31,6 +31,25 @@
           }
         }
       ]
+    },
+    {
+      "title": "Idna's feedbaack",
+      "componentDefinition": "<MyComponent>\n</MyComponent>",
+      "annotations": [
+        {
+          "geometry": {
+            "type": "RECTANGLE",
+            "x": 11.774193548387096,
+            "y": 13.750000000000002,
+            "width": 15.000000000000004,
+            "height": 59.375
+          },
+          "data": {
+            "text": "Ths iasdlkasjd lkajs ",
+            "id": 0.12453839981821124
+          }
+        }
+      ]
     }
   ]
 }

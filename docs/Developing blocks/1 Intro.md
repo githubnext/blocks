@@ -8,7 +8,7 @@ There are two kinds of blocks: file blocks and folder blocks. Their API is mostl
 
 ## How are blocks developed and shared?
 
-You develop blocks using standard web technologies, and you publish them for yourself or others to use by pushing their code to a GitHub repository, and tagging that repository with the `github-blocks` tag. You won't need to handle building, deploying, or hosting. Not every app can be a block, but many can! We want you to reimagine repositories, and customize them with minimum effort.
+You develop blocks using standard web technologies, and you publish them for yourself or others to use by pushing their code to a GitHub repository and adding the `github-blocks` topic. You won't need to handle building, deploying, or hosting. Not every app can be a block, but many can! We want you to reimagine repositories, and customize them with minimum effort.
 
 ### Relevant repos
 

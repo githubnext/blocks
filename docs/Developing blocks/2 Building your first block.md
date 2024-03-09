@@ -17,6 +17,7 @@ Finally, clone your newly-created repository, and you're ready to work.
 
 ```bash
 git clone <repo URL>
+cd <repo name>
 yarn # install dependencies
 yarn start # start the dev server
 ```
